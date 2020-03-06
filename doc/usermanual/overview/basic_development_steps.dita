@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="basic_deeclopment_steps">
+    <title>Basic development steps</title>
+    <body>
+        <section id="basic_development_steps_introduction">
+            <title>Introduction</title>
+            <p> This section will guide you through the basics of developing an image in the
+                darkroom view. </p>
+            <p> To begin, open an image in darkroom mode by double clicking an image thumbnail on
+                the lighttable. The darkroom mode is where the actual adjustments for an image are
+                made, where an arsenal of modules are at hand to help you reach your goal. </p>
+            <p> Each change made on a module while developing an image is turned into a <xref
+                    href="history"><i>history stack</i></xref> item. The history is stored in a
+                database and in an XMP sidecar file for the specific image. </p>
+            <p> All changes are stored automatically when you switch images or go from one darktable
+                view to another. You can safely leave darkroom mode or quit darktable at any time
+                and come back later to continue your work. That said darktable does not need a
+                    <q>save</q> button and it does not have one. <indexterm>
+                    <primary>save button</primary>
+                </indexterm>
+            </p>
+            <p> On the left panel in darkroom mode is the <xref href="history"><i>history
+                        stack</i></xref>, showing changes starting from bottom, and building up with
+                each change made to the image. You can select a point in this history to show how
+                the image looked at that point, for comparison of changes. The stack can be
+                compressed: it will be optimized and redundant changes will be discarded. When you
+                think you are done and are happy with what you have done, just compress the history
+                stack. </p>
+            <p> darktable ships with a number of modules, arranged into groups. These module groups
+                are accessed via toggle buttons in the right panel, just under the histogram. There
+                are also two special module groups named <q>active</q> and <q>favorites</q>, which
+                only show modules enabled in the history for the current image, and modules selected
+                as a favorite, respectively. Marking a module as a favorite is done in the <i>more
+                    modules</i> dialog (<xref href="more_modules"/>), at the bottom of the right
+                panel, by clicking a module until a star is displayed in front of the icon. </p>
+        </section>
+        <section id="basic_development_steps_wb">
+            <title>White balance</title>
+            <p> The <xref href="whitebalance"><i>white balance</i></xref> module controls the
+                white balance or color temperature of the image. It's always enabled and reads its
+                default values from camera metadata embedded in the image. The most common change is
+                fine-tuning the white balance, which is done using the <q>temperature</q> slider.
+                Moving this slider left will make the color balance cooler, and moving it right will
+                make it warmer. </p>
+        </section>
+        <section id="basic_development_steps_exposure">
+            <title>Exposure correction</title>
+            <p> The <xref href="exposure"><i>exposure</i></xref> module is probably the most
+                basic module of them all. Exposure is fine-tuned either by using the slider, or by
+                dragging with the mouse in the <xref href="histogram"><i>histogram</i></xref>.
+                You can also boost the black level to enhance contrast; but be careful: use small
+                amounts, like steps of 0.005. There is also an auto-correct feature. </p>
+        </section>
+        <section id="basic_development_steps_noise">
+            <title>Noise reduction</title>
+            <p> The best starting point for noise reduction is <xref href="denoise_profiled"
+                        ><i>profiled denoise</i></xref>. This module offers an almost
+                    <q>single-click</q> solution to fight noise. From a user perspective the effect
+                only depends on camera type and ISO value, both derived from Exif data. All other
+                settings are taken from a database of noise profiles that the darktable team has
+                collected, now covering well above 200 popular camera models. In addition you have
+                several other options in darktable to reduce noise. There is <xref
+                    href="raw_denoise"><i>raw denoise</i></xref>, <xref
+                    href="denoise_bilateral"><i>denoising based on bilateral filter</i></xref>,
+                    <xref href="denoise_non_local_means"><i>denoising based on non-local
+                        means</i></xref>, and <xref href="equalizer"><i>equalizer</i></xref>,
+                which is based on wavelets. If your camera is not yet supported by <xref
+                    href="denoise_profiled"><i>profiled denoise</i></xref>, <xref
+                    href="denoise_non_local_means"><i>denoising based on non-local
+                    means</i></xref> is probably the most convenient, as it allows you to treat
+                color and luminance noise separately. </p>
+        </section>
+        <section id="basic_development_steps_spots">
+            <title>Fixing spots</title>
+            <p> Sometimes you will need to remove spots caused by sensor dirt. The <xref
+                    href="spot_removal"><i>spot removal</i></xref> module and the <xref
+                    href="retouch"><i>retouch</i></xref> module are at hand and can also correct
+                other disturbing elements like skin blemishes. If your camera has stuck pixels or
+                tends to produce hot pixels at high ISO values or longer exposure times, have a look
+                at the <xref href="hotpixels"><i>hot pixels</i></xref> module for automatic
+                correction. </p>
+        </section>
+        <section id="basic_development_steps_geometry">
+            <title>Geometrical corrections</title>
+            <p> Quite frequently you want to only show part of the captured scene in your image,
+                e.g. to take away some disturbing feature close to the frame. In other cases, the
+                horizon in the image may need levelling, or there are perspective distortions. All
+                this can be corrected with full manual control in the <xref
+                    href="crop_and_rotate"><i>crop and rotate</i></xref> module. For a fully
+                automatic correction of perspective distortions you may alternatively visit the
+                    <xref href="perspective_correction"><i>perspective correction</i></xref>
+                module. If you need to correct typical camera lens flaws like cushion distortion,
+                transversal chromatic aberrations or vignetting, there is a <xref
+                    href="lens_correction"><i>lens correction</i></xref> module. </p>
+        </section>
+        <section id="basic_development_steps_details">
+            <title>Bringing back detail</title>
+            <p> Digital raw images often contain more information than you can see at first sight.
+                Especially in the shadows of an image, there are lots of hidden details. The <xref
+                    href="shadows_and_highlights"><i>shadows and highlights</i></xref> module
+                helps bring these details back into visible tonal values. Structural details in
+                fully blown-out highlights, by nature of the digital sensor, can not be recovered.
+                However, you can correct unfavorable color casts in these areas with the <xref
+                    href="highlight_reconstruction"><i>highlight reconstruction</i></xref>
+                module. Additionally the <xref href="color_reconstruction"><i>color
+                        reconstruction</i></xref> module is able to fill overexposed areas with
+                suitable colors based on their surroundings. </p>
+        </section>
+        <section id="basic_development_steps_tonality">
+            <title>Adjusting tonal values</title>
+            <p> Almost every workflow is likely to include adjusting the image's tonal range.
+                darktable offers several alternative modules to take care of that. The most basic
+                one is the <xref href="contrast_brightness_saturation"><i>contrast brightness
+                        saturation</i></xref> module. In the <xref href="tone_curve"><i>tone
+                        curve</i></xref> module, tonal values are adjusted by constructing a
+                gradient curve. The <xref href="levels"><i>levels</i></xref> module offers a
+                concise interface, with three markers in a histogram. In addition, there is a <xref
+                    href="zone_system"><i>zone system</i></xref> module which allows control over
+                tonal values by zones, inspired by the work of Ansel Adams. </p>
+        </section>
+        <section id="basic_development_steps_local_contrast">
+            <title>Enhancing local contrast</title>
+            <p> Local contrast enhancement can emphasize detail and clarity in your image. Carefully
+                used, it can give your photograph the right pop. darktable offers several modules
+                for this task. The <xref href="local_contrast"><i>local contrast</i></xref>
+                module is easy to handle, with just a few parameters. A much more versatile, but
+                also more complex, technique is offered by the <xref href="equalizer"
+                        ><i>equalizer</i></xref> module. Have a look at its presets, to get a
+                feeling for how it works. Equalizer is darktable's "Swiss Army Knife" for many
+                adjustments where spatial dimension plays a role. </p>
+        </section>
+        <section id="basic_development_steps_colors">
+            <title>Color adjustments</title>
+            <p> darktable offers many modules for adjusting colors in an image. A very
+                straightforward technique is implemented in the <xref href="color_correction"
+                        ><i>color correction</i></xref> module. Use it to give an image an overall
+                tint or to adjust overall color saturation. The <xref href="color_zones"><i>color
+                        zones</i></xref> module offers a much finer control to adjust saturation, or
+                lightness, and even hue, in user defined zones. darktable's <xref
+                    href="tone_curve"><i>tone curve</i></xref> module&nbsp;&ndash; in addition to
+                the classical adjustment of tonal values&nbsp;&ndash; gives you fine control over
+                the colors in an image. Finally, if you intend to convert an image into black &amp;
+                white, a good starting point, with an easy to use and intuitive user interface, is
+                offered by the <xref href="monochrome"><i>monochrome</i></xref> module.
+                Alternatively, you might consider using darktable's <xref href="channel_mixer"
+                        ><i>channel mixer</i></xref>. </p>
+        </section>
+        <section id="basic_development_steps_sharpening">
+            <title>Sharpening</title>
+            <p> If you start your workflow from a raw image, you will need to have your final output
+                sharpened. The <xref href="sharpen"><i>sharpen</i></xref> module can do this with
+                the classical USM (unsharp mask) approach, available in most image processing
+                software. Another very versatile way to enhance edges in an image is offered by the
+                    <xref href="highpass"><i>highpass</i></xref> module, in combination with
+                darktable's rich set of blending operators. </p>
+        </section>
+        <section id="basic_development_steps_effects">
+            <title>Artistic effects</title>
+            <p> darktable comes with a rich set of artistic effect modules. To name just a few: with
+                the <xref href="watermark"><i>watermark</i></xref> module you add an individual
+                watermark to your image. The <xref href="grain"><i>grain</i></xref> module
+                simulates the typical noise of classical analogue footage. Use the <xref
+                    href="color_mapping"><i>color mapping</i></xref> module to transfer the look
+                and feel of one color image onto another. darktable's <xref href="low_light"
+                        ><i>low light</i></xref> module allows to simulate human vision to make
+                lowlight pictures look closer to reality. The <xref href="graduated_density"
+                        ><i>graduated density</i></xref> filter adds a neutral or colored gradient
+                to your image for exposure and color correction. </p>
+        </section>
+    </body>
+</topic>

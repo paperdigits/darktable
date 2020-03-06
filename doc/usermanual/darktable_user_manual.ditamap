@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>darktable User Manual</title>
+    <topicref href="contributors.dita"/>
+    <topicref href="license.dita"/>
+    <topicref href="preface.dita"/>
+    <topicref href="overview/overview.dita">
+        <topicref href="overview/program_invocation.dita">
+            <topicref href="overview/darktable_binary.dita"/>
+            <topicref href="overview/darktable_cli_binary.dita"/>
+            <topicref href="overview/darktable_generate_cache_binary.dita"/>
+            <topicref href="overview/darktable_chart_binary.dita"/>
+            <topicref href="overview/darktable_cltest_binary.dita"/>
+            <topicref href="overview/darktable_cmstest_binary.dita"/>
+        </topicref>
+        <topicref href="overview/user_interface.dita">
+            <topicref href="overview/views.dita"/>
+            <topicref href="overview/screen_layout.dita"/>
+            <topicref href="overview/filmstrip.dita"/>
+            <topicref href="overview/preferences.dita"/>
+            <topicref href="overview/contextual_help.dita"/>
+            <topicref href="overview/shortcuts_window.dita"/>
+        </topicref>
+        <topicref href="overview/darktable_basic_workflow.dita">
+            <topicref href="overview/importing_images.dita"/>
+            <topicref href="overview/basic_development_steps.dita"/>
+            <topicref href="overview/exporting_images.dita"/>
+        </topicref>
+    </topicref>
+</map>

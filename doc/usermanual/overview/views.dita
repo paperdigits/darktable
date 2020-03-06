@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="views">
+    <title>Views</title>
+    <body>
+        <p> darktable consists of several views or modes. There are five available views as
+            described in this section. You can switch between views by clicking the view name at the
+            top of the right panel the active view is highlighted or by using one of the key
+            accelerators: <table frame="none">
+                <tgroup cols="2" colsep="0" rowsep="0">
+                    <colspec colwidth="1*"/>
+                    <colspec colwidth="9*"/>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <i>L</i>
+                            </entry>
+                            <entry> switches to lighttable </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <i>D</i>
+                            </entry>
+                            <entry> switches to darkroom </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <i>T</i>
+                            </entry>
+                            <entry> switches to camera tethering </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <i>M</i>
+                            </entry>
+                            <entry> switches to map </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <i>S</i>
+                            </entry>
+                            <entry> switches to slideshow </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <i>P</i>
+                            </entry>
+                            <entry> switches to print </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <section id="overview_lighttable">
+            <title>Lighttable</title>
+            <p> The lighttable view is where images and film rolls are managed. It's also where you
+                rate images, add tags and colorlabels, and export images among other actions (see
+                    <xref href="lighttable_chapter"/>). </p>
+        </section>
+        <section id="overview_darkroom">
+            <title>Darkroom</title>
+            <p> In the darkroom view you develop a single image using the available modules (see
+                    <xref href="darkroom_chapter"/>). </p>
+        </section>
+        <section id="overview_tethering">
+            <title>Tethering</title>
+            <p> This view is for shooting with the camera connected to the computer and remotely
+                capturing images that will be downloaded and shown on computer screen (see <xref
+                    href="tethering_chapter"/>). </p>
+        </section>
+        <section id="overview_map">
+            <title>Map</title>
+            <p> This view shows images with geo-tag data on a map and allows manually geo-tagging
+                new images (see <xref href="map_chapter"/>). </p>
+        </section>
+        <section id="overview_slideshow">
+            <title>Slideshow</title>
+            <p> This view shows images as a slideshow, processing them on-the-fly (see <xref
+                    href="slideshow_chapter"/>). </p>
+        </section>
+        <section id="overview_print">
+            <title>Print</title>
+            <p> This view allows you to send images to your printer (see <xref
+                    href="print_chapter"/>). </p>
+        </section>
+    </body>
+</topic>

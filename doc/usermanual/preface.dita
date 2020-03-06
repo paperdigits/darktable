@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="untitled1">
+    <title>Preface</title>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword>darktable</keyword>
+                <keyword>preface</keyword>
+            </keywords>
+        </metadata>
+    </prolog>
+    <body>
+        <p>User manual version and applicable darktable version are listed below: <table
+                frame="none" id="table_u4j_dzz_xkb">
+                <tgroup cols="3" colsep="0" rowsep="0">
+                    <colspec colwidth="3cm"/>
+                    <colspec colwidth="3cm"/>
+                    <colspec colwidth="3cm"/>
+                    <tbody>
+                        <row>
+                            <entry/>
+                            <entry> version </entry>
+                            <entry> date </entry>
+                        </row>
+                        <row>
+                            <entry> user manual </entry>
+                            <entry> 3.0.0 </entry>
+                            <entry> December 2019 </entry>
+                        </row>
+                        <row>
+                            <entry> darktable </entry>
+                            <entry> 3.0 </entry>
+                            <entry> December 2019 </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+        <p>Translations of this manual to local languages are brought to you by Federico Bruni,
+            Maurizio Paglia, Victor Lamoine, Michel Leblond, María Gracia Leandro, Pierre Metzner,
+            Christian Kanzian, Wolfgang Arndt, Łukasz Karcz, Artur Mercik and Edgar De la Luz.</p>
+        <p>Many thanks to all contributors to this user manual. Special thanks for proof reading,
+            style improvement, constructive criticism, and valuable contributions go to Colin Adams,
+            Mark Garrow, Simon Harhues, István Kovács, Jean-Luc Coulon, Rudolf Martin, Ammon Riley,
+            Rob Z. Smith, Andrew Toskin, and David Vincent-Jones.</p>
+    </body>
+</topic>
