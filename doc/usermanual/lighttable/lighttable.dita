@@ -18,7 +18,7 @@
   </p>
          <fig id="fig_jvf_fvp_dlb">
             <title>The lighttable view</title>
-            <image href="images/lighttable_view.png" placement="break" id="image_kvf_fvp_dlb"/>
+            <image href="../images/lighttable_view.png" placement="break" id="image_kvf_fvp_dlb" />
          </fig>
       </body>
       <topic xml:lang="en-us" id="lighttable_overview">
@@ -44,7 +44,7 @@
               In the central view, your images are shown as thumbnails, surrounded by a frame.
               When the mouse is over an image, its rating and color labels are shown in the
               frame, along with an indicator
-              <image href="images/lighttable_thumb_icon_altered.png" width="3mm"/>
+              <image href="../images/lighttable_thumb_icon_altered.png" width="3mm"/>
               of whether the image has already been altered in darkroom. Also, when the mouse
               hovers over an image frame, image information (EXIF data, metadata) is shown in
               the <xref href="#image_information">
@@ -53,7 +53,7 @@
                            </xref> panel at the bottom left.
             </entry>
                         <entry>
-                           <image href="images/lighttable_thumb.png" align="center" placement="break"/>
+                           <image href="../images/lighttable_thumb.png" align="center" placement="break"/>
                         </entry>
                      </row>
                   </tbody>
@@ -129,16 +129,17 @@
                   </tgroup>
                </table>
             </p>
-            <p> The <indexterm>overlay </indexterm>button <image
-                  href="images/general_icon_overlay.png" align="center"/> located in the upper panel
-               activates the permanent display of star ratings and image-changed indicator <image
-                  href="images/lighttable_thumb_icon_altered.png" width="3mm"/> on all thumbnails.
-               By default these overlays are only visible on the thumbnail under the mouse cursor.
-               An overlay button is also available in the other views where it affects the filmstrip
-               accordingly (see <xref href="filmstrip_overview"/> and <xref href="darkroom_filmstrip"/>). </p>
+            <p> The <indexterm>overlay</indexterm> button <image
+                  href="../images/general_icon_overlay.png" align="center"/> located in the upper
+               panel activates the permanent display of star ratings and image-changed indicator
+                  <image href="../images/lighttable_thumb_icon_altered.png" width="3mm"/> on all
+               thumbnails. By default these overlays are only visible on the thumbnail under the
+               mouse cursor. An overlay button is also available in the other views where it affects
+               the filmstrip accordingly (see <xref href="filmstrip_overview"/> and <xref
+                  href="darkroom_filmstrip"/>). </p>
             <p>
       Pressing the
-      <image href="images/lighttable_icon_displayprofile.png" align="center"/>
+      <image href="../images/lighttable_icon_displayprofile.png" align="center"/>
       button on the right side of the bottom panel lets you define the color profile of your
       monitor. You can either set this to <q>system display profile</q> (default) and
       let darktable enquire the system's display profile, or alternatively set it to one of the
@@ -303,7 +304,7 @@
                 steps within darktable.
               </entry>
                            <entry>
-                              <image href="images/lighttable_focus_detection.png"
+                              <image href="../images/lighttable_focus_detection.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -395,7 +396,7 @@
     Each image of the current collection is represented by a thumbnail in the lighttable view.
     darktable keeps a cache of the last recently used thumbnails in a file on disk and loads it
     into memory at startup. The size of this cache can be adjusted in the core preferences
-    dialog (see <xref href=""/>).
+    dialog (see <xref href="core_options"/>).
   </p>
             </body>
             <topic xml:lang="en-us" id="thumbnail_creation">
@@ -489,7 +490,7 @@
                 </p>
                                  </entry>
                                  <entry>
-                                    <image href="lighttable/concepts/images/thumbnails_1.png"
+                                    <image href="concepts/images/thumbnails_1.png"
                                            align="center"
                                            placement="break"/>
                                  </entry>
@@ -544,9 +545,9 @@
     You can give a rating from zero to five stars to an image. The quality criteria which lead
     to a rating are fully up to you. Whenever you import images, each image receives a default
     rating which you can define in <q>GUI options</q> (see
-    <xref href=""/>). You can later revise the rating at any time. You can also
+    <xref href="gui_options"/>). You can later revise the rating at any time. You can also
     mark an image as <q>rejected</q> by pressing the
-    <image href="images/lighttable_thumb_reject.png" align="center"/>
+    <image href="../images/lighttable_thumb_reject.png" align="center"/>
     icon or typing the <i>R</i> key. This will remove all stars. You can reverse
     the rejection by applying a new star rating.
   </p>
@@ -572,7 +573,7 @@
               <xref href="gui_options"/>).
             </entry>
                               <entry>
-                                 <image href="lighttable/concepts/images/star_rating_thumbs.png"
+                                 <image href="concepts/images/star_rating_thumbs.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -596,7 +597,7 @@
               view.
             </entry>
                               <entry>
-                                 <image href="lighttable/concepts/images/star_rating_panel.png"
+                                 <image href="concepts/images/star_rating_panel.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -629,7 +630,7 @@
               button.
             </entry>
                               <entry>
-                                 <image href="lighttable/concepts/images/color_labels_panel.png"
+                                 <image href="concepts/images/color_labels_panel.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -663,7 +664,7 @@
               the top panel.
             </entry>
                               <entry>
-                                 <image href="lighttable/concepts/images/filter_sort_panel.png"
+                                 <image href="concepts/images/filter_sort_panel.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -736,7 +737,7 @@
               </p>
                               </entry>
                               <entry>
-                                 <image href="lighttable/concepts/images/grouping_1.png"
+                                 <image href="concepts/images/grouping_1.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -747,7 +748,7 @@
                </p>
                <p>
     The group button
-    <image href="images/lighttable_icon_group.png"/>
+    <image href="../images/lighttable_icon_group.png"/>
     in the top panel of the lightroom view toggles grouping mode on and off. If grouping is off,
     each image is displayed as an individual thumb. If grouping is on, images of a group are
     collapsed, which means they are represented by a single thumbnail. This thumbnail you see is
@@ -771,7 +772,7 @@
               </p>
                               </entry>
                               <entry>
-                                 <image href="lighttable/concepts/images/grouping_2.png"
+                                 <image href="concepts/images/grouping_2.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -1000,7 +1001,7 @@
               </p>
                               </entry>
                               <entry>
-                                 <image href="lighttable/concepts/images/local_copies_1.png"
+                                 <image href="concepts/images/local_copies_1.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -1074,7 +1075,7 @@
             tethering mode.
           </entry>
                            <entry>
-                              <image href="lighttable/images/panel_import_1.png"
+                              <image href="images/panel_import_1.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -1101,7 +1102,7 @@
       film roll with the name of the filesystem folder.
     </p>
                   <p>
-                     <image href="lighttable/images/panel_import_2.png"
+                     <image href="images/panel_import_2.png"
                             align="center"
                             placement="break"/>
                   </p>
@@ -1155,7 +1156,7 @@
               <q>tethered shoot</q>.
             </entry>
                               <entry>
-                                 <image href="lighttable/images/panel_import_3.png"
+                                 <image href="images/panel_import_3.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -1306,7 +1307,7 @@
             ones you want to work with.
           </entry>
                            <entry>
-                              <image href="lighttable/images/panel_collectimages.png"
+                              <image href="images/panel_collectimages.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -1626,11 +1627,11 @@
                      <p>
         The logical operators defining the combination of rules are displayed to the right of
         the rule: <i>AND</i> by the
-        <image href="images/lighttable_icon_and.png" align="center"/>
+        <image href="../images/lighttable_icon_and.png" align="center"/>
         symbol, <i>OR</i> by the
-        <image href="images/lighttable_icon_or.png" align="center"/>
+        <image href="../images/lighttable_icon_or.png" align="center"/>
         symbol, and <i>EXCEPT</i> by the
-        <image href="images/lighttable_icon_except.png" align="center"/>
+        <image href="../images/lighttable_icon_except.png" align="center"/>
         symbol. Clicking on either symbol gives a choice to change the logical operation.
       </p>
                   </body>
@@ -1681,7 +1682,7 @@
             collection.
           </entry>
                            <entry>
-                              <image href="lighttable/images/panel_recent_collections.png"
+                              <image href="images/panel_recent_collections.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -1707,7 +1708,7 @@
             </prolog>
             <body>
                <p>
-                  <image href="lighttable/images/timeline.png"
+                  <image href="images/timeline.png"
                          align="center"
                          placement="break"/>
                </p>
@@ -1753,7 +1754,7 @@
             available in darkroom, tethering, map, and print view.
           </entry>
                            <entry>
-                              <image href="lighttable/images/panel_metadata.png"
+                              <image href="images/panel_metadata.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -1788,7 +1789,7 @@
             criteria.
           </entry>
                            <entry>
-                              <image href="lighttable/images/panel_select.png"
+                              <image href="images/panel_select.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -1869,7 +1870,7 @@
             This panel provides some actions that operate on selected images.
           </entry>
                            <entry>
-                              <image href="lighttable/images/panel_selectedimages.png"
+                              <image href="images/panel_selectedimages.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -2125,7 +2126,7 @@
             non-destructive.
           </entry>
                            <entry>
-                              <image href="lighttable/images/panel_historystack.png"
+                              <image href="images/panel_historystack.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -2303,7 +2304,7 @@
             lighttable panel, which allows you to create, apply, edit and delete styles.
           </entry>
                            <entry>
-                              <image href="lighttable/images/panel_styles.png"
+                              <image href="images/panel_styles.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -2420,10 +2421,10 @@
                            <entry>
             Use this panel to import and apply GPX track data on a selection of images.
             Alternatively, you can manually geotag images within the <i>Map</i>
-            view (see <xref href=""/>).
+            view (see <xref href="map_chapter"/>).
           </entry>
                            <entry>
-                              <image href="lighttable/images/panel_geotagging.png"
+                              <image href="images/panel_geotagging.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -2477,7 +2478,7 @@
               </p>
                               </entry>
                               <entry>
-                                 <image href="lighttable/images/panel_geotagging_ex1.png"
+                                 <image href="images/panel_geotagging_ex1.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -2499,7 +2500,7 @@
               </p>
                               </entry>
                               <entry>
-                                 <image href="lighttable/images/panel_geotagging_ex2.png"
+                                 <image href="images/panel_geotagging_ex2.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -2513,7 +2514,7 @@
               </p>
                               </entry>
                               <entry>
-                                 <image href="lighttable/images/panel_geotagging_ex3.png"
+                                 <image href="images/panel_geotagging_ex3.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -2555,7 +2556,7 @@
             own presets if you want to apply specific settings frequently.
           </entry>
                            <entry>
-                              <image href="lighttable/images/panel_metadata_editor.png"
+                              <image href="images/panel_metadata_editor.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -2623,7 +2624,7 @@
                                     for the <q>white</q> tag. </p>
                               </entry>
                               <entry>
-                                 <image href="lighttable/images/panel_tagging-default.png"
+                                 <image href="images/panel_tagging-default.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -2683,7 +2684,7 @@
                   <title>displayed information</title>
                   <body>
                      <fig>
-                        <image href="lighttable/images/panel_tagging-attached.png" align="center"
+                        <image href="images/panel_tagging-attached.png" align="center"
                            placement="break"/>
                      </fig>
                      <p>
@@ -2734,14 +2735,14 @@
         Right-clicking on the tag opens a submenu with available commands.
       </p>
                      <fig>
-                        <image href="lighttable/images/panel_tagging-submenu.png" align="center"
+                        <image href="images/panel_tagging-submenu.png" align="center"
                            placement="break"/>
                      </fig>
                      <p>
         Hovering cursor over a tag displays an overlay with basic usage instructions for the tagging panel.
       </p>
                      <fig>
-                        <image href="lighttable/images/panel_tagging-overlay.png" align="center"
+                        <image href="images/panel_tagging-overlay.png" align="center"
                            placement="break"/>
                      </fig>
                      <p>
@@ -2753,31 +2754,31 @@
       </p>
                      <p>
         the toggle button
-        <image href="images/tagging_icon_dt_tag.png" align="center"/>
+        <image href="../images/tagging_icon_dt_tag.png" align="center"/>
         hides or shows the automatic darktable tags.
       </p>
                      <p>
-                        <image href="lighttable/images/panel_tagging-dttag.png"
+                        <image href="images/panel_tagging-dttag.png"
                                align="center"
                                placement="break"/>
                      </p>
                      <p>
         the toggle button
-        <image href="images/tagging_icon_sort.png" align="center"/>
+        <image href="../images/tagging_icon_sort.png" align="center"/>
         sorts the list alphabetically or by number of tagged images.
       </p>
                      <p>
-                        <image href="lighttable/images/panel_tagging-sort.png"
+                        <image href="images/panel_tagging-sort.png"
                                align="center"
                                placement="break"/>
                      </p>
                      <p>
         the toggle button
-        <image href="images/tagging_icon_short_name.png" align="center"/>
+        <image href="../images/tagging_icon_short_name.png" align="center"/>
         shows the short or long tag name.
       </p>
                      <p>
-                        <image href="lighttable/images/panel_tagging-short.png"
+                        <image href="images/panel_tagging-short.png"
                                align="center"
                                placement="break"/>
                      </p>
@@ -2803,7 +2804,7 @@
                                  <entry>
                                     <p>
                   the toggle button
-                  <image href="images/tagging_icon_tree.png" align="center"/>
+                  <image href="../images/tagging_icon_tree.png" align="center"/>
                   shows the tag dictionary as a list or as a tree.
                 </p>
                                     <p>
@@ -2811,7 +2812,7 @@
                 </p>
                                  </entry>
                                  <entry>
-                                    <image href="lighttable/images/panel_tagging-treebutton.png"
+                                    <image href="images/panel_tagging-treebutton.png"
                                            align="center"
                                            placement="break"/>
                                  </entry>
@@ -2820,13 +2821,13 @@
                                  <entry>
                                     <p>
                   the toggle button
-                  <image href="images/tagging_icon_suggestion.png" align="center"/>
+                  <image href="../images/tagging_icon_suggestion.png" align="center"/>
                   switches the list to suggestions or full dictionary tag list (inactive on tree view).
                   The suggestions list is based on already attached tags on selected images.
                 </p>
                                  </entry>
                                  <entry>
-                                    <image href="lighttable/images/panel_tagging-suggbutton.png"
+                                    <image href="images/panel_tagging-suggbutton.png"
                                            align="center"
                                            placement="break"/>
                                  </entry>
@@ -2896,7 +2897,7 @@
         existing one (hierarchical) or at the root level.
       </p>
                      <fig>
-                        <image href="lighttable/images/panel_tagging-create.png" align="center"
+                        <image href="images/panel_tagging-create.png" align="center"
                            placement="break"/>
                      </fig>
                      <p>
@@ -2930,7 +2931,7 @@
         can be change here.
       </p>
                      <fig>
-                        <image href="lighttable/images/panel_tagging-edit.png" align="center"
+                        <image href="images/panel_tagging-edit.png" align="center"
                            placement="break"/>
                      </fig>
                      <p>
@@ -2941,7 +2942,7 @@
         The command is aborted if there is at least one tag corresponding to the new path.
       </p>
                      <fig>
-                        <image href="lighttable/images/panel_tagging-renamepath.png" align="center"
+                        <image href="images/panel_tagging-renamepath.png" align="center"
                            placement="break"/>
                      </fig>
                   </body>
@@ -3083,7 +3084,7 @@
             export.</i>
                            </entry>
                            <entry>
-                              <image href="lighttable/images/panel_exportselected.png"
+                              <image href="images/panel_exportselected.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -3093,7 +3094,7 @@
                </table>
                <p>
     All settings in this panel can be saved for later reuse. Press the
-    <image href="images/darkroom_module_icon_presets.png" align="center"/>
+    <image href="../images/darkroom_module_icon_presets.png" align="center"/>
     button to manage your presets.
   </p>
             </body>
@@ -3683,7 +3684,7 @@
                   <body>
                      <p>
         Pressing button
-        <image href="images/lighttable_directory.png" align="center"/>
+        <image href="../images/lighttable_directory.png" align="center"/>
         opens a dialog to select the parent directory for export.
       </p>
                   </body>
@@ -3792,7 +3793,7 @@
                   <body>
                      <p>
         This option lets you define the intent, i.e. the way darktable will deal with
-        out-of-gamut colors. See <xref href=""/> for a more detailed
+        out-of-gamut colors. See <xref href="rendering_intent"/> for a more detailed
         description of the available options.
       </p>
                   </body>
@@ -3838,7 +3839,7 @@
         bottom of the left side panel displays the progress. Furthermore a notification message
         pops up reporting the export progress. You may click on the pop-up to make it disappear.
         You may <i>abort</i> the export job by clicking on the
-        <image href="images/lighttable_icon_abort.png" align="center"/>
+        <image href="../images/lighttable_icon_abort.png" align="center"/>
         icon located close to the progress bar.
       </p>
                   </body>
@@ -3849,7 +3850,7 @@
                   <body>
                      <p>
         Pressing the
-        <image href="images/darkroom_preferences.png" align="center"/> icon
+        <image href="../images/darkroom_preferences.png" align="center"/> icon
         on the right of export button opens a window to configure which metadata are to be embedded
         into the exported image.
       </p>
@@ -3857,7 +3858,7 @@
         Metadata configuration is saved along with other export selected parameters to your favorites presets.
       </p>
                      <p>
-                        <image href="lighttable/images/panel_exportselected-metadata-config.png"
+                        <image href="images/panel_exportselected-metadata-config.png"
                                align="center"
                                placement="break"/>
         The left part lets you select the groups of metadata to be exported.
@@ -3876,7 +3877,7 @@
                      <p>
         Use the <q>-</q> icon to remove a metadata entry from the list, the
         <q>+</q> icon to add a new one from the predefined list:
-        <image href="lighttable/images/panel_exportselected-metadata-selection.png"
+        <image href="images/panel_exportselected-metadata-selection.png"
                                align="center"
                                placement="break"/>
         Double-click or click on button <i>add</i> to add a metadata entry to the configuration list.
@@ -3909,10 +3910,10 @@
         Neither <codeph>creator</codeph> nor <codeph>firstname lastname</codeph> appear in tags list;
         they are also not exported as simple tags.
       </p>
-                     <p>
-        Note: tagging is not appropriate to define free text metadata, like a title or a description, which may be
-        specific to each image. Prefer using the metadata editor for this type of information (see <xref href="#metadata_editor"/>).
-      </p>
+                     <note> Tagging is not appropriate to define free text metadata, like a title or
+                        a description, which may be specific to each image. Prefer using the
+                        metadata editor for this type of information (see <xref
+                           href="#metadata_editor"/>). </note>
                   </body>
                   
                </topic>
