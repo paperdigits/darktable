@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE dita
+  PUBLIC "-//OASIS//DTD DITA Composite//EN" "../../../../dtd/ditabase.dtd">
+<dita>
+   <topic xml:lang="en-us" id="slideshow_chapter">
+      <title>Slideshow</title>
+      <!-- topic/titlealts  not supplied within  topic/topic -->
+      <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+         <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata -->
+            <keywords>
+               <keyword>slideshow</keyword>
+               <keyword>view</keyword>
+            </keywords>
+            <!-- topic/prodinfo  not supplied within  topic/metadata -->
+            <!-- topic/othermeta  not supplied within  topic/metadata -->
+         </metadata>
+         <!-- topic/resourceid  not supplied within  topic/prolog -->
+      </prolog>
+      <body>
+         <p>
+    The slideshow view starts a slideshow of your current collection.
+  </p>
+         <p>
+            <fig><!--info not processed within  topic/fig -->The slideshow view<image href="images/slideshow_view.png" placement="break"/>
+            </fig>
+         </p>
+      </body>
+      <topic xml:lang="en-us" id="slideshow_overview">
+         <title>Overview</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+      Entering the slideshow view starts a slideshow of the images of the current collection
+      with filtering rules and sort order applied. To learn more on how to define the
+      collection, the filtering and the sort order see <xref href=""/> and
+      <xref href=""/>.
+    </p>
+            <p>
+      The image display is optimized to take full advantage of your screen size. You should
+      therefore put darktable into fullscreen mode which is toggled by pressing
+      <i>F11</i>. You may press <i>Tab</i> key in order to hide all
+      remaining panels – namely the filtering option in the top panel.
+    </p>
+         </body>
+         <!-- topic/topic  not supplied within  topic/topic -->
+      </topic>
+      <topic xml:lang="en-us" id="slideshow_usage">
+         <title>Usage</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+      The slideshow view is in an early stage of development with a basic set of features.
+      <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <tgroup colsep="0" rowsep="0" cols="2">
+                     <colspec colwidth="1*"/>
+                     <colspec colwidth="3*"/>
+                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     <tbody>
+                        <row>
+                           <entry>
+                              <i>+</i> or <i>Up</i>
+                           </entry>
+                           <entry>
+                increase delay between each image
+              </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <i>-</i> or <i>Down</i>
+                           </entry>
+                           <entry>
+                decrease delay between each image
+              </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <i>left-click</i> or <i>right</i> or <i>Shift+right</i>
+                           </entry>
+                           <entry>
+                switch to the next image of the collection
+              </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <i>right-click</i> or <i>left</i> or <i>Shift+left</i>
+                           </entry>
+                           <entry>
+                switch to the previous image of the collection
+              </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <i>spacebar</i>
+                           </entry>
+                           <entry>
+                start and stop auto-advance mode which automatically switches to the next images
+                every five seconds by default.
+              </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <i>ESC</i>
+                           </entry>
+                           <entry>
+                leave slideshow mode and return to lighttable view
+              </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+            <p>
+      Depending on the complexity of the history stack and the power of your hardware,
+      processing an image with high resolution can take a significant amount of time. darktable
+      prefetches the next image in the background in order to minimize latencies. If you still
+      experience long delays when switching between images or if you intend to quickly advance
+      in your collection consider to disable the option <q>do high quality processing for
+      slideshow</q> which gives a much higher processing speed at the expense of a possible
+      slight loss in quality (see <xref href=""/>).
+    </p>
+         </body>
+         <!-- topic/topic  not supplied within  topic/topic -->
+      </topic>
+   </topic>
+</dita>

@@ -28,4 +28,13 @@
             <topicref href="overview/exporting_images.dita"/>
         </topicref>
     </topicref>
+    <topicref href="lighttable/lighttable.dita"/>
+    <topicref href="darkroom/darkroom.dita"/>
+    <topicref href="tethering/tethering.dita"/>
+    <topicref href="map/map.dita"/>
+    <topicref href="slideshow/slideshow.dita"/>
+    <topicref href="print/print.dita"/>
+    <topicref href="preferences/preferences.dita"/>
+    <topicref href="lua/lua.dita"/>
+    <topicref href="topics/topics.dita"/>
 </map>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE dita
+  PUBLIC "-//OASIS//DTD DITA Composite//EN" "../../../../dtd/ditabase.dtd">
+<dita>
+   <topic xml:lang="en-us" id="print_chapter">
+      <title>Print</title>
+      <!-- topic/titlealts  not supplied within  topic/topic -->
+      <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+         <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata -->
+            <keywords>
+               <keyword>print</keyword>
+               <keyword>view</keyword>
+            </keywords>
+            <!-- topic/prodinfo  not supplied within  topic/metadata -->
+            <!-- topic/othermeta  not supplied within  topic/metadata -->
+         </metadata>
+         <!-- topic/resourceid  not supplied within  topic/prolog -->
+      </prolog>
+      <body>
+         <p>
+    The print view lets you output a selected image to your printer.
+  </p>
+         <p>
+            <fig><!--info not processed within  topic/fig -->The print view<image href="images/print_view.png" placement="break"/>
+            </fig>
+         </p>
+      </body>
+      <topic xml:lang="en-us" id="print_overview">
+         <title>Overview</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+      This view is about printing – or the joy of giving birth to a photograph which
+      can be put on the wall. Because printing is not easy, there are many technical aspects to
+      be taken into account.
+    </p>
+            <p>
+      After selecting an image in the lighttable view (see
+      <xref href=""/>) one can enter the print module where there are
+      several options for the print layout and for selecting which printer to use.
+    </p>
+            <p>
+      The central area displays the image layout on the paper (the white area). Some gray
+      borders may be displayed around the image to represent the printable area (the page minus
+      the borders) not filled by the image.
+    </p>
+            <p>
+      On the left side you find the <i>collect images</i> panel which is described
+      in more detail in <xref href=""/>. This panel lets you define which
+      images are present in the filmstrip. Visibility of the filmstrip – located in
+      the bottom panel – is toggled by pressing <i>Ctrl+F</i> (see
+      <xref href=""/>). On the left side you also have an <i>image
+      information</i> panel which displays useful Exif data of the image in the center
+      area, or the filmstrip image under the pointer, respectively (see
+      <xref href=""/>).
+    </p>
+            <p>
+      On the right panel the print settings module has many options to layout the image on the
+      page, select the paper, options for exporting, etc. This module is described in depth in
+      the section below.
+    </p>
+            <p>
+      This module supports the printer's ICC profile which is somewhat mandatory if you want to
+      get a high quality print close to the image displayed on the screen.
+    </p>
+            <p>
+      It is important to note that ICC profiles provided by the paper and/or printer
+      manufacturers cannot be used on GNU/Linux as they depend on the printer drivers. The
+      darktable print module is using <xref href="http://www.cups.org/" format="html" scope="external">CUPS</xref> and there
+      is no ready-to-use ICC profiles for this driver.
+    </p>
+         </body>
+         <!-- topic/topic  not supplied within  topic/topic -->
+      </topic>
+      <topic xml:lang="en-us" id="print_usage">
+         <title>Usage</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <tgroup colsep="0" rowsep="0" cols="2">
+                     <colspec colwidth="6*"/>
+                     <colspec colwidth="4*"/>
+                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     <tbody>
+                        <row>
+                           <entry>
+                The print module has many options. We describe the panel in this section.
+              </entry>
+                           <entry>
+                              <image href="print/images/panel_printing.png"
+                                     align="center"
+                                     placement="break"/>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </body>
+         <topic xml:lang="en-us" id="print_printer_section">
+            <title>Printer section</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>printer</b>
+               </p>
+               <p>
+        This entry is to select one of the installed printers.
+      </p>
+               <p>
+                  <b>media</b>
+               </p>
+               <p>
+        The media kind loaded on the printer (Plain Paper, Luster Photo Paper, etc.).
+      </p>
+               <p>
+                  <b>profile</b>
+               </p>
+               <p>
+        The printer's ICC profile for the loaded paper. This is the profile specific to the
+        printer and printer's paper. This profile is the last color space transformation done to
+        the picture whose goal is to create a high quality print.
+      </p>
+               <p>
+                  <b>intent</b>
+               </p>
+               <p>
+        The print rendering intent (<q>perceptual</q>, <q>relative
+        colorimetric</q>, <q>saturation</q> or <q>absolute
+        colorimetric</q>). See <xref href=""/> for more information.
+      </p>
+               <p>
+                  <b>black point compensation</b>
+               </p>
+               <p>
+        Whether to adjust the black point of the output profile which is often lighter than the
+        input profile. This should be <q>on</q> when the above intent is set to
+        <q>relative colorimetric</q>.
+      </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="print_page_section">
+            <title>Page section</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>paper size</b>
+               </p>
+               <p>
+        The size of the paper on which to print.
+      </p>
+               <p>
+                  <b>orientation</b>
+               </p>
+               <p>
+        Portrait or landscape (note that darktable chooses by default the best fit).
+      </p>
+               <p>
+                  <b>units</b>
+               </p>
+               <p>
+        The unit to use for setting the margins. <q>mm</q>, <q>cm</q>, and
+        <q>inch</q> are available options.
+      </p>
+               <p>
+                  <b>margins</b>
+               </p>
+               <p>
+        It is possible to set each margin separately or all together by clicking on the middle
+        <q>lock</q> button.
+      </p>
+               <p>
+                  <b>image width/height</b>
+               </p>
+               <p>
+        This information field displays the actual image width and height (given with the
+        selected units) on the paper.
+      </p>
+               <p>
+                  <b>scale factor</b>
+               </p>
+               <p>
+        This information field displays the scaling of the image to fit on the paper. If this
+        value is less than 1 the image is down-scaled otherwise it is up-scaled. This is an
+        important factor to watch – a too large value (up-scale) may result in a low
+        quality print. The corresponding dpi (dots per inch) is also displayed.
+      </p>
+               <p>
+                  <b>alignment</b>
+               </p>
+               <p>
+        This option allows you to select the alignment of the image on the paper.
+      </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="print_settings">
+            <title>Print settings</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>profile</b>
+               </p>
+               <p>
+        This allows you to select the export profile to use. This profile is the entry point
+        used for the next transformation using the printer's ICC profile above. Usually it is
+        better to prefer a large gamut like AdobeRGB rather than a smaller one as sRGB.
+      </p>
+               <p>
+                  <b>intent</b>
+               </p>
+               <p>
+        This option sets the rendering intent to use when exporting the image. For more
+        information see <xref href=""/>.
+      </p>
+               <p>
+                  <b>style</b>
+               </p>
+               <p>
+        Defines a style to apply when exporting the image and defaults to <q>none</q>.
+        See the <i>export</i> panel (<xref href=""/>) for a more
+        detailed discussion of applying a style during export.
+      </p>
+               <p>
+                  <b>mode</b>
+               </p>
+               <p>
+        This selects whether the style is appended to the existing history stack or replacing it
+        completely. See <xref href=""/> for more details.
+      </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="print_button">
+            <title>Print button</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+        At the bottom of the right panel you find the <q>print</q> button. When clicked
+        the image is exported using the selected options and sent to the printer.
+      </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+      </topic>
+   </topic>
+</dita>

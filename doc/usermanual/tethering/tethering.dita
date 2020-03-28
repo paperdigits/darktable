@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE dita
+  PUBLIC "-//OASIS//DTD DITA Composite//EN" "../../../../dtd/ditabase.dtd">
+<dita>
+   <topic xml:lang="en-us" id="tethering_chapter">
+      <title>Tethering</title>
+      <!-- topic/titlealts  not supplied within  topic/topic -->
+      <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+         <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata -->
+            <keywords>
+               <keyword>tethering</keyword>
+               <keyword>view</keyword>
+            </keywords>
+            <!-- topic/prodinfo  not supplied within  topic/metadata -->
+            <!-- topic/othermeta  not supplied within  topic/metadata -->
+         </metadata>
+         <!-- topic/resourceid  not supplied within  topic/prolog -->
+      </prolog>
+      <body>
+         <p>
+    The tethering view allows you to capture images directly into darktable from your connected
+    camera.
+  </p>
+         <p>
+            <fig><!--info not processed within  topic/fig -->The tethering view<image href="images/tethering_view.png" placement="break"/>
+            </fig>
+         </p>
+      </body>
+      <topic xml:lang="en-us" id="tethering_overview">
+         <title>Overview</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+      To use the tethering feature you need to connect your camera to your PC using a USB cable.
+      Your computer might ask to mount or view the connected camera. Do not mount or view the
+      camera. If that happens automatically, you will need to <q>unmount/eject</q> the
+      camera. This is required to unlock the camera so darktable can lock it for usage.
+    </p>
+            <p>
+      After the USB cable is connected, look at the import panel in lighttable mode (see
+      <xref href=""/>). If your camera is not visible in this panel, click the
+      <q>scan devices</q> button and it will appear with two functions: <q>import
+      from camera</q> and <q>tethered shoot</q>. Click <q>tethered shoot</q>
+      to enter the tethering mode.
+    </p>
+            <p>
+      darktable uses gphoto2 to interface with your camera. If you have problems finding the
+      connected camera as described above, check the troubleshoot section in this chapter in
+      order to verify your camera has tethering support.
+    </p>
+         </body>
+         <topic xml:lang="en-us" id="tethering_overview_tethering">
+            <title>Tethering</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <tgroup colsep="0" rowsep="0" cols="2">
+                     <colspec colwidth="6*"/>
+                     <colspec colwidth="4*"/>
+                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     <tbody>
+                        <row>
+                           <entry>
+                In the center view images are shown while you capture them. You can get an
+                exposure by either using darktable's userinterface or manually triggering a
+                capture on your camera. If you are using LiveView it will be shown in
+                darktable's center view.
+              </entry>
+                           <entry>
+                              <image href="tethering/images/tethering_center_view.png"
+                                     align="center"
+                                     placement="break"/>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+               <p>
+        When entering tethering view, a film roll will be created using the same structure as
+        defined when you import from the camera. Job code will be predefined as
+        <q>capture</q>.
+      </p>
+               <p>
+        If you want to group your captures into different film rolls, you should use the session
+        panel in right side. When entering a new name and pressing enter, a new film roll will
+        be created and captured images will go into this new film roll.
+      </p>
+               <p>
+        darktable provides some nifty tools to setup a capture in the user interface. You can
+        setup timelapse captures and brackets for HDR creations. The configuration is so dynamic
+        that you can create sequential capture of brackets – go figure... For more
+        information read the documentation about the capture panel and the examples in this
+        chapter.
+      </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+      </topic>
+      <topic xml:lang="en-us" id="tethering_panels">
+         <title>Tethering panels</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+    This section contains documentation for panels that are specific to the tethering view.
+  </p>
+         </body>
+         <topic xml:lang="en-us" id="session">
+            <title>Session</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                     <tgroup colsep="0" rowsep="0" cols="2">
+                        <colspec colwidth="6*"/>
+                        <colspec colwidth="4*"/>
+                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>
+                A session is a sequence of exposures taken in tethering mode and going into a
+                single film roll. A new session equals a new film roll. A film roll is created
+                with the same storage structure that is used when you import images from camera
+                into darktable.
+              </p>
+
+                                 <p>
+                It's a bit awkward, but configuring this storage structure is done in the camera
+                import dialog for now.
+              </p>
+                              </entry>
+                              <entry>
+                                 <image href="tethering/images/panel_session.png"
+                                        align="center"
+                                        placement="break"/>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="live_view">
+            <title>Live view</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                     <tgroup colsep="0" rowsep="0" cols="2">
+                        <colspec colwidth="6*"/>
+                        <colspec colwidth="4*"/>
+                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>
+                This panel gives you control of your camera's live view mode. Functionality such
+                as focus setting, rotation, adding guides and overlays are supported.
+              </p>
+                              </entry>
+                              <entry>
+                                 <image href="tethering/images/panel_liveview.png"
+                                        align="center"
+                                        placement="break"/>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="camera_settings">
+            <title>Camera settings</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                     <tgroup colsep="0" rowsep="0" cols="2">
+                        <colspec colwidth="6*"/>
+                        <colspec colwidth="4*"/>
+                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        <tbody>
+                           <row>
+                              <entry>
+              The camera settings section allows you to set up a capture job. This can include
+              sequence, bracket and delayed captures. You are also able to control other camera
+              settings such as focus mode, aperture, shutter speed, ISO and white balance.
+            </entry>
+                              <entry>
+                                 <image href="tethering/images/panel_camera_settings.png"
+                                        align="center"
+                                        placement="break"/>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+      </topic>
+      <topic xml:lang="en-us" id="tethering_examples">
+         <title>Examples</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+    This section contains examples of typical usages of tethering.
+  </p>
+         </body>
+         <topic xml:lang="en-us" id="tethering_examples_studio">
+            <title>Studio setup with screening</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+      This is a pretty common use case. You have your studio and subject set up, the camera is
+      connected to your computer and tethering view is active in darktable. You work at the
+      camera and take images. Whenever you want, you can screen the image directly on your
+      computer monitor instead of using the camera LCD for validation.
+    </p>
+               <p>
+      This workflow is efficient and effective, since you can immediately review your captures
+      instead of waiting until after the shoot when everyone is gone. If you're shooting a model
+      this is a pretty nice way to pre-view the captures with the client instead of fumbling
+      around with your camera.
+    </p>
+               <p>
+      Working in the tethered mode can save you time and aggravation. Set a session name, shoot
+      your images and they will save in the correct film roll for the session for easy on-site
+      review.
+    </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="tethering_examples_timelapse">
+            <title>Capturing a timelapse</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+      A timelapse is a video clip composed of images taken in a time sequence. A typical example
+      is to take a timelapse of cityscapes where you capture clouds and traffic etc.
+    </p>
+               <p>
+      To setup a timelapse capture, create a new session as described previously. Now decide if
+      you want to shoot in manual or auto mode. Only use auto in situations were the ambient
+      light will change significantly during the time of the shoot, eg. shooting a timelapse
+      over 24 hours might give you easier control of light in that kind of captured sequence.
+    </p>
+               <p>
+      The camera settings panel is where you define delay and sequence. Sequence will give you
+      the opportunity to choose how many images you want to capture and delay will set the time
+      in seconds between captures.
+    </p>
+               <p>
+      To start the capture click the capture button in the same panel and watch the filmstrip
+      fill up with images. The latest captured image is always displayed in center view.
+    </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+      </topic>
+      <topic xml:lang="en-us" id="tethering_troubleshoot">
+         <title>Troubleshoot</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body/>
+         <topic xml:lang="en-us" id="tethering_troubleshoot_supported">
+            <title>Verify that your camera is supported</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+      This troubleshooting guide will give you steps to verify your camera can be used with
+      tethering. This is done using the gphoto2 commandline tools. This is what darktable uses
+      to interface with your camera.
+    </p>
+               <ol>
+                  <li>
+                     <p>
+        Verify that camera is detected
+      </p>
+
+                     <p>
+        The following command will verify a camera that is connected to the computer and
+        detected by gphoto2. Find your camera port name to use it in the following tests below.
+        Usually port <q>usb:</q> will be enough and therefore used in these examples.
+      </p>
+
+                     <p>
+                        <pre>env LANG=C gphoto2 --auto-detect
+</pre>
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+        Verify camera driver abilities
+      </p>
+
+                     <p>
+        Execute the following command and verify that the <i>capture choices</i>
+        ability supports <q>Image</q> and <i>configuration support</i> is
+        <q>yes</q>. darktable will check these two abilities and decide if
+        <q>tethered shoot</q> button should be shown or not.
+      </p>
+
+                     <p>
+                        <pre>env LANG=C gphoto2 --port usb: --abilities
+</pre>
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+        Verify camera remote capture
+      </p>
+
+                     <p>
+        This step will verify that your camera can be remotely controlled; that it can capture
+        an image, download it to your computer and display it within darktable.
+      </p>
+
+                     <p>
+                        <pre>env LANG=C gphoto2 --port usb: --capture-image-and-download
+</pre>
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+        Verify camera tethered capture
+      </p>
+
+                     <p>
+        And this last step tests if your camera supports events which darktable heavily relies
+        on. Running this command will make the gphoto2 process wait for an image capture event
+        which you must manually trigger on your camera. If successful, the image will be
+        downloaded to your computer.
+      </p>
+
+                     <p>
+                        <pre>env LANG=C gphoto2 --port usb: --capture-tethered
+</pre>
+                     </p>
+                  </li>
+               </ol>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="tethering_troubleshoot_now_what">
+            <title>So, now what?</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+      If any of the steps above failed, there are problems with your specific camera and driver.
+      Please report the issues to gphoto2 mailing list for further help. You can find the
+      mailing list at <xref href="http://www.gphoto.org/mailinglists/"
+                        format="html"
+                        scope="external">www.gphoto.org</xref>.
+      Add the following flags to the failed command above for better support and attach the log
+      output to your mail:
+    </p>
+               <p>
+                  <pre>--debug --debug-file gphoto2_debug.log
+</pre>
+               </p>
+               <p>
+      If you successfully went through all the tests above, your camera will most likely be
+      supported by darktable. Even if successful, if you stumble upon a problem in darktable,
+      please file a bug on the <xref href="https://github.com/darktable-org/darktable/issues"
+                        format="html"
+                        scope="external">bugtracker</xref>.
+      Please attach the log outputs from the steps above and the log file output generated after
+      starting darktable with the following command.
+    </p>
+               <p>
+                  <pre>darktable -d camctl 2&gt;1 &gt;camctl.log
+</pre>
+               </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+      </topic>
+   </topic>
+</dita>

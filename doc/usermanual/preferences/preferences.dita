@@ -1,0 +1,2023 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE dita
+  PUBLIC "-//OASIS//DTD DITA Composite//EN" "../../../../dtd/ditabase.dtd">
+<dita>
+   <topic xml:lang="en-us" id="preferences_chapter">
+      <title>Preferences and settings</title>
+      <!-- topic/titlealts  not supplied within  topic/topic -->
+      <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+         <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata -->
+            <keywords>
+               <keyword>preferences</keyword>
+               <keyword>settings</keyword>
+               <keyword>configuration</keyword>
+               <keyword>options</keyword>
+               <keyword>accelerators</keyword>
+            </keywords>
+            <!-- topic/prodinfo  not supplied within  topic/metadata -->
+            <!-- topic/othermeta  not supplied within  topic/metadata -->
+         </metadata>
+         <!-- topic/resourceid  not supplied within  topic/prolog -->
+      </prolog>
+      <body>
+         <p>
+    darktable comes with a number of settings that can be configured by users. You reach the
+    configuration menu by clicking
+    <image href="images/darkroom_preferences.png" align="center"/>
+    at the top of the screen.
+  </p>
+         <p>
+            <fig><!--info not processed within  topic/fig -->The preferences window<image href="images/preferences_view.png" placement="break"/>
+            </fig>
+         </p>
+      </body>
+      <topic xml:lang="en-us" id="gui_options">
+         <title>GUI options</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+    These options control the look and feel of darktable.
+  </p>
+            <p>
+               <b>interface language</b>
+            </p>
+            <p>
+    set the language of the user interface. the system default is marked with an * (needs a restart)
+  </p>
+            <p>
+               <b>theme</b>
+            </p>
+            <p>
+    set the theme for the user interface
+  </p>
+         </body>
+         <topic xml:lang="en-us" id="gui_options_import">
+            <title>Import</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>ignore JPEG images when importing film rolls</b>
+               </p>
+               <p>
+      When having RAW+JPEG images together in one directory it makes no sense to import both. With
+      this flag one can ignore all JPEGs found (default off).
+    </p>
+               <p>
+                  <b>recursive directory traversal when importing film rolls</b>
+               </p>
+               <p>
+      Not only import images from the directory selected but recursively go through all
+      subdirectories as well (default off).
+    </p>
+               <p>
+                  <b>creator to be applied when importing</b>
+               </p>
+               <p>
+      If provided, automatically add this string as a creator tag when importing images (default
+      none).
+    </p>
+               <p>
+                  <b>publisher to be applied when importing</b>
+               </p>
+               <p>
+      If provided, automatically add this string as a publisher tag when importing images (default
+      none).
+    </p>
+               <p>
+                  <b>rights to be applied when importing</b>
+               </p>
+               <p>
+      If provided, automatically add this string as a copyrights tag when importing images
+      (default none).
+    </p>
+               <p>
+                  <b>comma separated tags to be applied when importing</b>
+               </p>
+               <p>
+      If you want to add further tags when importing images, you can give them as a comma
+      separated list (default none).
+    </p>
+               <p>
+                  <b>initial import rating</b>
+               </p>
+               <p>
+      Initial star rating (from 0 to 5) for all images when importing a film roll (default 1).
+    </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="gui_options_lighttable">
+            <title>Lighttable</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>don't use embedded preview JPEG but half-size raw</b>
+               </p>
+               <p>
+      Check this option to not use the embedded JPEG from the raw file but process the raw data.
+      This is slower. (default off).
+    </p>
+               <p>
+                  <b>high quality thumb processing from size</b>
+               </p>
+               <p>
+      If the thumbnails size is greater than this value, it will be processed using the full
+      quality rendering path which is better but slower (default 720p).
+    </p>
+               <p>
+                  <b>enable extended thumb overlay</b>
+               </p>
+               <p>
+      If enabled adds additional information to the thumbnail under the mouse cursor: image name,
+      exposure time, aperture, focal length, ISO value (default off).
+    </p>
+               <p>
+                  <b>use single-click in the collect panel</b>
+               </p>
+               <p>
+      (default off). In single-click mode, you can select range of value directly with the mouse.
+    </p>
+               <p>
+                  <b>expand a single lighttable module at a time</b>
+               </p>
+               <p>
+      Controls how lighttable panels are expanded. If this option is enabled, expanding a panel by
+      <i>clicking</i> collapses any currently expanded panel. If you want to expand
+      a panel without collapsing the others you do so with <i>Shift+click</i>.
+      Disabling this option reverts the meaning of <i>click</i> and
+      <i>Shift+click</i> (default off).
+    </p>
+               <p>
+                  <b>scroll to lighttable modules when expanded/collapsed</b>
+               </p>
+               <p>
+      With this option enabled the lighttable side panels will scroll a module to the top when it
+      is expanded or collapsed (default off).
+    </p>
+               <p>
+                  <b>rating an image one star twice will not zero out the rating</b>
+               </p>
+               <p>
+      Normally clicking a one star rating twice will set a zero star rating to that image. When
+      checking this option a second click on a one star rating will keep that rating (default
+      off).
+    </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="gui_options_darkroom">
+            <title>Darkroom</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>pen pressure control for brush masks</b>
+               </p>
+               <p>
+      Controls how the pressure reading of a graphics tablet impacts newly generated brush strokes
+      (see <xref href=""/>). You can control the brush width, its hardness and its
+      opacity. <q>Absolute</q> control means that the pressure reading directly defines
+      the attribute with a value between 0% and 100%. <q>Relative</q> means that the
+      pressure reading adjusts the attribute between zero and the pre-defined default value
+      (default off).
+    </p>
+               <p>
+                  <b>smoothing of brush strokes</b>
+               </p>
+               <p>
+      Sets the level for smoothing of brush strokes. Stronger smoothing leads to less nodes and
+      easier editing at the expense of lower accuracy.
+    </p>
+               <p>
+                  <b>display of individual color channels</b>
+               </p>
+               <p>
+      Controls how individual color channels are displayed when activated in the parametric masks
+      feature. You can choose between <q>false color</q> and <q>grey scale</q>
+      (default false color).
+    </p>
+               <p>
+                  <b>pattern for the image infos line</b>
+               </p>
+               <p>
+      See  for available values.
+    </p>
+               <p>
+                  <b>position of the image info line</b>
+               </p>
+               <p>
+      Controls in which panel we display the image info line. You can choose between
+      <q>top left</q> 
+                  <q>top right</q> 
+                  <q>top center</q> 
+                  <q>bottom</q>
+      and <q>hidden</q> (default bottom).
+    </p>
+               <p>
+                  <b>show search module text entry</b>
+               </p>
+               <p>
+      Controls how to determine which modules are shown at the same time in the right panel.
+      You can choose between
+      <q>groups icons</q> 
+                  <q>search entry</q> 
+                  <q>both</q> (default both). (need a restart)
+    </p>
+               <p>
+                  <b>expand a single darkroom module at a time</b>
+               </p>
+               <p>
+      Controls how darkroom modules are expanded. If this option is enabled, expanding a module by
+      <i>clicking</i> collapses any currently expanded module. If you want to expand
+      a module without collapsing the others you do so with <i>Shift+click</i>.
+      Disabling this option reverts the meaning of <i>click</i> and
+      <i>Shift+click</i> (default on).
+    </p>
+               <p>
+                  <b>expand the module when it is activated, and collapse it when disabled</b>
+               </p>
+               <p>
+      This option allows to expand or collapse automatically modules when they are enabled or disabled.
+      (default off)
+    </p>
+               <p>
+                  <b>scroll to darkroom modules when expanded/collapsed</b>
+               </p>
+               <p>
+      With this option enabled the darkroom side panel will scroll a module to the top when it is
+      expanded or collapsed (default on).
+    </p>
+               <p>
+                  <b>border around image in darkroom mode</b>
+               </p>
+               <p>
+      Process the image in darkroom mode with a small border of the given number of pixels
+      (default 20).
+    </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="gui_options_map">
+            <title>Map/geolocalisation</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>only draw images on map that are currently collected and filtered</b>
+               </p>
+               <p>
+      Use the current filter settings to select the geotagged images drawn in the map view. This
+      limits the images drawn to those currently shown in the filmstrip and thus reduces the time
+      needed (default off).
+    </p>
+               <p>
+                  <b>maximum number of images drawn on map</b>
+               </p>
+               <p>
+      The maximum number of geotagged images drawn on the map. Increasing this number can slow
+      down the drawing of the map. Needs a restart if changed (default 100).
+    </p>
+               <p>
+                  <b>pretty print the image location</b>
+               </p>
+               <p>
+      Show a more readable representation of the geo location in the image information module
+      (default on).
+    </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="gui_options_security">
+            <title>Security</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>ask before removing images from database</b>
+               </p>
+               <p>
+      Always ask the user before any image is removed from the database (default on).
+    </p>
+               <p>
+                  <b>ask before erasing images from disk</b>
+               </p>
+               <p>
+      Always ask the user before any image file is deleted (default on).
+    </p>
+               <p>
+                  <b>send files to trash when erasing images</b>
+               </p>
+               <p>
+      Instead of physically deleting images from disk put them into the system's trash bin
+      (default on).
+    </p>
+               <p>
+                  <b>ask before moving images from film roll folder</b>
+               </p>
+               <p>
+      Always ask the user before any image file is moved (default on).
+    </p>
+               <p>
+                  <b>ask before copying images to new film roll folder</b>
+               </p>
+               <p>
+      Always ask the user before any image file is copied (default on).
+    </p>
+               <p>
+                  <b>ask before removing empty folders</b>
+               </p>
+               <p>
+      Always ask the user before removing any empty folder. This can happen after moving or deleting images (default off).
+    </p>
+               <p>
+                  <b>ask before deleting a tag</b>
+               </p>
+               <p>
+      Always ask user before deleting a tag from an image (default on).
+    </p>
+               <p>
+                  <b>ask before deleting a style</b>
+               </p>
+               <p>
+      Always ask user before deleting a style (default on).
+    </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="gui_options_misc">
+            <title>Miscellaneous</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>width of the side panels in pixels</b>
+               </p>
+               <p>
+      This controls the size of side panels in pixels. Side panels are found left and right to the
+      center view (default 350).
+    </p>
+               <p>
+                  <b>waiting time before each picture in slideshow</b>
+               </p>
+               <p>
+      The number of seconds before displaying the next image (default 5).
+    </p>
+               <p>
+                  <b>do not show april 1st game</b>
+               </p>
+               <p>
+      (default on).
+    </p>
+               <p>
+                  <b>number of folder levels to show in lists</b>
+               </p>
+               <p>
+      The number of folder levels to show in film roll names, starting from the right (default 1).
+    </p>
+               <p>
+                  <b>enable filmstrip</b>
+               </p>
+               <p>
+      Enable the filmstrip in darkroom, tethering, geomapping and lighttable culling modes (default on).
+    </p>
+               <p>
+                  <b>enable timeline</b>
+               </p>
+               <p>
+      Enable the timeline lighttable mode (default on).
+    </p>
+               <p>
+                  <b>overlay txt sidecar over zoomed images</b>
+               </p>
+               <p>
+      When there is a text file next to an image it can be shown as an overlay over zoomed images
+      on the lighttable. The text file has the same base name as the image file with file
+      extension <q>.txt</q>. It either has to be there at import time or the crawler has
+      to be enabled – see option <q>look for updated xmp files on startup</q>
+      in <xref href="#core_options"/> (default off).
+    </p>
+               <p>
+                  <b>mouse wheel scrolls modules side panel by default</b>
+               </p>
+               <p>
+      When enabled, mouse wheel scroll modules side panel, and Ctrl+Alt+mouse wheel scroll data entry.
+      When disabled, this behavior is reversed (default off).
+    </p>
+               <p>
+                  <b>show scrollbars for center view</b>
+               </p>
+               <p>
+      Defines in which modes scrollbars should be displayed (default lighttable).
+    </p>
+               <p>
+                  <b>always show panels scrollbars</b>
+               </p>
+               <p>
+      Defines whether the panel scrollbars should be always visible or activated only depending on the content (default on).
+      (need a restart)
+    </p>
+               <p>
+                  <b>method to use for getting the display profile</b>
+               </p>
+               <p>
+      This option allows to force a specific way of getting the current display profile for color
+      management (see <xref href=""/>). In the default setting
+      <q>all</q> darktable will either query the X display server's xatom or the
+      <i>colord</i> system service. You can set this option to <q>xatom</q>
+      or <q>colord</q> to enforce a specific method if the alternative gives wrong
+      results.
+    </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+      </topic>
+      <topic xml:lang="en-us" id="core_options">
+         <title>Core options</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+    These options control some of the internals of darktable.
+  </p>
+         </body>
+         <topic xml:lang="en-us" id="core_options_quality">
+            <title>Quality</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>color manage cached thumbnails</b>
+               </p>
+               <p>
+      If activated darktable generates thumbnails in a general color space (AdobeRGB) in order to
+      render them independently of the individual monitor. Conversion to the monitor color space
+      is done at display time. If this option is not activated thumbnails are directly stored in
+      the specific monitor color space valid at generation time and are subsequently displayed
+      without further corrections (default on).
+    </p>
+               <p>
+                  <b>always use LittleCMS 2 to apply output color profile</b>
+               </p>
+               <p>
+      If this option is activated, darktable will use system library LittleCMS 2 instead of its
+      own routines. This is significantly slower than the default but might give more accurate
+      results in some cases (default off).
+    </p>
+               <p>
+      Note that if the given ICC is LUT-based or contains both, a LUT and a matrix, darktable will
+      use LittleCMS 2 to render the colors regardless of this configuration parameter's value.
+    </p>
+               <p>
+                  <b>do high quality processing for slideshow</b>
+               </p>
+               <p>
+      Controls how images are processed for the slideshow view. It this option is enabled, the
+      image will first be processed in full resolution, and downscaled at the very end. This can
+      result in better quality sometimes, but will always be slower (default on).
+    </p>
+               <p>
+                  <b>demosaicing for zoomed out darkroom mode</b>
+               </p>
+               <p>
+      Interpolation when not viewing 1:1 in darkroom mode: <q>always bilinear (fast)</q>
+      is fastest, but not as sharp. <q>at most ppg (reasonable)</q> is using ppg +
+      interpolation modes specified below, <q>full (possibly slow)</q> will use exactly
+      the settings for full-size export (default <q>at most ppg (reasonable)</q>).
+    </p>
+               <p>
+                  <b>pixel interpolator</b>
+               </p>
+               <p>
+      Pixel interpolator used in rotation, lens correction, up-and-down scaling; options are
+      <q>bilinear</q>, <q>bicubic</q>, <q>lanczos2</q>,
+      <q>lanczos3</q> (default).
+    </p>
+               <p>
+                  <b>auto-apply basecurve</b>
+               </p>
+               <p>
+      Use a basecurve by default. For more details see <xref href=""/> (default on). (need a restart)
+    </p>
+               <p>
+                  <b>auto-apply per camera basecurve presets</b>
+               </p>
+               <p>
+      Use the per-camera basecurve by default instead of the generic manufacturer one if there is
+      one available. For more details see <xref href=""/> (default off).
+    </p>
+               <p>
+                  <b>auto-apply sharpen</b>
+               </p>
+               <p>
+     This added sharpen is not recommended on cameras without a low-pass filter.
+     The default is to not add any sharpening automatically as most recent cameras have no low-pass filter. (need a restart)
+    </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="core_options_xmp">
+            <title>xmp</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>write sidecar file for each image</b>
+               </p>
+               <p>
+      These redundant XMP files can later be re-imported into a different database, preserving
+      your changes to the image. It's strongly recommended to have this option activated so you
+      don't lose data in case of a database corruption. Backing up your raw file plus the
+      accompanying XMP file will allow you to fully restore your work (default on).
+    </p>
+               <p>
+                  <b>store xmp tags in compressed format</b>
+               </p>
+               <p>
+      Entries in XMP tags can get rather large and may exceed the available space to store the
+      history stack in output files on export. This option allows binary XMP tags to be compressed
+      in order to save space. Available options are <q>never</q>, <q>always</q>,
+      and <q>only large entries</q> (default).
+    </p>
+               <p>
+                  <b>look for updated xmp files on startup</b>
+               </p>
+               <p>
+      Check file modification times of all XMP files on startup to find out if any got updated in
+      the meantime by some other software. If updated XMP files are found a menu opens for the
+      user to decide which of the XMP files to be reloaded – replacing darktable's
+      database entries by the XMP file contents – and which of the XMP files to be
+      overwritten by darktable's database. Activating this option also causes darktable to check
+      for text sidecar files that have been added after import time – see option
+      <q>overlay txt sidecar over zoomed images</q> in <xref href="#gui_options"/>
+      (default off).
+    </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="core_options_cpu">
+            <title>cpu/gpu/memory</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>memory in megabytes to use for thumbnail cache</b>
+               </p>
+               <p>
+      In order to speed-up display of film rolls, darktable stores thumbnails in a cache file on
+      disk (primary cache) and loads it into memory at startup. This value controls the cache size
+      in megabytes. It needs a restart if changed (default 256MB).
+    </p>
+               <p>
+                  <b>enable disk backend for thumbnail cache</b>
+               </p>
+               <p>
+      If activated darktable stores all thumbnails on disk as a secondary cache, and thereby
+      keeping thumbnails accessible in case they get dropped from the primary cache. This needs
+      more disk space but speeds up lighttable view as it avoids reprocessing of thumbnails
+      (default on).
+    </p>
+               <p>
+                  <b>enable disk backend for full preview cache</b>
+               </p>
+               <p>
+      If enabled, darktable write full preview to disk (.cache/darktable/) when evicted from the memory cache.
+      Note that this can take a lot of memory (several gigabytes for 20k images) and darktable will never delete cached images.
+      It's safe though to delete these manually, if you want.
+      Lighttable performance will be increased greatly when zooming image in full preview mode (default off).
+    </p>
+               <p>
+                  <b>number of background threads</b>
+               </p>
+               <p>
+      This controls how many parallel threads are used to create thumbnails during import. On
+      32bit systems it is strongly recommended to set this to 1. Needs a restart if changed
+      (default 2).
+    </p>
+               <p>
+                  <b>host memory limit (in MB) for tiling</b>
+               </p>
+               <p>
+      In order to manage large images on systems with limited memory darktable does tile-wise
+      processing. This variable controls the <i>maximum</i> amount of memory (in MB)
+      a module may use during image processing. Lower values will force memory hungry modules to
+      process an image with increasing number of tiles. Setting this to 0 will omit any limits.
+      Values below 500 will be treated as 500. On a 32bit system you should set this to 500. Needs
+      a restart if changed (default 1500).
+    </p>
+               <p>
+                  <b>minimum amount of memory (in MB) for a single buffer in tiling</b>
+               </p>
+               <p>
+      If set to a positive, non-zero value, this variable defines the <i>minimum</i>
+      amount of memory (in MB) that darktable should take for a single tile. On a 32bit system you
+      should set this to 8. 64bit systems can live with higher values. Needs a restart if changed
+      (default 16).
+    </p>
+               <p>
+                  <b>activate OpenCL support</b>
+               </p>
+               <p>
+      darktable can use your GPU to speed up processing significantly. Interface OpenCL requires
+      suitable hardware and matching OpenCL drivers on your system. If one of those is not found
+      the option is greyed out. Can be switched on and off at any time and takes immediate effect
+      (default on).
+    </p>
+               <p>
+                  <b>OpenCL scheduling profile</b>
+               </p>
+               <p>
+      Defines how preview and full pixelpipe tasks are scheduled on OpenCL enabled systems.
+      <q>default</q>: the GPU processes the center view pixelpipe and the CPU processes
+      the preview pipe; <q>multiple GPUs</q>: both pixelpipes are processed in parallel on
+      two different GPUs; <q>very fast GPU</q>: both pixelpipes are processed sequentially
+      on the GPU.
+    </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="core_options_misc">
+            <title>Miscellaneous</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <b>omit hierarchy in simple tag lists</b>
+               </p>
+               <p>
+      When exporting images the hierarchical tags are also added as a simple list of
+      non-hierarchical ones to make them visible to some other programs. When this option is
+      checked darktable will only include their last part and ignore the rest. So
+      <q>foo|bar|baz</q> will only add <q>baz</q>.
+    </p>
+               <p>
+                  <b>force exportation of private tags</b>
+               </p>
+               <p>
+      This option force darktable to export private tags to XMP-dc Subject and XMP-lr Hierarchical Subject (default off).
+    </p>
+               <p>
+                  <b>request exportation of synonyms</b>
+               </p>
+               <p>
+      This option force darktable to export synonyms along with tags to XMP-dc Subject (default off).
+    </p>
+               <p>
+                  <b>disable the entry completion</b>
+               </p>
+               <p>
+      The entry completion is useful for those who enter tags from keyboard only.
+      For others the entry completion can be embarrassing (default off). (need a restart)
+    </p>
+               <p>
+                  <b>password storage backend to use</b>
+               </p>
+               <p>
+      The storage backend for password storage. Options: <q>auto</q> (default),
+      <q>none</q>, <q>libsecret</q>, <q>kwallet</q>.
+    </p>
+               <p>
+                  <b>executable for playing audio files</b>
+               </p>
+               <p>
+      Defines an external program which is used in the lighttable view to play audio files that
+      some cameras record to keep notes for images (default <q>aplay</q>).
+    </p>
+               <p>
+                  <b>3D lut root folder</b>
+               </p>
+               <p>
+      This folder (and sub-folders) contains Lut files used by lut3d modules. (need a restart)
+    </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+      </topic>
+      <topic xml:lang="en-us" id="session_options">
+         <title>Session options</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+    These options define a naming pattern to organize images on disk when importing from a
+    connected camera (see <xref href=""/>) and when taking photos in the tethering view
+    (see <xref href=""/>).
+  </p>
+            <p>
+    The naming pattern consists of three parts: a base part defining the parent folder, a
+    session part defining a sub directory which is specific to the individual import session,
+    and a file name part defining the filename structure for each imported image.
+  </p>
+            <p>
+    Several pre-defined variables can be used in the pattern as placeholders:
+  </p>
+            <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+               <tgroup colsep="0" rowsep="0" cols="2"><!-- topic/colspec  not supplied within  topic/tgroup --><!-- topic/thead  not supplied within  topic/tgroup -->
+                  <tbody>
+                     <row>
+                        <entry>
+            $(HOME)
+          </entry>
+                        <entry>
+            the home folder as defined by the system
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(PICTURES_FOLDER)
+          </entry>
+                        <entry>
+            the pictures folder as defined by the system (usually <q>$HOME/Pictures</q>)
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(DESKTOP)
+          </entry>
+                        <entry>
+            the desktop folder as defined by the system (usually <q>$HOME/Desktop</q>)
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(USERNAME)
+          </entry>
+                        <entry>
+            your user account name on the system
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(FILE_NAME)
+          </entry>
+                        <entry>
+            basename of the imported image
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(FILE_EXTENSION)
+          </entry>
+                        <entry>
+            extension of the imported image
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(JOBCODE)
+          </entry>
+                        <entry>
+            unique identifier of the import job
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(SEQUENCE)
+          </entry>
+                        <entry>
+            a sequence number within the import job
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(MAX_WIDTH)
+          </entry>
+                        <entry>
+            maximum image width to limit within export session
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(MAX_HEIGHT)
+          </entry>
+                        <entry>
+            maximum image height to limit within export session
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(ID)
+          </entry>
+                        <entry>
+            unique identification number of the image in darktable's database
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(YEAR)
+          </entry>
+                        <entry>
+            year at the date of import
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(MONTH)
+          </entry>
+                        <entry>
+            month at the date of import
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(DAY)
+          </entry>
+                        <entry>
+            day at the date of import
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(HOUR)
+          </entry>
+                        <entry>
+            hour at the time of import
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(MINUTE)
+          </entry>
+                        <entry>
+            minute at the time of import
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(SECOND)
+          </entry>
+                        <entry>
+            second at the time of import
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(EXIF_YEAR)
+          </entry>
+                        <entry>
+            year the photo was taken (from Exif data)
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(EXIF_MONTH)
+          </entry>
+                        <entry>
+            month the photo was taken (from Exif data)
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(EXIF_DAY)
+          </entry>
+                        <entry>
+            day the photo was taken (from Exif data)
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(EXIF_HOUR)
+          </entry>
+                        <entry>
+            hour the photo was taken (from Exif data)
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(EXIF_MINUTE)
+          </entry>
+                        <entry>
+            minute the photo was taken (from Exif data)
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(EXIF_SECOND)
+          </entry>
+                        <entry>
+            seconds the photo was taken (from Exif data)
+          </entry>
+                     </row>
+                     <row>
+                        <entry>
+            $(EXIF_ISO)
+          </entry>
+                        <entry>
+            ISO value of the photo (from Exif data)
+          </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <p>
+               <b>base directory naming pattern</b>
+            </p>
+            <p>
+    The base directory part of the naming pattern (default
+    <q>$(PICTURES_FOLDER)/Darktable</q>).
+  </p>
+            <p>
+               <b>sub directory naming pattern</b>
+            </p>
+            <p>
+    The sub directory part of the naming pattern (default
+    <q>$(YEAR)$(MONTH)$(DAY)_$(JOBCODE)</q>).
+  </p>
+            <p>
+               <b>file naming pattern</b>
+            </p>
+            <p>
+    The file name part of the naming pattern (default
+    <q>$(YEAR)$(MONTH)$(DAY)_$(SEQUENCE).$(FILE_EXTENSION</q>).
+  </p>
+         </body>
+         <!-- topic/topic  not supplied within  topic/topic -->
+      </topic>
+      <topic xml:lang="en-us" id="shortcuts">
+         <title>Shortcuts</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+    darktable has a large set of keyboard shortcuts that is user configurable through the
+    preference dialog.
+  </p>
+            <p>
+    When you open the shortcuts menu you are presented with a hierarchical list of all actions
+    that can receive a keyboard shortcut. Go to the action you want to change and double click.
+    You are then prompted to press the new key combination to be mapped to the selected action.
+    In order to remove an existing keyboard shortcut, click on the action and press backspace.
+  </p>
+            <p>
+    In addition to classic shortcuts, you can set dynamic shortcuts to some darkroom module sliders.
+    This allow you to change the value of the mapped slider with <i>key + mouse scroll</i>.
+  </p>
+            <p>
+    You can export your mappings to a file or import mappings from a file. Press
+    <q>default</q> to reset all keyaccelerators to their default state.
+  </p>
+            <p>
+    Below is a table with the default keybindings for actions available in darktable.
+  </p>
+            <p>
+               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <tgroup colsep="0" rowsep="0" cols="2">
+                     <colspec colwidth="3*"/>
+                     <colspec colwidth="1*"/>
+                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     <tbody>
+                        <row>
+                           <entry>
+          global/quit
+        </entry>
+                           <entry>
+          Ctrl+Q
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/lighttable view
+        </entry>
+                           <entry>
+          L
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/darkroom view
+        </entry>
+                           <entry>
+          D
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/tethering view
+        </entry>
+                           <entry>
+          T
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/map view
+        </entry>
+                           <entry>
+          M
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/slideshow view
+        </entry>
+                           <entry>
+          S
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/print view
+        </entry>
+                           <entry>
+          P
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/switch view
+        </entry>
+                           <entry>
+          Period (.)
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/toggle header
+        </entry>
+                           <entry>
+          Ctrl+H
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/toggle side borders
+        </entry>
+                           <entry>
+          Tab
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/toggle fullscreen
+        </entry>
+                           <entry>
+          F11
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/leave fullscreen
+        </entry>
+                           <entry>
+          Escape
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/zoom in
+        </entry>
+                           <entry>
+          Ctrl+Plus sign
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/zoom out
+        </entry>
+                           <entry>
+          Ctrl+Minus sign
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          global/shortcut window
+        </entry>
+                           <entry>
+          H
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          image operations/clipping/commit
+        </entry>
+                           <entry>
+          Return
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          image operations/flip/rotate 90 degrees CCW
+        </entry>
+                           <entry>
+          bracketleft
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          image operations/flip/rotate 90 degrees CW
+        </entry>
+                           <entry>
+          bracketright
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/copy_history/copy all
+        </entry>
+                           <entry>
+          Ctrl+C
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/copy_history/copy
+        </entry>
+                           <entry>
+          Ctrl+Shift+C
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/copy_history/paste all
+        </entry>
+                           <entry>
+          Ctrl+V
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/copy_history/paste
+        </entry>
+                           <entry>
+          Ctrl+Shift+V
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/export/export
+        </entry>
+                           <entry>
+          Ctrl+E
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/color blue
+        </entry>
+                           <entry>
+          F4
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/color green
+        </entry>
+                           <entry>
+          F3
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/color purple
+        </entry>
+                           <entry>
+          F5
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/color red
+        </entry>
+                           <entry>
+          F1
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/color yellow
+        </entry>
+                           <entry>
+          F2
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/copy history
+        </entry>
+                           <entry>
+          Ctrl+C
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/copy history parts
+        </entry>
+                           <entry>
+          Ctrl+Shift+C
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/duplicate image
+        </entry>
+                           <entry>
+          Ctrl+D
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/invert selection
+        </entry>
+                           <entry>
+          Ctrl+I
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/paste history
+        </entry>
+                           <entry>
+          Ctrl+V
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/paste history parts
+        </entry>
+                           <entry>
+          Ctrl+Shift+V
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/rate 0
+        </entry>
+                           <entry>
+          0
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/rate 1
+        </entry>
+                           <entry>
+          1
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/rate 2
+        </entry>
+                           <entry>
+          2
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/rate 3
+        </entry>
+                           <entry>
+          3
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/rate 4
+        </entry>
+                           <entry>
+          4
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/rate 5
+        </entry>
+                           <entry>
+          5
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/rate reject
+        </entry>
+                           <entry>
+          R
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/select all
+        </entry>
+                           <entry>
+          Ctrl+A
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/filmstrip/select none
+        </entry>
+                           <entry>
+          Ctrl+Shift+A
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/image/duplicate
+        </entry>
+                           <entry>
+          Ctrl+D
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/image/group
+        </entry>
+                           <entry>
+          Ctrl+G
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/image/remove from collection
+        </entry>
+                           <entry>
+          Delete
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/image/ungroup
+        </entry>
+                           <entry>
+          Ctrl+Shift+G
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/import/import folder
+        </entry>
+                           <entry>
+          Ctrl+Shift+I
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/lighttable_mode/invert selection
+        </entry>
+                           <entry>
+          Ctrl+I
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/lighttable_mode/select all
+        </entry>
+                           <entry>
+          Ctrl+A
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/lighttable_mode/select none
+        </entry>
+                           <entry>
+          Ctrl+Shift+A
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/lighttable_mode/zoom in
+        </entry>
+                           <entry>
+          Alt+2
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/lighttable_mode/zoom max
+        </entry>
+                           <entry>
+          Alt+1
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/lighttable_mode/zoom min
+        </entry>
+                           <entry>
+          Alt+4
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/lighttable_mode/zoom out
+        </entry>
+                           <entry>
+          Alt+3
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/live_view/toggle live view
+        </entry>
+                           <entry>
+          V
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/metadata_view/jump to film roll
+        </entry>
+                           <entry>
+          Ctrl+J
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/recentcollect/jump back to previous collection
+        </entry>
+                           <entry>
+          Ctrl+K
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          modules/tagging/tag
+        </entry>
+                           <entry>
+          Ctrl+T
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/undo
+        </entry>
+                           <entry>
+          Ctrl+Z
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/redo
+        </entry>
+                           <entry>
+          Ctrl+Y
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/decrease brush hardness
+        </entry>
+                           <entry>
+          braceleft
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/decrease brush opacity
+        </entry>
+                           <entry>
+          less
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/decrease brush size
+        </entry>
+                           <entry>
+          bracketleft
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/export
+        </entry>
+                           <entry>
+          Ctrl+E
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/full preview
+        </entry>
+                           <entry>
+          Z
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/gamut check
+        </entry>
+                           <entry>
+          Ctrl+G
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/image back
+        </entry>
+                           <entry>
+          BackSpace
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/image forward
+        </entry>
+                           <entry>
+          Spacebar
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/increase brush hardness
+        </entry>
+                           <entry>
+          braceright
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/increase brush opacity
+        </entry>
+                           <entry>
+          greater
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/increase brush size
+        </entry>
+                           <entry>
+          bracketright
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/overexposed
+        </entry>
+                           <entry>
+          O
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/softproof
+        </entry>
+                           <entry>
+          Ctrl+S
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/toggle film strip
+        </entry>
+                           <entry>
+          Ctrl+F
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/zoom close-up
+        </entry>
+                           <entry>
+          Alt+1
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/zoom fill
+        </entry>
+                           <entry>
+          Alt+2
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/darkroom/zoom fit
+        </entry>
+                           <entry>
+          Alt+3
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/color blue
+        </entry>
+                           <entry>
+          F4
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/color green
+        </entry>
+                           <entry>
+          F3
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/color purple
+        </entry>
+                           <entry>
+          F5
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/color red
+        </entry>
+                           <entry>
+          F1
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/color yellow
+        </entry>
+                           <entry>
+          F2
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/navigate down
+        </entry>
+                           <entry>
+          Shift+G
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/navigate page down
+        </entry>
+                           <entry>
+          Page_Down
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/navigate page up
+        </entry>
+                           <entry>
+          Page_Up
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/navigate up
+        </entry>
+                           <entry>
+          G
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/preview
+        </entry>
+                           <entry>
+          W
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/preview with focus detection
+        </entry>
+                           <entry>
+          Ctrl+W
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/rate 0
+        </entry>
+                           <entry>
+          0
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/rate 1
+        </entry>
+                           <entry>
+          1
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/rate 2
+        </entry>
+                           <entry>
+          2
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/rate 3
+        </entry>
+                           <entry>
+          3
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/rate 4
+        </entry>
+                           <entry>
+          4
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/rate 5
+        </entry>
+                           <entry>
+          5
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/rate reject
+        </entry>
+                           <entry>
+          R
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/realign images to grid
+        </entry>
+                           <entry>
+          L
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/scroll center
+        </entry>
+                           <entry>
+          apostrophe
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/scroll down
+        </entry>
+                           <entry>
+          Down
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/scroll left
+        </entry>
+                           <entry>
+          Left
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/scroll right
+        </entry>
+                           <entry>
+          Right
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/scroll up
+        </entry>
+                           <entry>
+          Up
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/select single image
+        </entry>
+                           <entry>
+          Return
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/select toggle image
+        </entry>
+                           <entry>
+          Spacebar
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/sticky preview
+        </entry>
+                           <entry>
+          Alt+W
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/lighttable/sticky preview with focus detection
+        </entry>
+                           <entry>
+          Ctrl+Alt+W
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/map/undo
+        </entry>
+                           <entry>
+          Ctrl+Z
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/map/redo
+        </entry>
+                           <entry>
+          Ctrl+Y
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/map/toggle film strip
+        </entry>
+                           <entry>
+          Ctrl+F
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/map/undo
+        </entry>
+                           <entry>
+          Ctrl+Z
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/print/toggle film strip
+        </entry>
+                           <entry>
+          Ctrl+F
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/slideshow/start and stop
+        </entry>
+                           <entry>
+          Spacebar
+        </entry>
+                        </row>
+                        <row>
+                           <entry>
+          views/tethering/toggle film strip
+        </entry>
+                           <entry>
+          Ctrl+F
+        </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </body>
+         <!-- topic/topic  not supplied within  topic/topic -->
+      </topic>
+      <topic xml:lang="en-us" id="presets">
+         <title>Presets</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+    This menu gives you an overview of the presets that are defined for darktable's modules. In
+    this dialog you can select whether a certain user defined preset shall be auto-applied to
+    matching images. By pressing the <q>import</q> button at the bottom of the window
+    you can import a saved preset.
+  </p>
+            <p>
+    darktable already comes with a set of pre-defined presets for several modules. In addition
+    you can define your own presets from within each module in darkroom mode (see
+    <xref href=""/>).
+  </p>
+            <p>
+    Pre-defined presets are shown with a lock symbol. Their auto-apply properties can not be
+    changed.
+  </p>
+            <p>
+    Double clicking on a user-defined preset will open a menu. This allows editing the preset
+    or saving it to an external .dtpreset file.
+  </p>
+            <p>
+               <image href="preferences/images/presets.png"
+                      align="center"
+                      placement="break"/>
+            </p>
+            <p>
+               <b>auto apply this preset to matching images</b>
+            </p>
+            <p>
+    activate this checkbutton to automatically apply the preset on newly imported images; a set
+    of fields is displayed where you can define patterns to be matched against Exif data.
+  </p>
+            <p>
+               <b>only show this preset for matching images</b>
+            </p>
+            <p>
+    activate this checkbutton to hide the preset in darkroom mode if it does not match the
+    defined patterns.
+  </p>
+            <p>
+               <b>model</b>
+            </p>
+            <p>
+    a pattern to be matched against the Exif field that describes your camera model; use "%" as
+    wildcard.
+  </p>
+            <p>
+               <b>maker</b>
+            </p>
+            <p>
+    a pattern to be matched against the Exif field that describes the maker of your camera; use
+    "%" as wildcard.
+  </p>
+            <p>
+               <b>lens</b>
+            </p>
+            <p>
+    a pattern to be matched against the Exif field that describes your lens; use "%" as
+    wildcard.
+  </p>
+            <p>
+               <b>iso</b>
+            </p>
+            <p>
+    only apply the preset if the ISO value of your image lies within the given range.
+  </p>
+            <p>
+               <b>exposure</b>
+            </p>
+            <p>
+    only apply the preset if the exposure time of your image lies within the given range; set
+    "+" as the upper value to match arbitrarily long exposures.
+  </p>
+            <p>
+               <b>aperture</b>
+            </p>
+            <p>
+    only apply the preset if the aperture of your image lies within the given range; set "f/0"
+    as the lower value to match arbitrarily open apertures; set "f/+" as the upper value to
+    match arbitrarily closed apertures.
+  </p>
+            <p>
+               <b>focal length</b>
+            </p>
+            <p>
+    only apply the preset if the focal length of your image lies within the given range (from 0
+    to 1000).
+  </p>
+         </body>
+         <!-- topic/topic  not supplied within  topic/topic -->
+      </topic>
+   </topic>
+</dita>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE dita
+  PUBLIC "-//OASIS//DTD DITA Composite//EN" "../../../../dtd/ditabase.dtd">
+<dita>
+   <topic xml:lang="en-us" id="map_chapter">
+      <title>Map</title>
+      <!-- topic/titlealts  not supplied within  topic/topic -->
+      <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+         <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata -->
+            <keywords>
+               <keyword>geotagging</keyword>
+               <keyword>map</keyword>
+               <keyword>view</keyword>
+            </keywords>
+            <!-- topic/prodinfo  not supplied within  topic/metadata -->
+            <!-- topic/othermeta  not supplied within  topic/metadata -->
+         </metadata>
+         <!-- topic/resourceid  not supplied within  topic/prolog -->
+      </prolog>
+      <body>
+         <p>
+    The Map view is were you geotag your images.
+  </p>
+         <p>
+            <fig><!--info not processed within  topic/fig -->The map view<image href="images/map_view.png" placement="break"/>
+            </fig>
+         </p>
+      </body>
+      <topic xml:lang="en-us" id="map_overview">
+         <title>Overview</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+      Map view will show you a world map with the currently open image, or film roll of images,
+      pinned to their geotagged location. This requires that the image was geotagged by a camera
+      with that feature. Some newer cameras, including smartphones, are already equipped with
+      GPS receivers. Other cameras may need additional GPS hardware to do this.
+    </p>
+            <p>
+      Even if your camera doesn't support this feature, there is an alternative method.
+      darktable can match the Exif time and date data in your image(s) to a separate GPX data
+      tracking file created by a GPS tracker recording your movements. These can be handheld
+      devices or a GPS tracker app on your smartphone. This is all done in the lighttable view
+      (see <xref href=""/>).
+    </p>
+         </body>
+         <topic xml:lang="en-us" id="map_center_map_view">
+            <title>Center map view</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <tgroup colsep="0" rowsep="0" cols="2">
+                     <colspec colwidth="6*"/>
+                     <colspec colwidth="5cm"/>
+                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     <tbody>
+                        <row>
+                           <entry>
+                In the center of the map view you will see a map.
+              </entry>
+                           <entry>
+                              <image href="map/images/map_center_view.png"
+                                     align="center"
+                                     placement="break"/>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+               <p>
+        Map data are taken from open map sources on the internet. New map data are only
+        available if you are connected to the internet. darktable keeps a disk cache of
+        previously loaded map data.
+      </p>
+               <p>
+        Your mouse will allow navigation in the map. Left-click will drag the map; using the
+        scroll-wheel will zoom in or out.
+      </p>
+               <p>
+        There are on-screen controls and displays that assist you to find your way. A navigation
+        area is located on top left of the map. Use it as an alternative to mouse-dragging and
+        scrolling. The scale of your map is displayed on bottom left. On bottom right you see
+        the geographical coordinates for the center of the map.
+      </p>
+               <p>
+        Images that already have geo location attributes in their metadata are displayed as
+        small icons on the map.
+      </p>
+               <p>
+        In order to assign geo coordinates to an image, activate the film-strip on the lower
+        panel (press <i>Ctrl+F</i>). You can simply assign a geo location to an
+        image by dragging the image icon from the film-strip and position it onto the map.
+        darktable will record the new geo location (longitude and latitude) as part of the image
+        metadata. Exported images will include this data.
+      </p>
+               <p>
+        In order to remove geo coordinates from an image just drag it from the map and drop it
+        onto the filmstrip.
+      </p>
+               <p>
+        Left and right to the central map there are panels for additional control.
+      </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="map_undo_redo">
+            <title>Undo/redo</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+        All image moves in the map view are recorded by darktable. It is then possible to undo
+        or redo such changes to recover a previous state. Note that this undo/redo facility is
+        unlimited while moving images but it is reset each time the map view is left.
+      </p>
+               <p>
+        The default key shortcuts are:
+        <ul>
+                     <li>
+                        <p>
+                           <i>Ctrl+Z</i> : undo last move
+          </p>
+                     </li>
+                     <li>
+                        <p>
+                           <i>Ctrl+Y</i> : redo last undo (does nothing if undo has not been used
+            yet)
+          </p>
+                     </li>
+                  </ul>
+               </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+      </topic>
+      <topic xml:lang="en-us" id="map_panels">
+         <title>Map panels</title>
+         <!-- topic/titlealts  not supplied within  topic/topic -->
+         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         </prolog>
+         <body>
+            <p>
+    This section contains documentation for panels that are specific to the map view.
+  </p>
+         </body>
+         <topic xml:lang="en-us" id="left_panels">
+            <title>Left panels</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <tgroup colsep="0" rowsep="0" cols="2">
+                     <colspec colwidth="6*"/>
+                     <colspec colwidth="4*"/>
+                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>
+              The panels on the left side we already know from lighttable mode
+              (<xref href=""/>).
+            </p>
+
+                              <p>
+              Choose your image selection rules with the
+              <xref href="">
+                                    <i>collect images</i>
+                                 </xref> panel.
+              Recently used collections can be chosen with their respective names in a separate
+              panel. You can also get an overview of the information of the image under your
+              mouse cursor in a panel labeled <xref href=""> 
+                                    <i>image
+              information</i>
+                                 </xref>.
+            </p>
+                           </entry>
+                           <entry>
+                              <image href="map/images/left_panels.png" align="center" placement="break"/>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="find_location">
+            <title>Find location</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <p>
+                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                     <tgroup colsep="0" rowsep="0" cols="2">
+                        <colspec colwidth="6*"/>
+                        <colspec colwidth="4*"/>
+                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>
+                The <i>find location</i> module is used to search for a place on
+                map. You need to be connected to the internet to use this feature.
+              </p>
+
+                                 <p>
+                To use, type in a place or address, press enter and a list of results will be
+                shown. Click on one of the resulting items and the map will zoom to that
+                location. Additionally, an outline covering that location, or a pin pointing at
+                the location will be displayed. Now drag images from the film strip at the
+                bottom of the screen to their location on the map. The GPS location will be
+                embedded in the image.
+              </p>
+                              </entry>
+                              <entry>
+                                 <image href="map/images/find_location.png"
+                                        align="center"
+                                        placement="break"/>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="map_settings">
+            <title>Map settings</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <tgroup colsep="0" rowsep="0" cols="2">
+                     <colspec colwidth="6*"/>
+                     <colspec colwidth="4*"/>
+                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>
+              In the <i>map settings</i> panel you can select your preferred map
+              data from various providers. Some will provide different layers, such as satellite
+              view etc., which you can toggle.
+            </p>
+                           </entry>
+                           <entry>
+                              <image href="map/images/map_settings.png" align="center" placement="break"/>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+         <topic xml:lang="en-us" id="map_tagging">
+            <title>Tagging</title>
+            <!-- topic/titlealts  not supplied within  topic/topic -->
+            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
+               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
+               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            </prolog>
+            <body>
+               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <tgroup colsep="0" rowsep="0" cols="2">
+                     <colspec colwidth="6*"/>
+                     <colspec colwidth="4*"/>
+                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>
+              The <i>tagging</i> panel allows you to attach or detach different
+              tags to an image as well as creating or deleting a tag. It is divided into two
+              parts. The upper part contains tags that are currently attached to the image. The
+              lower part contains all available tags. You must select or mouse over an image for
+              the data to be displayed. See <xref href=""/> for more details.
+            </p>
+                           </entry>
+                           <entry>
+                              <image href="map/images/tagging.png" align="center" placement="break"/>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </body>
+            <!-- topic/topic  not supplied within  topic/topic -->
+         </topic>
+      </topic>
+   </topic>
+</dita>
