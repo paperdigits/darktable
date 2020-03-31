@@ -294,7 +294,7 @@
                   <tgroup colsep="0" rowsep="0" cols="2">
                      <colspec colwidth="6*"/>
                      <colspec colwidth="4*"/>
-                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     
                      <tbody>
                         <row>
                            <entry>
@@ -476,11 +476,11 @@
                </prolog>
                <body>
                   <p>
-                     <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                     <table frame="none">
                         <tgroup colsep="0" rowsep="0" cols="2">
                            <colspec colwidth="6*"/>
                            <colspec colwidth="4*"/>
-                           <!-- topic/thead  not supplied within  topic/tgroup -->
+                           
                            <tbody>
                               <row>
                                  <entry>
@@ -587,7 +587,7 @@
                      <tgroup colsep="0" rowsep="0" cols="2">
                         <colspec colwidth="6*"/>
                         <colspec colwidth="4*"/>
-                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        
                         <tbody>
                            <row>
                               <entry>
@@ -964,7 +964,7 @@
                      <tgroup colsep="0" rowsep="0" cols="2">
                         <colspec colwidth="1*"/>
                         <colspec colwidth="3*"/>
-                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        
                         <tbody>
                            <row>
                               <entry>
@@ -1673,7 +1673,7 @@
                   <tgroup colsep="0" rowsep="0" cols="2">
                      <colspec colwidth="6*"/>
                      <colspec colwidth="4*"/>
-                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     
                      <tbody>
                         <row>
                            <entry>
@@ -3770,7 +3770,7 @@
                   <title>profile</title>
                   
                   <prolog>
-                     <metadata></metadata>
+                     <metadata><keywords></keywords></metadata>
                      
                   </prolog>
                   <body>
@@ -3787,7 +3787,7 @@
                   <title>intent</title>
                   
                   <prolog>
-                     <metadata></metadata>
+                     <metadata><keywords></keywords></metadata>
                      
                   </prolog>
                   <body>

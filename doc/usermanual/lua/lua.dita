@@ -4,34 +4,31 @@
 <dita>
    <topic xml:lang="en-us" id="lua_chapter">
       <title>Scripting with Lua</title>
-      <!-- topic/titlealts  not supplied within  topic/topic -->
-      <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-         <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata -->
+      
+      <prolog>
+         <metadata>
             <keywords>
                <keyword>scripting</keyword>
                <keyword>lua</keyword>
+          <indexterm>Lua</indexterm>
+          <indexterm>scripting</indexterm>
             </keywords>
-            <!-- topic/prodinfo  not supplied within  topic/metadata -->
-            <!-- topic/othermeta  not supplied within  topic/metadata -->
+            
+            
          </metadata>
-         <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
       </prolog>
       <body>
          <p>
     darktable comes with a versatile scripting interface for functionality enhancement.
   </p>
-         <p>
-            <fig><!--info not processed within  topic/fig -->Scipting with Lua<image href="images/lua_view.png" placement="break"/>
-            </fig>
-         </p>
+      <fig id="fig_h3q_cyb_flb">
+        <title>Scipting with Lua</title>
+        <image href="../images/lua_view.png" placement="break" id="image_i3q_cyb_flb"/>
+      </fig>
       </body>
       <topic xml:lang="en-us" id="lua_usage">
          <title>Lua usage</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
-         </prolog>
          <body>
             <p>
       Lua can be used to define actions which darktable will perform whenever a specified event
@@ -56,27 +53,14 @@
          </body>
          <topic xml:lang="en-us" id="lua_basic_principles">
             <title>Basic principles</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
         At startup, darktable will automatically run two Lua scripts:
       </p>
                <ul>
-                  <li>
-                     <p>
-          a script called <i>luarc</i> in
-          <i>$DARKTABLE/share/darktable</i>
-                     </p>
-                  </li>
-                  <li>
-                     <p>
-          a script called <i>luarc</i> in the user's configuration directory
-        </p>
-                  </li>
+                  <li> a script called <i>luarc</i> in <i>$DARKTABLE/share/darktable</i>
+            </li>
+                  <li> a script called <i>luarc</i> in the user's configuration directory </li>
                </ul>
                <p>
         $DARKTABLE is used here to represent your system's darktable installation directory.
@@ -87,24 +71,15 @@
         primary way to trigger lua actions.
       </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="lua_hello_world">
             <title>A simple lua example</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
-               <p>
-        Let's start with a simple example. We will print some code on the console. Create a file
-        called <i>luarc</i> in darktable's configuration directory (usually
-        <cmdname>~/.config/darktable/</cmdname>) and add the following line to it:
-      </p>
-               <p>
-                  <pre>print("Hello World !")</pre>
-               </p>
+               <p> Let's start with a simple example. We will print some code on the console. Create
+            a file called <i>luarc</i> in darktable's configuration directory (usually
+              <filepath>~/.config/darktable/</filepath>) and add the following line to it: </p>
+          <pre>print("Hello World !")</pre>
                <p>
         Start darktable and you will see the sencence <i>Hello World !</i> printed
         on the console. Nothing fancy but it's a start...
@@ -120,10 +95,8 @@
         darktable API as subfields of the returned object. All of this is documented in
         darktable's Lua API reference manual (see <xref href="#lua_api"/>).
       </p>
-               <p>
-                  <pre>local darktable = require "darktable"
+          <pre>local darktable = require "darktable"
 darktable.print_error("Hello World !")</pre>
-               </p>
                <p>
         Run the script ... and nothing happens. The function
         <codeph>darktable.print_error</codeph>
@@ -132,15 +105,10 @@ darktable.print_error("Hello World !")</pre>
         in a darktable lua script.
       </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="lua_print_images">
             <title>Printing labeled images</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
         This first example showed us the very basics of lua and allowed us to check that
@@ -148,12 +116,10 @@ darktable.print_error("Hello World !")</pre>
         to print the list of images that have a red label attached to them. But first of all,
         what is an image?
       </p>
-               <p>
-                  <pre>
+          <pre>
 local darktable = require "darktable"
 local debug = require "darktable.debug"
 print(darktable.debug.dump(darktable.database[1]))</pre>
-               </p>
                <p>
         Running the code above will produce a lot of output. We will look at it in a moment, but
         first let's look at the code itself.
@@ -180,9 +146,7 @@ print(darktable.debug.dump(darktable.database[1]))</pre>
         objects, the resulting output is huge. Below is a cut down example of the output.
       </p>
                <p>
-                  <lines>
-
-                     <codeph>
+            <codeblock>
 toplevel (userdata,dt_lua_image_t) : /images/100.JPG
    publisher (string) : ""
    path (string) : "/images"
@@ -235,10 +199,8 @@ toplevel (userdata,dt_lua_image_t) : /images/100.JPG
    local_copy (boolean) : false
    copy (function): toplevel.film.2.copy
    group_leader (userdata,dt_lua_image_t): .toplevel
-   </codeph>
-
-                  </lines>
-               </p>
+   </codeblock>
+          </p>
                <p>
         As we can see, an image has a large number of fields which provide all sort of
         information about it. We are interested in the red label. This field is a boolean, and
@@ -259,15 +221,10 @@ end</pre>
         interesting aspects about lua that are worth highlighting:
         <ul>
                      <li>
-                        <p>
-                           <codeph>ipairs</codeph>
-            is a standard lua function that will iterate through all numeric indices of a table.
-            We use it here because
-            <codeph>darktable.database</codeph>
-            has non-numeric indices which are functions to manipulate the database itself
-            (adding or deleting images, for example).
-          </p>
-                     </li>
+                <codeph>ipairs</codeph> is a standard lua function that will iterate through all
+                numeric indices of a table. We use it here because
+                  <codeph>darktable.database</codeph> has non-numeric indices which are functions to
+                manipulate the database itself (adding or deleting images, for example). </li>
                      <li>
                         <p>
             Iterating through a table will return both the key and the value used. It is
@@ -276,29 +233,18 @@ end</pre>
                            </q> to store values that we don't care about.
           </p>
                      </li>
-                     <li>
-                        <p>
-            Note that we use the standard lua function
-            <codeph>tostring</codeph>
-            here and not the darktable specific
-            <codeph>darktable.debug.dump</codeph>
-            . The standard function will return a name for the object whereas the debug function
-            will print the content. The debug function would be too verbose here. Once again, it
-            is a great debug tool but should not be used for anything else.
-          </p>
-                     </li>
+                     <li> Note that we use the standard lua function <codeph>tostring</codeph> here
+                and not the darktable specific <codeph>darktable.debug.dump</codeph> . The standard
+                function will return a name for the object whereas the debug function will print the
+                content. The debug function would be too verbose here. Once again, it is a great
+                debug tool but should not be used for anything else. </li>
                   </ul>
                </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="lua_simple_shortcut">
             <title>Adding a simple shortcut</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
         So far, all our scripts have done things during startup. This is of limited use and
@@ -306,8 +252,7 @@ end</pre>
         register a function that will be called on a given event. The most common event to react
         to is a keyboard shortcut.
       </p>
-               <p>
-                  <pre>
+          <pre>
 darktable = require "darktable"
 
 local function hello_shortcut(event, shortcut)
@@ -318,7 +263,6 @@ end
 darktable.register_event("shortcut",hello_shortcut,
        "A shortcut that print its parameters")
       </pre>
-               </p>
                <p>
         Now start darktable, go to
         <codeph> preferences =&gt; shortcut =&gt; lua =&gt; A shortcut that print its parameters </codeph>
@@ -361,29 +305,17 @@ darktable.register_event("shortcut",function(event,shortcut)
                <p>
         At this point, most of this code should be self explanatory. Just a couple of notes:
         <ul>
+                     <li> Instead of declaring a function and referencing it, we declare it directly
+                in the call to <codeph>darktable.register_event</codeph> this is strictly equivalent
+                but slightly more compact. </li>
                      <li>
-                        <p>
-            Instead of declaring a function and referencing it, we declare it directly in the
-            call to
-            <codeph>darktable.register_event</codeph>
-            this is strictly equivalent but slightly more compact.
-          </p>
-                     </li>
+                <codeph>image.rating</codeph> is a field of any image that gives its rating (between
+                0 and 5 stars, -1 means rejected). </li>
                      <li>
-                        <p>
-                           <codeph>image.rating</codeph>
-            is a field of any image that gives its rating (between 0 and 5 stars, -1 means
-            rejected).
-          </p>
-                     </li>
-                     <li>
-                        <p>
-                           <codeph>darktable.gui.action_images</codeph>
-            is a table containing all the images of interest. darktable will act on selected
-            images if any image is selected, and on the image under the mouse if no image is
-            selected. This function allows to easily follow darktable's UI logic in lua.
-          </p>
-                     </li>
+                <codeph>darktable.gui.action_images</codeph> is a table containing all the images of
+                interest. darktable will act on selected images if any image is selected, and on the
+                image under the mouse if no image is selected. This function allows to easily follow
+                darktable's UI logic in lua. </li>
                   </ul>
                </p>
                <p>
@@ -392,9 +324,7 @@ darktable.register_event("shortcut",function(event,shortcut)
         following error on the console:
       </p>
                <p>
-                  <lines>
-
-                     <codeph>
+            <codeblock>
 
 
 LUA ERROR : rating too high : 6
@@ -405,10 +335,8 @@ stack traceback:
       LUA ERROR : rating too high : 6
   
 
-          </codeph>
-
-                  </lines>
-               </p>
+          </codeblock>
+          </p>
                <p>
         This is lua's way of reporting errors. We have attempted to set a rating of 6 to an
         image, but a rating can only go as high as 5. It would be trivial to add a check, but
@@ -440,15 +368,10 @@ end,"Increase the rating of an image")</pre>
         the console...
       </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="lua_storage_example">
             <title>Exporting images with Lua</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
         We have learned to use lua to adapt darktable to our particular workflow, let's look at
@@ -508,51 +431,25 @@ end)</pre>
         This code will work but it has a couple of limitations. This is just a simple example
         after all:
         <ul>
-                     <li>
-                        <p>
-            We use preferences to configure the target path. It would be nicer to add an element
-            to the export UI in darktable. We will detail how to do that in the next section
-          </p>
-                     </li>
-                     <li>
-                        <p>
-            We do not check the returned value of scp. That command might fail, in particular if
-            the user has not correctly set the preference.
-          </p>
-                     </li>
-                     <li>
-                        <p>
-            This script can't read input from the user. The remote scp must use password-less
-            copy. Scp can't be provided a password easily, so we will leave it that way
-          </p>
-                     </li>
-                     <li>
-                        <p>
-            There is no message displayed once the example is done, only the progressbar on the
-            lower left side tells the user that the job is done.
-          </p>
-                     </li>
-                     <li>
-                        <p>
-            We use
-            <codeph>coroutine.yield</codeph>
-            to call an external program. The normal
-            <codeph>os.execute</codeph>
-            would block other lua codes from happening.
-          </p>
-                     </li>
+                     <li> We use preferences to configure the target path. It would be nicer to add
+                an element to the export UI in darktable. We will detail how to do that in the next
+                section </li>
+                     <li> We do not check the returned value of scp. That command might fail, in
+                particular if the user has not correctly set the preference. </li>
+                     <li> This script can't read input from the user. The remote scp must use
+                password-less copy. Scp can't be provided a password easily, so we will leave it
+                that way </li>
+                     <li> There is no message displayed once the example is done, only the
+                progressbar on the lower left side tells the user that the job is done. </li>
+                     <li> We use <codeph>coroutine.yield</codeph> to call an external program. The
+                normal <codeph>os.execute</codeph> would block other lua codes from happening. </li>
                   </ul>
                </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="lua_gui_example">
             <title>Building User Interface elements</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
         Our previous example was a bit limited. In particular the use of a preference for the
@@ -622,15 +519,10 @@ darktable.register_storage("scp_export","Export via scp",
 })
 </pre>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="lua_sharing_scripts">
             <title>Sharing scripts</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
         So far, our lua code was in <i>luarc</i>. That's a good way to develop
@@ -699,39 +591,18 @@ darktable.register_storage("scp_export","Export via scp",
         <codeph>require "scp-storage"</codeph>
         in the <i>luarc</i> file. A couple of extra notes...
         <ul>
-                     <li>
-                        <p>
-            The function
-            <codeph>darktable.configuration.check_version</codeph>
-            will check compatibility for you. The
-            <codeph>...</codeph>
-            will turn into your script's name and
-            <codeph>{2,0,0}</codeph>
-            is the API version you have tested your script with. You can add multiple API
-            versions if you update your script for multiple versions of darktable.
-          </p>
-                     </li>
-                     <li>
-                        <p>
-            Make sure to declare all your functions as
-            <codeph>local</codeph>
-            to not pollute the general namespace.
-          </p>
-                     </li>
-                     <li>
-                        <p>
-            Make sure you do not leave debug prints in your code.
-            <codeph>darktable.print_error</codeph>
-            in particular allows you to leave debug prints in your final code without disturbing
-            the console.
-          </p>
-                     </li>
-                     <li>
-                        <p>
-            You are free to choose any license for your script but scripts that are uploaded on
-            darktable's website need to be GPLv2.
-          </p>
-                     </li>
+                     <li> The function <codeph>darktable.configuration.check_version</codeph> will
+                check compatibility for you. The <codeph>...</codeph> will turn into your script's
+                name and <codeph>{2,0,0}</codeph> is the API version you have tested your script
+                with. You can add multiple API versions if you update your script for multiple
+                versions of darktable. </li>
+                     <li> Make sure to declare all your functions as <codeph>local</codeph> to not
+                pollute the general namespace. </li>
+                     <li> Make sure you do not leave debug prints in your code.
+                  <codeph>darktable.print_error</codeph> in particular allows you to leave debug
+                prints in your final code without disturbing the console. </li>
+                     <li> You are free to choose any license for your script but scripts that are
+                uploaded on darktable's website need to be GPLv2. </li>
                   </ul>
         Once you have filled all the fields, checked your code, you can upload it to our script
         page
@@ -740,15 +611,10 @@ darktable.register_storage("scp_export","Export via scp",
                         scope="external">here</xref>.
       </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="lua_dbus">
             <title>Calling Lua from DBus</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
         It is possible to send a lua command to darktable via its DBus interface. The method
@@ -763,15 +629,10 @@ darktable.register_storage("scp_export","Export via scp",
         message attached to the DBus error.
       </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="lua_lib">
             <title>Using darktable from a lua script</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
                   <i>Warning: This feature is very experimental. It is known that several elements
@@ -820,15 +681,17 @@ end
         is useful here if you don't want to work on your personal library.
       </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
       </topic>
       <topic xml:lang="en-us" id="lua_api">
          <title>Lua API</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
+         <prolog>
+            <metadata><keywords>
+            <indexterm>Lua API</indexterm>
+          </keywords></metadata>
+            
          </prolog>
          <body>
             <p>
@@ -839,7 +702,7 @@ end
                      scope="external">darktable's webpage</xref>.
     </p>
          </body>
-         <!-- topic/topic  not supplied within  topic/topic -->
+         
       </topic>
    </topic>
 </dita>

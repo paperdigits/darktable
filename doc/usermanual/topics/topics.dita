@@ -4,17 +4,17 @@
 <dita>
    <topic xml:lang="en-us" id="special_topics_chapter">
       <title>Special topics</title>
-      <!-- topic/titlealts  not supplied within  topic/topic -->
-      <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-         <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata -->
+      
+      <prolog>
+         <metadata>
             <keywords>
                <keyword>topics</keyword>
                <keyword>special</keyword>
             </keywords>
-            <!-- topic/prodinfo  not supplied within  topic/metadata -->
-            <!-- topic/othermeta  not supplied within  topic/metadata -->
+            
+            
          </metadata>
-         <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
       </prolog>
       <body>
          <p>
@@ -23,17 +23,19 @@
     information and many tips and tricks are also covered in an extensive blog section that you
     can find on our <xref href="https://www.darktable.org" format="html" scope="external">homepage</xref>.
   </p>
-         <p>
-            <fig><!--info not processed within  topic/fig -->The darktable blog<image href="images/darktable_blog.png" placement="break"/>
-            </fig>
-         </p>
+         <fig id="fig_zz4_ryb_flb">
+            <title>The darktable blog</title>
+            <image href="../images/darktable_blog.png" placement="break" id="image_a1p_ryb_flb"/>
+         </fig>
       </body>
       <topic xml:lang="en-us" id="darktable_and_memory">
          <title>darktable and memory</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
+         <prolog>
+            <metadata><keywords>
+                  <indexterm>memory setup</indexterm>
+               </keywords></metadata>
+            
          </prolog>
          <body>
             <p>
@@ -52,11 +54,6 @@
          </body>
          <topic xml:lang="en-us" id="darktable_and_memory_system">
             <title>Total system memory</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       From what I said before, it is evident that your computer needs a sane memory setup to
@@ -72,15 +69,10 @@
       get extremely slow for others...
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_memory_space">
             <title>Available address space</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       Besides the total amount of system memory there is another limiting factor: the available
@@ -97,15 +89,10 @@
       enough to have everything fit into the hardware limits.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_memory_fragmentation">
             <title>Memory fragmentation</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       Unfortunately this is not the full story yet. There is an effect called memory
@@ -120,15 +107,10 @@
       even bigger. For this reason, as of darktable 2.0, 32-bit support is soft-deprecated.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_memory_limitations">
             <title>Further limitations</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       As if this were not challenging enough, there are further things that might limit your
@@ -144,14 +126,17 @@
       your BIOS manual and the information about your Linux variant for further help.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_memory_32bit">
             <title>Setting up darktable on 32-bit systems</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            
+            <prolog>
+               <metadata><keywords>
+                     <indexterm>memory setup<indexterm>32-bit systems</indexterm></indexterm>
+                     <indexterm>tiling</indexterm>
+                  </keywords></metadata>
+               
             </prolog>
             <body>
                <p>
@@ -170,7 +155,7 @@
     </p>
                <p>
       If this is the case, take a minute to optimize the preference settings in this case. You
-      will find them under <q>core options</q> (<xref href=""/>) in
+      will find them under <q>core options</q> (<xref href="core_options"/>) in
       darktable's preference dialog. You should also find these parameters as configuration
       variables in $HOME/.config/darktable/darktablerc and edit them there.
     </p>
@@ -228,14 +213,16 @@
                   </dl>
                </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_memory_64bit">
             <title>darktable on 64-bit systems</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            
+            <prolog>
+               <metadata><keywords>
+                     <indexterm>memory setup<indexterm>64-bit systems</indexterm></indexterm>
+                  </keywords></metadata>
+               
             </prolog>
             <body>
                <p>
@@ -272,23 +259,25 @@
       maximum advantage of all your CPU cores – darktable's pixelpipe anyhow uses all
       of them in parallel – but hiding I/O latency.
     </p>
-               <p>
-      One exception is worth to be mentioned. If you use darktable to process stitched
-      panoramas, e.g. TIFFs as generated by Hugin, these images can reach considerable sizes.
-      Each background thread needs to allocate enough memory to keep one full image plus
-      intermediates and output in its buffers. This may quickly run even a well equipped 64-bit
-      system out of memory. In that case lower the number of background threads to only one.
-    </p>
+               <p> One exception is worth to be mentioned. If you use darktable to process
+                     <indexterm>stitched panoramas</indexterm>, e.g. TIFFs as generated by Hugin,
+                  these images can reach considerable sizes. Each background thread needs to
+                  allocate enough memory to keep one full image plus intermediates and output in its
+                  buffers. This may quickly run even a well equipped 64-bit system out of memory. In
+                  that case lower the number of background threads to only one. </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
       </topic>
       <topic xml:lang="en-us" id="darktable_and_opencl">
          <title>darktable and OpenCL</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
+         <prolog>
+            <metadata><keywords>
+                  <indexterm>OpenCL</indexterm>
+                  <indexterm>GPU computing</indexterm>
+               </keywords></metadata>
+            
          </prolog>
          <body>
             <p>
@@ -297,11 +286,6 @@
          </body>
          <topic xml:lang="en-us" id="darktable_and_opencl_background">
             <title>The background</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       Processing high resolution images is a demanding task needing a modern computer. Both in
@@ -336,15 +320,10 @@
       megapixel images.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_opencl_working">
             <title>How OpenCL works</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       As you can imagine, hardware architectures of GPUs can vary significantly. There are
@@ -366,15 +345,10 @@
       you.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_opencl_activation">
             <title>How to activate OpenCL in darktable</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       Using OpenCL in darktable requires that your PC is equipped with a suitable graphics card
@@ -397,7 +371,7 @@
                <p>
       Per default OpenCL support is activated in darktable if all the above steps were
       successful. If you want to de-activate it you can do so in <q>core options</q>
-      (<xref href=""/>) by unchecking <q>activate opencl support</q>.
+      (<xref href="core_options"/>) by unchecking <q>activate opencl support</q>.
       This configuration parameter also tells you if OpenCL initialization failed: it is greyed
       out in that case.
     </p>
@@ -407,22 +381,22 @@
       speed-up during interactive work and during export. Most modules in darktable can take
       advantage of OpenCL but not all modules are demanding enough to make a noticeable
       difference. In order to feel a real difference, take modules like
-      <xref href="">
+      <xref href="shadows_and_hightlights">
                      <i>shadows and highlights</i>
                   </xref>,
-      <xref href="">
+      <xref href="sharpen">
                      <i>sharpen</i>
                   </xref>,
-      <xref href="">
+      <xref href="lowpass">
                      <i>lowpass</i>
                   </xref>,
-      <xref href="">
+      <xref href="highpass">
                      <i>highpass</i>
                   </xref> or even more extreme
-      <xref href="">
+      <xref href="equalizer">
                      <i>equalizer</i>
                   </xref> and
-      <xref href="">
+      <xref href="profiled_denoise">
                      <i>profiled denoise</i>
                   </xref>.
     </p>
@@ -439,15 +413,10 @@
       notice and automatically (and transparently) fall back to CPU processing.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_opencl_system">
             <title>Setting up OpenCL on your system</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       The huge diversity of systems and the marked differences between OpenCL vendors and driver
@@ -604,15 +573,10 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       in this example) may vary depending on your system.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_opencl_problems_solutions">
             <title>Possible problems and solutions</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       darktable will detect OpenCL run-time problems automatically. It will then reprocess
@@ -628,10 +592,8 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                <p>
       In that case, the best thing to do is start darktable from a console with
     </p>
-               <p>
-                  <pre>darktable -d opencl
+               <pre>darktable -d opencl
 </pre>
-               </p>
                <p>
       This will give additional debugging output about the initialization and use of OpenCL.
       First see if you find a line that starts with <q>[opencl_init] FINALLY ...</q>
@@ -644,54 +606,39 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       Here are a few cases observed in the past:
     </p>
                <ul>
-                  <li>
-                     <p>
-        darktable might tell you that no OpenCL aware graphics card is detected or that the
-        available memory on your GPU is too low and the device is discarded. In that case you
-        might need to buy a new card, if you really want OpenCL support.
-      </p>
-                  </li>
-                  <li>
-                     <p>
-        darktable might find your libOpenCL.so but then tell you that it couldn't get a
-        platform. NVIDIA drivers will often give error code -1001 in that case. This happens
-        because libOpenCL.so is only a wrapper library. For the real work further
-        libraries – specific to vendor, device and driver – need to be
-        loaded. This failed for some reason. There is a structure of files in /etc/OpenCL on
-        your system that libOpenCL.so consults to find these libraries. Check if you find
-        something fishy in there and try to fix it. Often the needed libraries cannot be found
-        by your system's dynamic loader. Giving full path names might help.
-      </p>
-                  </li>
-                  <li>
-                     <p>
-        darktable might also tell you that a context could not be created. This often indicates
-        a version mismatch between (loaded) graphics driver and libOpenCL. Check if you have
-        left-over kernel modules or graphics libraries of an older install and take appropriate
-        action. In doubt, make a clean reinstall of your graphics driver. Sometimes, immediately
-        after a driver update, the loaded kernel driver does not match the newly installed
-        libraries: reboot your system in that case.
-      </p>
-                  </li>
-                  <li>
-                     <p>
-        darktable might crash in very rare cases directly during startup. This can happen if
-        your OpenCL setup is completely broken or if driver/library contains a severe bug. If
-        you can't fix it, you can still use darktable with option
-        <q>--disable-opencl</q>, which will skip the entire OpenCL initialization step.
-      </p>
-                  </li>
-                  <li>
-                     <p>
-        darktable might fail to compile its OpenCL source files at run-time. In that case you
-        will get a number of error messages looking like typical compiler errors. This could
-        indicate an incompatibility between your OpenCL implementation and our interpretation of
-        the standard. In that case visit us in IRC in #darktable on FreeNode or on the
-        developers mailing list at darktable-dev@lists.darktable.org and report the problem.
-        Chances are good that we can help you. Please also report if you see significant
-        differences between CPU and GPU processing of an image!
-      </p>
-                  </li>
+                  <li> darktable might tell you that no OpenCL aware graphics card is detected or
+                     that the available memory on your GPU is too low and the device is discarded.
+                     In that case you might need to buy a new card, if you really want OpenCL
+                     support. </li>
+                  <li> darktable might find your libOpenCL.so but then tell you that it couldn't get
+                     a platform. NVIDIA drivers will often give error code -1001 in that case. This
+                     happens because libOpenCL.so is only a wrapper library. For the real work
+                     further libraries – specific to vendor, device and driver – need to be loaded.
+                     This failed for some reason. There is a structure of files in /etc/OpenCL on
+                     your system that libOpenCL.so consults to find these libraries. Check if you
+                     find something fishy in there and try to fix it. Often the needed libraries
+                     cannot be found by your system's dynamic loader. Giving full path names might
+                     help. </li>
+                  <li> darktable might also tell you that a context could not be created. This often
+                     indicates a version mismatch between (loaded) graphics driver and libOpenCL.
+                     Check if you have left-over kernel modules or graphics libraries of an older
+                     install and take appropriate action. In doubt, make a clean reinstall of your
+                     graphics driver. Sometimes, immediately after a driver update, the loaded
+                     kernel driver does not match the newly installed libraries: reboot your system
+                     in that case. </li>
+                  <li> darktable might crash in very rare cases directly during startup. This can
+                     happen if your OpenCL setup is completely broken or if driver/library contains
+                     a severe bug. If you can't fix it, you can still use darktable with option
+                        <q>--disable-opencl</q>, which will skip the entire OpenCL initialization
+                     step. </li>
+                  <li> darktable might fail to compile its OpenCL source files at run-time. In that
+                     case you will get a number of error messages looking like typical compiler
+                     errors. This could indicate an incompatibility between your OpenCL
+                     implementation and our interpretation of the standard. In that case visit us in
+                     IRC in #darktable on FreeNode or on the developers mailing list at
+                     darktable-dev@lists.darktable.org and report the problem. Chances are good that
+                     we can help you. Please also report if you see significant differences between
+                     CPU and GPU processing of an image! </li>
                </ul>
                <p>
       There also exists a few on-CPU implementations of OpenCL. These come as drivers provided
@@ -701,15 +648,10 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       TRUE.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_opencl_amd">
             <title>Setting up OpenCL for AMD/ATI devices</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       While NVIDIA devices and most modern AMD/ATI devices will most often run out of the box,
@@ -780,17 +722,17 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
             slow in processing atomics. It's better to process the affected modules on CPU
             rather than accepting an ultra-slow GPU codepath. Set this parameter to TRUE if you
             experience slow processing of modules like
-            <xref href="">
+            <xref href="shadows_and_highlights">
                                  <i>shadows and
             highlights</i>
                               </xref>,
-            <xref href="">
+            <xref href="monochrome">
                                  <i>monochrome</i>
                               </xref>,
-            <xref href="">
+            <xref href="local_contrast">
                                  <i>local contrast</i>
                               </xref>, or
-            <xref href="">
+            <xref href="global_tonemap">
                                  <i>global tonemap</i>
                               </xref> or if you
             even get intermittent system freezes.
@@ -806,15 +748,10 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       are described in the following section.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_opencl_optimization">
             <title>OpenCL performance optimization</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       There are some configuration parameters in $HOME/.config/darktable/darktablerc that help
@@ -825,10 +762,8 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                <p>
       In order to get profiling info you start darktable from a terminal with
     </p>
-               <p>
-                  <pre>darktable -d opencl -d perf
+               <pre>darktable -d opencl -d perf
 </pre>
-               </p>
                <p>
       After each reprocessing of pixelpipe – caused by module parameter change,
       zooming, panning, etc. – you will get the total time and the time spent in each
@@ -859,18 +794,15 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                            <systemoutput>opencl_async_pixelpipe</systemoutput>
 
                         </dt>
-                        <dd>
-                           <p>
-            This boolean flag controls how often we block the OpenCL pixelpipe and get a status
-            on success/failure of all the kernels that have been run. For optimum latency set
-            this to TRUE, so darktable runs the pixelpipe asynchronously and tries to use as few
-            interrupts as possible. If you experience OpenCL errors like failing kernels, set
-            the parameter to FALSE. darktable will then interrupt after each module so you can
-            more easily isolate the problem. Problems have been reported with some older ATI/AMD
-            cards, like HD57xx, which can produce garbled output if this parameter is set to
-            TRUE. If in doubt, leave it at its default FALSE.
-          </p>
-                        </dd>
+                        <dd> This boolean flag controls how often we block the OpenCL pixelpipe and
+                           get a status on success/failure of all the kernels that have been run.
+                           For optimum latency set this to TRUE, so darktable runs the pixelpipe
+                           asynchronously and tries to use as few interrupts as possible. If you
+                           experience OpenCL errors like failing kernels, set the parameter to
+                           FALSE. darktable will then interrupt after each module so you can more
+                           easily isolate the problem. Problems have been reported with some older
+                           ATI/AMD cards, like HD57xx, which can produce garbled output if this
+                           parameter is set to TRUE. If in doubt, leave it at its default FALSE. </dd>
                      </dlentry>
                      <dlentry>
                         <dt>
@@ -878,26 +810,24 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                            <systemoutput>opencl_number_event_handles</systemoutput>
 
                         </dt>
-                        <dd>
-                           <p>
-            Event handles are used so we can monitor success/failure of kernels and profiling
-            info even if the pixelpipe is run asynchronously. The number of event handles is a
-            limited resource of your OpenCL driver. For sure we can recycle them, but there is a
-            limited number that we can use at the same time. Unfortunately, there is no way to
-            find out what the resource limits are; so we need to guess. Our default value of 25
-            is quite conservative. You might want to try if higher values like 100 give better
-            OpenCL performance. If your driver runs out of free handles you would experience
-            failing OpenCL kernels with error code <q>-5 (CL_OUT_OF_RESOURCES)</q> or
-            even crashes or system freezes; reduce the number again in that case. A value of 0
-            will block darktable from using any event handles. This will prevent darktable from
-            properly monitoring the success of your OpenCL kernels but saves some driver
-            overhead. The consequence is that any failures will likely lead to garbled output
-            without darktable taking notice; only recommended if you know for sure that your
-            system runs rock-solid. You can also set this parameter to -1, which means that
-            darktable assumes no restriction in the number of event handles; this is not
-            recommended.
-          </p>
-                        </dd>
+                        <dd> Event handles are used so we can monitor success/failure of kernels and
+                           profiling info even if the pixelpipe is run asynchronously. The number of
+                           event handles is a limited resource of your OpenCL driver. For sure we
+                           can recycle them, but there is a limited number that we can use at the
+                           same time. Unfortunately, there is no way to find out what the resource
+                           limits are; so we need to guess. Our default value of 25 is quite
+                           conservative. You might want to try if higher values like 100 give better
+                           OpenCL performance. If your driver runs out of free handles you would
+                           experience failing OpenCL kernels with error code <q>-5
+                              (CL_OUT_OF_RESOURCES)</q> or even crashes or system freezes; reduce
+                           the number again in that case. A value of 0 will block darktable from
+                           using any event handles. This will prevent darktable from properly
+                           monitoring the success of your OpenCL kernels but saves some driver
+                           overhead. The consequence is that any failures will likely lead to
+                           garbled output without darktable taking notice; only recommended if you
+                           know for sure that your system runs rock-solid. You can also set this
+                           parameter to -1, which means that darktable assumes no restriction in the
+                           number of event handles; this is not recommended. </dd>
                      </dlentry>
                      <dlentry>
                         <dt>
@@ -905,18 +835,15 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                            <systemoutput>opencl_synch_cache</systemoutput>
 
                         </dt>
-                        <dd>
-                           <p>
-            This parameter, if set to "true", will force darktable to fetch image buffers from
-            your GPU after each module and store them in its pixelpipe cache. This is a
-            resource consuming operation, but makes sense depending on your GPU (including if the
-	    GPU is rather slow). In that case darktable might in fact save some time when module
-	    parameters have changed, as it can go back to some cached intermediate state and
-	    reprocess only part of the pixelpipe. In many cases this parameter should be set to
-	    "active module" (default), which will only cache the input of the currently focused
-	    module.
-          </p>
-                        </dd>
+                        <dd> This parameter, if set to "true", will force darktable to fetch image
+                           buffers from your GPU after each module and store them in its pixelpipe
+                           cache. This is a resource consuming operation, but makes sense depending
+                           on your GPU (including if the GPU is rather slow). In that case darktable
+                           might in fact save some time when module parameters have changed, as it
+                           can go back to some cached intermediate state and reprocess only part of
+                           the pixelpipe. In many cases this parameter should be set to "active
+                           module" (default), which will only cache the input of the currently
+                           focused module. </dd>
                      </dlentry>
                      <dlentry>
                         <dt>
@@ -924,19 +851,16 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                            <systemoutput>opencl_micro_nap</systemoutput>
 
                         </dt>
-                        <dd>
-                           <p>
-            In an ideal case you keep your GPU busy at 100% when reprocessing the pixelpipe.
-            That's good. On the other hand your GPU is also needed to do regular GUI updates. It
-            might happen that there is no sufficient time left for this task. Consequence would
-            by a jerky reaction of your GUI on panning, zooming or when moving sliders.
-            darktable can add small naps into its pixelpipe processing to have the GPU catch
-            some breath and do GUI related stuff. Parameter opencl_micro_nap controls the
-            duration of these naps in microseconds. You need to experiment in order to find an
-            optimum value for your system. Values of 0, 100, 500 and 1000 are good starting
-            points to try. Defaults to 1000.
-          </p>
-                        </dd>
+                        <dd> In an ideal case you keep your GPU busy at 100% when reprocessing the
+                           pixelpipe. That's good. On the other hand your GPU is also needed to do
+                           regular GUI updates. It might happen that there is no sufficient time
+                           left for this task. Consequence would by a jerky reaction of your GUI on
+                           panning, zooming or when moving sliders. darktable can add small naps
+                           into its pixelpipe processing to have the GPU catch some breath and do
+                           GUI related stuff. Parameter opencl_micro_nap controls the duration of
+                           these naps in microseconds. You need to experiment in order to find an
+                           optimum value for your system. Values of 0, 100, 500 and 1000 are good
+                           starting points to try. Defaults to 1000. </dd>
                      </dlentry>
                      <dlentry>
                         <dt>
@@ -944,60 +868,53 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                            <systemoutput>opencl_use_pinned_memory</systemoutput>
 
                         </dt>
-                        <dd>
-                           <p>
-            During tiling huge amounts of memory need to be transferred between host and device.
-            On some devices (namely AMD) direct memory transfers to and from an arbitrary host
-            memory region may give a huge performance penalty. This is especially noticeable
-            when exporting large images. Setting this configuration parameter to TRUE tells
-            darktable to use a special kind of intermediate buffer for host-device data
-            transfers. On some devices this can speed up exporting of large files by a factor of
-            2 to 3. NVIDIA devices and drivers seem to have a more efficient memory transfer
-            technique even for arbitrary memory regions. As they may not show any performance
-            gain and even may produce garbled output, opencl_use_pinned_memory should be left at
-            its default FALSE for those devices.
-          </p>
-                        </dd>
+                        <dd> During tiling huge amounts of memory need to be transferred between
+                           host and device. On some devices (namely AMD) direct memory transfers to
+                           and from an arbitrary host memory region may give a huge performance
+                           penalty. This is especially noticeable when exporting large images.
+                           Setting this configuration parameter to TRUE tells darktable to use a
+                           special kind of intermediate buffer for host-device data transfers. On
+                           some devices this can speed up exporting of large files by a factor of 2
+                           to 3. NVIDIA devices and drivers seem to have a more efficient memory
+                           transfer technique even for arbitrary memory regions. As they may not
+                           show any performance gain and even may produce garbled output,
+                           opencl_use_pinned_memory should be left at its default FALSE for those
+                           devices. </dd>
                      </dlentry>
                   </dl>
                </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_opencl_profiling">
             <title>OpenCL scheduling profile</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       darktable can use the CPU and one or several OpenCL capable GPUs. Depending on the
       relative performance users can choose among certain scheduling profiles to optimize
       performance. This is done by the configuration parameter <q>OpenCL scheduling
-      profile</q> in the <q>core options</q> dialog (<xref href=""/>)
+      profile</q> in the <q>core options</q> dialog (<xref href="core_options"/>)
       which offers the following choices:
     </p>
                <p>
-                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <table frame="none">
                      <tgroup colsep="0" rowsep="0" cols="2">
                         <colspec colwidth="1*"/>
                         <colspec colwidth="3*"/>
-                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        
                         <tbody>
                            <row>
                               <entry>
                 default
               </entry>
-                              <entry>
-                If an OpenCL capable GPU is found darktable uses it for processing the center
-                image view while the preview window (see <xref href=""/>) is
-                processed on the CPU in parallel. This is the preferred setting for systems with
-                a reasonably fast CPU and a moderately fast GPU. The exact allocation of devices
-                to the various pixelpipe types can be finetuned with the
-                <q>opencl_device_priority</q> configuration parameter (see below).
-              </entry>
+                              <entry> If an OpenCL capable GPU is found darktable uses it for
+                                 processing the center image view while the preview window (see
+                                    <xref href="navigation"/>) is processed on the CPU in
+                                 parallel. This is the preferred setting for systems with a
+                                 reasonably fast CPU and a moderately fast GPU. The exact allocation
+                                 of devices to the various pixelpipe types can be finetuned with the
+                                    <q>opencl_device_priority</q> configuration parameter (see
+                                 below). </entry>
                            </row>
                            <row>
                               <entry>
@@ -1026,22 +943,15 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                      </tgroup>
                   </table>
                </p>
-               <p>
-      On first start-up or after any detected change in the GPU configuration of your system
-      darktable tries to identify the best suited profile for you. You can change it at any time
-      in the <q>core options</q> dialog (<xref href=""/>) with immediate
-      effect.
-    </p>
+               <p> On first start-up or after any detected change in the GPU configuration of your
+                  system darktable tries to identify the best suited profile for you. You can change
+                  it at any time in the <q>core options</q> dialog (<xref href="core_options"/>)
+                  with immediate effect. </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_opencl_multiple_devices">
             <title>Multiple OpenCL devices – manual settings</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       The scheduling of OpenCL devices on most typical systems can be optimized using the
@@ -1114,10 +1024,8 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                <p>
       darktable's default setting for <q>opencl_device_priority</q> is:
     </p>
-               <p>
-                  <pre>*/!0,*/*/*
+               <pre>*/!0,*/*/*
 </pre>
-               </p>
                <p>
       Any detected OpenCL device is allowed to process our center view image. The first OpenCL
       device (0) is not allowed to process the preview pixelpipe. As a consequence, if there is
@@ -1137,15 +1045,13 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       and an older and slower GeForce GTS450. darktable (started with <q>darktable -d
       opencl</q>) will report the following devices:
     </p>
-               <p>
-                  <pre>[opencl_init] successfully initialized.
+               <pre>[opencl_init] successfully initialized.
 [opencl_init] here are the internal numbers and names of
                           OpenCL devices available to darktable:
 [opencl_init]           0       'GeForce GTS 450'
 [opencl_init]           1       'Tahiti'
 [opencl_init] FINALLY: opencl is AVAILABLE on this system.
 </pre>
-               </p>
                <p>
       So the GeForce GTS 450 is detected as the first device; the Radeon HD7950 ('Tahiti') as
       the second one. This order will normally not change unless the hardware or driver
@@ -1156,10 +1062,8 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       As the GTS450 is slower than the HD7950, an optimized opencl_device_priority could look
       like:
     </p>
-               <p>
-                  <pre>!GeForce GTS450,*/!Tahiti,*/Tahiti,*/Tahiti,*
+               <pre>!GeForce GTS450,*/!Tahiti,*/Tahiti,*/Tahiti,*
 </pre>
-               </p>
                <p>
       The GTS450 is explicitly excluded from doing the center image pixelpipe; this is reserved
       to <q>all</q> other devices (i.e. the HD7950/Tahiti). Completely the opposite for
@@ -1172,15 +1076,10 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       all other devices – in fact only the GTS450 – are checked.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_and_opencl_still_fubar">
             <title>OpenCL still does not run for me!</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       As has been said before OpenCL systems come with a huge variety of setups: different GPU
@@ -1196,69 +1095,57 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                <p>
       If nothing else helps, the best option might be to start darktable with
     </p>
-               <p>
-                  <pre>darktable --disable-opencl
+               <pre>darktable --disable-opencl
 </pre>
-               </p>
                <p>
       In the end there is nothing in darktable which only runs on GPU. Don't let OpenCL
       discourage you; also darktable's CPU code is highly optimized for performance!
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
       </topic>
       <topic xml:lang="en-us" id="darktable_chart">
          <title>Using <filepath>darktable-chart</filepath>
 
          </title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
+         <prolog>
+            <metadata><keywords>
+                  <indexterm>darktable-chart</indexterm>
+               </keywords></metadata>
+            
          </prolog>
-         <body/>
          <topic xml:lang="en-us" id="darktable_chart_overview">
             <title>Overview</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
-               <p>
-      With <filepath>darktable-chart</filepath> we provide a tool for extracting luminance and
-      color values out of images taken from color reference cards like IT8.7/1 charts. Its main
-      purpose is to compare a source image (typically a largely unprocessed raw image) to a
-      target image (typically a JPEG image created in-camera) and produce a darktable style that
-      is able to convert luminance and color values of the source image to produce the target
-      image. This style employs the <i>tone curve</i> module, the <i>input
-      color profile</i>, and the <i>color look up table</i> module for that
-      purpose (see <xref href=""/>, <xref href=""/>, and
-      <xref href=""/>).
-    </p>
+               <p> With <filepath>darktable-chart</filepath> we provide a tool for extracting
+                  luminance and color values out of images taken from color reference cards like
+                  IT8.7/1 charts. Its main purpose is to compare a source image (typically a largely
+                  unprocessed raw image) to a target image (typically a JPEG image created
+                  in-camera) and produce a darktable style that is able to convert luminance and
+                  color values of the source image to produce the target image. This style employs
+                  the <i>tone curve</i> module, the <i>input color profile</i>, and the <i>color
+                     look up table</i> module for that purpose (see <xref href="tone_curve"/>,
+                     <xref href="input_color_profile"/>, and <xref href="color_look_up_table"
+                  />). </p>
                <p>
       Some cameras are particularly advanced in offering various film simulation modes of your
       choice. With the help of <filepath>darktable-chart</filepath> and the underlying modules
       you can now create styles that replicate these film simulations from within darktable.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_chart_usage">
             <title>Usage</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
-                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <table frame="none">
                      <tgroup colsep="0" rowsep="0" cols="2">
                         <colspec colwidth="6*"/>
                         <colspec colwidth="4*"/>
-                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        
                         <tbody>
                            <row>
                               <entry>
@@ -1266,7 +1153,7 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                 in the lower part.
               </entry>
                               <entry>
-                                 <image href="images/darktable_chart_overview.png"
+                                 <image href="../images/darktable_chart_overview.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -1281,15 +1168,10 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       style.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_chart_source_image">
             <title>Source image</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       In the <q>source image</q> tab you set your source image which requires two
@@ -1307,11 +1189,11 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       is displayed as a grid over the image and can be modified.
     </p>
                <p>
-                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <table frame="none">
                      <tgroup colsep="0" rowsep="0" cols="2">
                         <colspec colwidth="6*"/>
                         <colspec colwidth="4*"/>
-                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        
                         <tbody>
                            <row>
                               <entry>
@@ -1319,7 +1201,7 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                 grid and image.
               </entry>
                               <entry>
-                                 <image href="images/darktable_chart_source.png"
+                                 <image href="../images/darktable_chart_source.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -1336,14 +1218,14 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       upper right part of the GUI. Higher values lead to smaller sizes.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_chart_reference_values">
             <title>Reference values</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            
+            <prolog>
+               <metadata><keywords></keywords></metadata>
+               
             </prolog>
             <body>
                <p>
@@ -1371,22 +1253,17 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       values.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_chart_process">
             <title>Process</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
-                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <table frame="none">
                      <tgroup colsep="0" rowsep="0" cols="2">
                         <colspec colwidth="6*"/>
                         <colspec colwidth="4*"/>
-                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        
                         <tbody>
                            <row>
                               <entry>
@@ -1394,7 +1271,7 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                 values</q> are ready you can move to the <q>process</q> tab.
               </entry>
                               <entry>
-                                 <image href="images/darktable_chart_process.png"
+                                 <image href="../images/darktable_chart_process.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -1408,11 +1285,9 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       the gray ramp. In the screenshot displayed further above the gray ramp is positioned in
       the lower part of the color reference chart, denoted as <q>GS00...GS23</q>.
     </p>
-               <p>
-      The input <q>number of final patches</q> defines how many editable color patches
-      the resulting style will use within the <i>color look up table</i> module
-      (for more details see <xref href=""/>).
-    </p>
+               <p> The input <q>number of final patches</q> defines how many editable color patches
+                  the resulting style will use within the <i>color look up table</i> module (for
+                  more details see <xref href="color_look_up_table"/>). </p>
                <p>
       By clicking the <q>process</q> button you start the calculation.
     </p>
@@ -1422,11 +1297,11 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       image will be able to match the reference values – the lower the better.
     </p>
                <p>
-                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <table frame="none">
                      <tgroup colsep="0" rowsep="0" cols="2">
                         <colspec colwidth="6*"/>
                         <colspec colwidth="4*"/>
-                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        
                         <tbody>
                            <row>
                               <entry>
@@ -1434,7 +1309,7 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                 save the generated style.
               </entry>
                               <entry>
-                                 <image href="images/darktable_chart_save.png"
+                                 <image href="../images/darktable_chart_save.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -1443,30 +1318,22 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                      </tgroup>
                   </table>
                </p>
-               <p>
-      You supply a style name and a style description under which the style will later appear in
-      darktable. <filepath>darktable-chart</filepath> saves the style as a
-      <i>.dtstyle</i> file which can be imported into darktable (see
-      <xref href=""/>) and shared with others.
-    </p>
-               <p>
-      The <q>export raw data as csv</q> button allows you to save the extracted raw data
-      as a CSV file for debugging purposes or later usage. <filepath>darktable-chart</filepath>
-      offers a command line option to produce a style with the desired number of final patches
-      from a supplied CSV file (see <xref href=""/>).
-    </p>
+               <p> You supply a style name and a style description under which the style will later
+                  appear in darktable. <filepath>darktable-chart</filepath> saves the style as a
+                     <i>.dtstyle</i> file which can be imported into darktable (see <xref
+                     href="styles"/>) and shared with others. </p>
+               <p> The <q>export raw data as csv</q> button allows you to save the extracted raw
+                  data as a CSV file for debugging purposes or later usage.
+                     <filepath>darktable-chart</filepath> offers a command line option to produce a
+                  style with the desired number of final patches from a supplied CSV file (see <xref
+                     href="darktable_chart_commandline_parameters"/>). </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="darktable_chart_making_input_images">
             <title>Making input images for <filepath>darktable-chart</filepath>
 
             </title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       To start with, you need a suitable photo of your color reference card in RAW+JPEG format.
@@ -1480,26 +1347,20 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       fills up most of the frame. Take a lens with a <q>normal</q> focal length (e.g.
       50mm equivalent) and stop down a bit to avoid vignetting.
     </p>
-               <p>
-      You then open the raw file in darktable and disable most modules, especially
-      <i>base curve</i>. Select the standard input matrix in the <i>input
-      color profile</i> module and disable gamut clipping. Select <q>camera white
-      balance</q> in the <i>white balance</i> module (see
-      <xref href=""/>, <xref href=""/>, and
-      <xref href=""/>).
-    </p>
-               <p>
-      There is a special situation if your camera automatically applies some lens corrections,
-      namely vignetting correction, to the resulting JPEG file. In this case you need to
-      activate the <i>lens correction</i> module in darktable so that raw
-      processing matches the JPEG in this respect (see <xref href=""/>).
-      However, since darktable's vignetting correction may not exactly match the in-camera
-      correction, it's better to disable this correction in the camera if possible.
-    </p>
-               <p>
-      To output your image you go to the <q>export</q> module in darktable (see
-      <xref href=""/>).
-    </p>
+               <p> You then open the raw file in darktable and disable most modules, especially
+                     <i>base curve</i>. Select the standard input matrix in the <i>input color
+                     profile</i> module and disable gamut clipping. Select <q>camera white
+                     balance</q> in the <i>white balance</i> module (see <xref href="base_curve"
+                  />, <xref href="input_color_profile"/>, and <xref href="whitebalance"/>). </p>
+               <p> There is a special situation if your camera automatically applies some lens
+                  corrections, namely vignetting correction, to the resulting JPEG file. In this
+                  case you need to activate the <i>lens correction</i> module in darktable so that
+                  raw processing matches the JPEG in this respect (see <xref
+                     href="lens_correction"/>). However, since darktable's vignetting correction
+                  may not exactly match the in-camera correction, it's better to disable this
+                  correction in the camera if possible. </p>
+               <p> To output your image you go to the <q>export</q> module in darktable (see <xref
+                     href="export_selected"/>). </p>
                <p>
       You need to select <q>Lab</q> as output color profile. This color space is not
       visible in the combobox by default. You first need to enable it by setting
@@ -1520,7 +1381,7 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       color profile in <q>PFM (float)</q> format.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
       </topic>
    </topic>

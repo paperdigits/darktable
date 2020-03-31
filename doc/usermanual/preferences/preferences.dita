@@ -4,39 +4,43 @@
 <dita>
    <topic xml:lang="en-us" id="preferences_chapter">
       <title>Preferences and settings</title>
-      <!-- topic/titlealts  not supplied within  topic/topic -->
-      <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-         <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata -->
+      
+      <prolog>
+         <metadata>
             <keywords>
                <keyword>preferences</keyword>
                <keyword>settings</keyword>
                <keyword>configuration</keyword>
                <keyword>options</keyword>
                <keyword>accelerators</keyword>
+          <indexterm>preferences and settings</indexterm>
             </keywords>
-            <!-- topic/prodinfo  not supplied within  topic/metadata -->
-            <!-- topic/othermeta  not supplied within  topic/metadata -->
+            
+            
          </metadata>
-         <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
       </prolog>
       <body>
          <p>
     darktable comes with a number of settings that can be configured by users. You reach the
     configuration menu by clicking
-    <image href="images/darkroom_preferences.png" align="center"/>
+    <image href="../images/darkroom_preferences.png" align="center"/>
     at the top of the screen.
   </p>
-         <p>
-            <fig><!--info not processed within  topic/fig -->The preferences window<image href="images/preferences_view.png" placement="break"/>
-            </fig>
-         </p>
+      <fig id="fig_gvr_lxb_flb">
+        <title>The preferences window</title>
+        <image href="../images/preferences_view.png" placement="break" id="image_hvr_lxb_flb"/>
+      </fig>
       </body>
       <topic xml:lang="en-us" id="gui_options">
          <title>GUI options</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
+         <prolog>
+            <metadata><keywords>
+            <indexterm>preferences and settings<indexterm>GUI
+              options</indexterm></indexterm>
+          </keywords></metadata>
+            
          </prolog>
          <body>
             <p>
@@ -57,11 +61,6 @@
          </body>
          <topic xml:lang="en-us" id="gui_options_import">
             <title>Import</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
                   <b>ignore JPEG images when importing film rolls</b>
@@ -112,15 +111,10 @@
       Initial star rating (from 0 to 5) for all images when importing a film roll (default 1).
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="gui_options_lighttable">
             <title>Lighttable</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
                   <b>don't use embedded preview JPEG but half-size raw</b>
@@ -175,22 +169,17 @@
       off).
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="gui_options_darkroom">
             <title>Darkroom</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
                   <b>pen pressure control for brush masks</b>
                </p>
                <p>
       Controls how the pressure reading of a graphics tablet impacts newly generated brush strokes
-      (see <xref href=""/>). You can control the brush width, its hardness and its
+      (see <xref href="drawn_mask"/>). You can control the brush width, its hardness and its
       opacity. <q>Absolute</q> control means that the pressure reading directly defines
       the attribute with a value between 0% and 100%. <q>Relative</q> means that the
       pressure reading adjusts the attribute between zero and the pre-defined default value
@@ -270,15 +259,10 @@
       (default 20).
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="gui_options_map">
             <title>Map/geolocalisation</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
                   <b>only draw images on map that are currently collected and filtered</b>
@@ -303,15 +287,10 @@
       (default on).
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="gui_options_security">
             <title>Security</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
                   <b>ask before removing images from database</b>
@@ -363,15 +342,10 @@
       Always ask user before deleting a style (default on).
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="gui_options_misc">
             <title>Miscellaneous</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
                   <b>width of the side panels in pixels</b>
@@ -445,22 +419,25 @@
                </p>
                <p>
       This option allows to force a specific way of getting the current display profile for color
-      management (see <xref href=""/>). In the default setting
+      management (see <xref href="rendering_method"/>). In the default setting
       <q>all</q> darktable will either query the X display server's xatom or the
       <i>colord</i> system service. You can set this option to <q>xatom</q>
       or <q>colord</q> to enforce a specific method if the alternative gives wrong
       results.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
       </topic>
       <topic xml:lang="en-us" id="core_options">
          <title>Core options</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
+         <prolog>
+            <metadata><keywords>
+            <indexterm>preferences and settings<indexterm>core
+                options</indexterm></indexterm>
+          </keywords></metadata>
+            
          </prolog>
          <body>
             <p>
@@ -469,11 +446,6 @@
          </body>
          <topic xml:lang="en-us" id="core_options_quality">
             <title>Quality</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
                   <b>color manage cached thumbnails</b>
@@ -526,15 +498,13 @@
                   <b>auto-apply basecurve</b>
                </p>
                <p>
-      Use a basecurve by default. For more details see <xref href=""/> (default on). (need a restart)
+      Use a basecurve by default. For more details see <xref href="base_curve"/> (default on). (need a restart)
     </p>
                <p>
                   <b>auto-apply per camera basecurve presets</b>
                </p>
-               <p>
-      Use the per-camera basecurve by default instead of the generic manufacturer one if there is
-      one available. For more details see <xref href=""/> (default off).
-    </p>
+               <p> Use the per-camera basecurve by default instead of the generic manufacturer one
+            if there is one available. For more details see <xref href="base_curve"/> (default off). </p>
                <p>
                   <b>auto-apply sharpen</b>
                </p>
@@ -543,15 +513,10 @@
      The default is to not add any sharpening automatically as most recent cameras have no low-pass filter. (need a restart)
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="core_options_xmp">
             <title>xmp</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
                   <b>write sidecar file for each image</b>
@@ -585,15 +550,10 @@
       (default off).
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="core_options_cpu">
             <title>cpu/gpu/memory</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
                   <b>memory in megabytes to use for thumbnail cache</b>
@@ -669,15 +629,10 @@
       on the GPU.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="core_options_misc">
             <title>Miscellaneous</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
                   <b>omit hierarchy in simple tag lists</b>
@@ -728,21 +683,24 @@
       This folder (and sub-folders) contains Lut files used by lut3d modules. (need a restart)
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
       </topic>
       <topic xml:lang="en-us" id="session_options">
          <title>Session options</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
+         <prolog>
+            <metadata><keywords>
+            <indexterm>preferences and settings<indexterm>session
+                options</indexterm></indexterm>
+          </keywords></metadata>
+            
          </prolog>
          <body>
             <p>
     These options define a naming pattern to organize images on disk when importing from a
-    connected camera (see <xref href=""/>) and when taking photos in the tethering view
-    (see <xref href=""/>).
+    connected camera (see <xref href="import"/>) and when taking photos in the tethering view
+    (see <xref href="tethering_chapter"/>).
   </p>
             <p>
     The naming pattern consists of three parts: a base part defining the parent folder, a
@@ -752,8 +710,8 @@
             <p>
     Several pre-defined variables can be used in the pattern as placeholders:
   </p>
-            <table frame="none"><!-- topic/title  not supplied within  topic/table -->
-               <tgroup colsep="0" rowsep="0" cols="2"><!-- topic/colspec  not supplied within  topic/tgroup --><!-- topic/thead  not supplied within  topic/tgroup -->
+            <table frame="none">
+               <tgroup colsep="0" rowsep="0" cols="2"><!-- topic/colspec  not supplied within  topic/tgroup -->
                   <tbody>
                      <row>
                         <entry>
@@ -972,14 +930,17 @@
     <q>$(YEAR)$(MONTH)$(DAY)_$(SEQUENCE).$(FILE_EXTENSION</q>).
   </p>
          </body>
-         <!-- topic/topic  not supplied within  topic/topic -->
+         
       </topic>
       <topic xml:lang="en-us" id="shortcuts">
          <title>Shortcuts</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
+         <prolog>
+            <metadata><keywords>
+            <indexterm>preferences and
+              settings<indexterm>shortcuts</indexterm></indexterm>
+          </keywords></metadata>
+            
          </prolog>
          <body>
             <p>
@@ -1004,11 +965,11 @@
     Below is a table with the default keybindings for actions available in darktable.
   </p>
             <p>
-               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+               <table frame="none">
                   <tgroup colsep="0" rowsep="0" cols="2">
                      <colspec colwidth="3*"/>
                      <colspec colwidth="1*"/>
-                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     
                      <tbody>
                         <row>
                            <entry>
@@ -1919,14 +1880,17 @@
                </table>
             </p>
          </body>
-         <!-- topic/topic  not supplied within  topic/topic -->
+         
       </topic>
       <topic xml:lang="en-us" id="presets">
          <title>Presets</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
+         <prolog>
+            <metadata><keywords>
+            <indexterm>preferences and
+              settings<indexterm>presets</indexterm></indexterm>
+          </keywords></metadata>
+            
          </prolog>
          <body>
             <p>
@@ -1938,7 +1902,7 @@
             <p>
     darktable already comes with a set of pre-defined presets for several modules. In addition
     you can define your own presets from within each module in darkroom mode (see
-    <xref href=""/>).
+    <xref href="module_presets"/>).
   </p>
             <p>
     Pre-defined presets are shown with a lock symbol. Their auto-apply properties can not be
@@ -1949,7 +1913,7 @@
     or saving it to an external .dtpreset file.
   </p>
             <p>
-               <image href="preferences/images/presets.png"
+               <image href="images/presets.png"
                       align="center"
                       placement="break"/>
             </p>
@@ -2017,7 +1981,7 @@
     to 1000).
   </p>
          </body>
-         <!-- topic/topic  not supplied within  topic/topic -->
+         
       </topic>
    </topic>
 </dita>

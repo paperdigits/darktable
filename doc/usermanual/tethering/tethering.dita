@@ -4,35 +4,31 @@
 <dita>
    <topic xml:lang="en-us" id="tethering_chapter">
       <title>Tethering</title>
-      <!-- topic/titlealts  not supplied within  topic/topic -->
-      <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-         <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata -->
+      
+      <prolog>
+         <metadata>
             <keywords>
                <keyword>tethering</keyword>
                <keyword>view</keyword>
+               <indexterm>tethering view</indexterm>
             </keywords>
-            <!-- topic/prodinfo  not supplied within  topic/metadata -->
-            <!-- topic/othermeta  not supplied within  topic/metadata -->
+            
+            
          </metadata>
-         <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
       </prolog>
       <body>
          <p>
     The tethering view allows you to capture images directly into darktable from your connected
     camera.
   </p>
-         <p>
-            <fig><!--info not processed within  topic/fig -->The tethering view<image href="images/tethering_view.png" placement="break"/>
-            </fig>
-         </p>
+         <fig id="fig_e2p_dvb_flb">
+            <title>The tethering view</title>
+            <image href="../images/tethering_view.png" placement="break" id="image_f2p_dvb_flb"/>
+         </fig>
       </body>
       <topic xml:lang="en-us" id="tethering_overview">
          <title>Overview</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
-         </prolog>
          <body>
             <p>
       To use the tethering feature you need to connect your camera to your PC using a USB cable.
@@ -42,7 +38,7 @@
     </p>
             <p>
       After the USB cable is connected, look at the import panel in lighttable mode (see
-      <xref href=""/>). If your camera is not visible in this panel, click the
+      <xref href="import"/>). If your camera is not visible in this panel, click the
       <q>scan devices</q> button and it will appear with two functions: <q>import
       from camera</q> and <q>tethered shoot</q>. Click <q>tethered shoot</q>
       to enter the tethering mode.
@@ -55,17 +51,12 @@
          </body>
          <topic xml:lang="en-us" id="tethering_overview_tethering">
             <title>Tethering</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
-               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+               <table frame="none">
                   <tgroup colsep="0" rowsep="0" cols="2">
                      <colspec colwidth="6*"/>
                      <colspec colwidth="4*"/>
-                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     
                      <tbody>
                         <row>
                            <entry>
@@ -75,7 +66,7 @@
                 darktable's center view.
               </entry>
                            <entry>
-                              <image href="tethering/images/tethering_center_view.png"
+                              <image href="images/tethering_center_view.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -101,16 +92,11 @@
         chapter.
       </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
       </topic>
       <topic xml:lang="en-us" id="tethering_panels">
          <title>Tethering panels</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
-         </prolog>
          <body>
             <p>
     This section contains documentation for panels that are specific to the tethering view.
@@ -118,18 +104,20 @@
          </body>
          <topic xml:lang="en-us" id="session">
             <title>Session</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            
+            <prolog>
+               <metadata><keywords>
+                     <indexterm>tethering view<indexterm>sessions</indexterm></indexterm>
+                  </keywords></metadata>
+               
             </prolog>
             <body>
                <p>
-                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <table frame="none">
                      <tgroup colsep="0" rowsep="0" cols="2">
                         <colspec colwidth="6*"/>
                         <colspec colwidth="4*"/>
-                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        
                         <tbody>
                            <row>
                               <entry>
@@ -146,7 +134,7 @@
               </p>
                               </entry>
                               <entry>
-                                 <image href="tethering/images/panel_session.png"
+                                 <image href="images/panel_session.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -156,22 +144,24 @@
                   </table>
                </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="live_view">
             <title>Live view</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            
+            <prolog>
+               <metadata><keywords>
+                     <indexterm>tethering view<indexterm>live view</indexterm></indexterm>
+                  </keywords></metadata>
+               
             </prolog>
             <body>
                <p>
-                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <table frame="none">
                      <tgroup colsep="0" rowsep="0" cols="2">
                         <colspec colwidth="6*"/>
                         <colspec colwidth="4*"/>
-                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        
                         <tbody>
                            <row>
                               <entry>
@@ -181,7 +171,7 @@
               </p>
                               </entry>
                               <entry>
-                                 <image href="tethering/images/panel_liveview.png"
+                                 <image href="images/panel_liveview.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -191,22 +181,25 @@
                   </table>
                </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="camera_settings">
             <title>Camera settings</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            
+            <prolog>
+               <metadata><keywords>
+                     <indexterm>tethering view<indexterm>camera
+                           settings</indexterm></indexterm>
+                  </keywords></metadata>
+               
             </prolog>
             <body>
                <p>
-                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <table frame="none">
                      <tgroup colsep="0" rowsep="0" cols="2">
                         <colspec colwidth="6*"/>
                         <colspec colwidth="4*"/>
-                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        
                         <tbody>
                            <row>
                               <entry>
@@ -215,7 +208,7 @@
               settings such as focus mode, aperture, shutter speed, ISO and white balance.
             </entry>
                               <entry>
-                                 <image href="tethering/images/panel_camera_settings.png"
+                                 <image href="images/panel_camera_settings.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -225,16 +218,11 @@
                   </table>
                </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
       </topic>
       <topic xml:lang="en-us" id="tethering_examples">
          <title>Examples</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
-         </prolog>
          <body>
             <p>
     This section contains examples of typical usages of tethering.
@@ -242,11 +230,6 @@
          </body>
          <topic xml:lang="en-us" id="tethering_examples_studio">
             <title>Studio setup with screening</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       This is a pretty common use case. You have your studio and subject set up, the camera is
@@ -266,15 +249,10 @@
       review.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="tethering_examples_timelapse">
             <title>Capturing a timelapse</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       A timelapse is a video clip composed of images taken in a time sequence. A typical example
@@ -296,24 +274,14 @@
       fill up with images. The latest captured image is always displayed in center view.
     </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
       </topic>
       <topic xml:lang="en-us" id="tethering_troubleshoot">
          <title>Troubleshoot</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
-         </prolog>
          <body/>
          <topic xml:lang="en-us" id="tethering_troubleshoot_supported">
             <title>Verify that your camera is supported</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       This troubleshooting guide will give you steps to verify your camera can be used with
@@ -321,82 +289,41 @@
       to interface with your camera.
     </p>
                <ol>
-                  <li>
-                     <p>
-        Verify that camera is detected
-      </p>
-
-                     <p>
-        The following command will verify a camera that is connected to the computer and
-        detected by gphoto2. Find your camera port name to use it in the following tests below.
-        Usually port <q>usb:</q> will be enough and therefore used in these examples.
-      </p>
-
-                     <p>
+                  <li> Verify that camera is detected <p> The following command will verify a camera
+                        that is connected to the computer and detected by gphoto2. Find your camera
+                        port name to use it in the following tests below. Usually port <q>usb:</q>
+                        will be enough and therefore used in these examples. </p><p>
                         <pre>env LANG=C gphoto2 --auto-detect
 </pre>
-                     </p>
-                  </li>
-                  <li>
-                     <p>
-        Verify camera driver abilities
-      </p>
-
-                     <p>
-        Execute the following command and verify that the <i>capture choices</i>
-        ability supports <q>Image</q> and <i>configuration support</i> is
-        <q>yes</q>. darktable will check these two abilities and decide if
-        <q>tethered shoot</q> button should be shown or not.
-      </p>
-
-                     <p>
+                     </p></li>
+                  <li> Verify camera driver abilities <p> Execute the following command and verify
+                        that the <i>capture choices</i> ability supports <q>Image</q> and
+                           <i>configuration support</i> is <q>yes</q>. darktable will check these
+                        two abilities and decide if <q>tethered shoot</q> button should be shown or
+                        not. </p><p>
                         <pre>env LANG=C gphoto2 --port usb: --abilities
 </pre>
-                     </p>
-                  </li>
-                  <li>
-                     <p>
-        Verify camera remote capture
-      </p>
-
-                     <p>
-        This step will verify that your camera can be remotely controlled; that it can capture
-        an image, download it to your computer and display it within darktable.
-      </p>
-
-                     <p>
+                     </p></li>
+                  <li> Verify camera remote capture <p> This step will verify that your camera can
+                        be remotely controlled; that it can capture an image, download it to your
+                        computer and display it within darktable. </p><p>
                         <pre>env LANG=C gphoto2 --port usb: --capture-image-and-download
 </pre>
-                     </p>
-                  </li>
-                  <li>
-                     <p>
-        Verify camera tethered capture
-      </p>
-
-                     <p>
-        And this last step tests if your camera supports events which darktable heavily relies
-        on. Running this command will make the gphoto2 process wait for an image capture event
-        which you must manually trigger on your camera. If successful, the image will be
-        downloaded to your computer.
-      </p>
-
-                     <p>
+                     </p></li>
+                  <li> Verify camera tethered capture <p> And this last step tests if your camera
+                        supports events which darktable heavily relies on. Running this command will
+                        make the gphoto2 process wait for an image capture event which you must
+                        manually trigger on your camera. If successful, the image will be downloaded
+                        to your computer. </p><p>
                         <pre>env LANG=C gphoto2 --port usb: --capture-tethered
 </pre>
-                     </p>
-                  </li>
+                     </p></li>
                </ol>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="tethering_troubleshoot_now_what">
             <title>So, now what?</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
                <p>
       If any of the steps above failed, there are problems with your specific camera and driver.
@@ -425,7 +352,7 @@
 </pre>
                </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
       </topic>
    </topic>

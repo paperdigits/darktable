@@ -4,35 +4,31 @@
 <dita>
    <topic xml:lang="en-us" id="map_chapter">
       <title>Map</title>
-      <!-- topic/titlealts  not supplied within  topic/topic -->
-      <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-         <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata -->
+      
+      <prolog>
+         <metadata>
             <keywords>
                <keyword>geotagging</keyword>
                <keyword>map</keyword>
                <keyword>view</keyword>
+               <indexterm>map view</indexterm>
             </keywords>
-            <!-- topic/prodinfo  not supplied within  topic/metadata -->
-            <!-- topic/othermeta  not supplied within  topic/metadata -->
+            
+            
          </metadata>
-         <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
       </prolog>
       <body>
          <p>
     The Map view is were you geotag your images.
   </p>
-         <p>
-            <fig><!--info not processed within  topic/fig -->The map view<image href="images/map_view.png" placement="break"/>
-            </fig>
-         </p>
+         <fig id="fig_uc3_svb_flb">
+            <title>The map view</title>
+            <image href="../images/map_view.png" placement="break" id="image_vc3_svb_flb"/>
+         </fig>
       </body>
       <topic xml:lang="en-us" id="map_overview">
          <title>Overview</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
-         </prolog>
          <body>
             <p>
       Map view will show you a world map with the currently open image, or film roll of images,
@@ -45,29 +41,24 @@
       darktable can match the Exif time and date data in your image(s) to a separate GPX data
       tracking file created by a GPS tracker recording your movements. These can be handheld
       devices or a GPS tracker app on your smartphone. This is all done in the lighttable view
-      (see <xref href=""/>).
+      (see <xref href="geotagging"/>).
     </p>
          </body>
          <topic xml:lang="en-us" id="map_center_map_view">
             <title>Center map view</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
-               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+               <table frame="none">
                   <tgroup colsep="0" rowsep="0" cols="2">
                      <colspec colwidth="6*"/>
                      <colspec colwidth="5cm"/>
-                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     
                      <tbody>
                         <row>
                            <entry>
                 In the center of the map view you will see a map.
               </entry>
                            <entry>
-                              <image href="map/images/map_center_view.png"
+                              <image href="images/map_center_view.png"
                                      align="center"
                                      placement="break"/>
                            </entry>
@@ -109,14 +100,17 @@
         Left and right to the central map there are panels for additional control.
       </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="map_undo_redo">
             <title>Undo/redo</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            
+            <prolog>
+               <metadata><keywords>
+                     <indexterm>undo</indexterm>
+                     <indexterm>redo</indexterm>
+                  </keywords></metadata>
+               
             </prolog>
             <body>
                <p>
@@ -141,16 +135,11 @@
                   </ul>
                </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
       </topic>
       <topic xml:lang="en-us" id="map_panels">
          <title>Map panels</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
-         </prolog>
          <body>
             <p>
     This section contains documentation for panels that are specific to the map view.
@@ -158,23 +147,18 @@
          </body>
          <topic xml:lang="en-us" id="left_panels">
             <title>Left panels</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
-               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+               <table frame="none">
                   <tgroup colsep="0" rowsep="0" cols="2">
                      <colspec colwidth="6*"/>
                      <colspec colwidth="4*"/>
-                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     
                      <tbody>
                         <row>
                            <entry>
                               <p>
               The panels on the left side we already know from lighttable mode
-              (<xref href=""/>).
+              (<xref href="lighttable_panels"/>).
             </p>
 
                               <p>
@@ -191,29 +175,31 @@
             </p>
                            </entry>
                            <entry>
-                              <image href="map/images/left_panels.png" align="center" placement="break"/>
+                              <image href="images/left_panels.png" align="center" placement="break"/>
                            </entry>
                         </row>
                      </tbody>
                   </tgroup>
                </table>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="find_location">
             <title>Find location</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            
+            <prolog>
+               <metadata><keywords>
+                     <indexterm>map view<indexterm>find location</indexterm></indexterm>
+                  </keywords></metadata>
+               
             </prolog>
             <body>
                <p>
-                  <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+                  <table frame="none">
                      <tgroup colsep="0" rowsep="0" cols="2">
                         <colspec colwidth="6*"/>
                         <colspec colwidth="4*"/>
-                        <!-- topic/thead  not supplied within  topic/tgroup -->
+                        
                         <tbody>
                            <row>
                               <entry>
@@ -232,7 +218,7 @@
               </p>
                               </entry>
                               <entry>
-                                 <image href="map/images/find_location.png"
+                                 <image href="images/find_location.png"
                                         align="center"
                                         placement="break"/>
                               </entry>
@@ -242,21 +228,23 @@
                   </table>
                </p>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="map_settings">
             <title>Map settings</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
+            
+            <prolog>
+               <metadata><keywords>
+                     <indexterm>map view<indexterm>map settings</indexterm></indexterm>
+                  </keywords></metadata>
+               
             </prolog>
             <body>
-               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+               <table frame="none">
                   <tgroup colsep="0" rowsep="0" cols="2">
                      <colspec colwidth="6*"/>
                      <colspec colwidth="4*"/>
-                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     
                      <tbody>
                         <row>
                            <entry>
@@ -267,28 +255,23 @@
             </p>
                            </entry>
                            <entry>
-                              <image href="map/images/map_settings.png" align="center" placement="break"/>
+                              <image href="images/map_settings.png" align="center" placement="break"/>
                            </entry>
                         </row>
                      </tbody>
                   </tgroup>
                </table>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
          <topic xml:lang="en-us" id="map_tagging">
             <title>Tagging</title>
-            <!-- topic/titlealts  not supplied within  topic/topic -->
-            <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-               <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-               <!-- topic/resourceid  not supplied within  topic/prolog -->
-            </prolog>
             <body>
-               <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+               <table frame="none">
                   <tgroup colsep="0" rowsep="0" cols="2">
                      <colspec colwidth="6*"/>
                      <colspec colwidth="4*"/>
-                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     
                      <tbody>
                         <row>
                            <entry>
@@ -297,18 +280,18 @@
               tags to an image as well as creating or deleting a tag. It is divided into two
               parts. The upper part contains tags that are currently attached to the image. The
               lower part contains all available tags. You must select or mouse over an image for
-              the data to be displayed. See <xref href=""/> for more details.
+              the data to be displayed. See <xref href="tagging"/> for more details.
             </p>
                            </entry>
                            <entry>
-                              <image href="map/images/tagging.png" align="center" placement="break"/>
+                              <image href="images/tagging.png" align="center" placement="break"/>
                            </entry>
                         </row>
                      </tbody>
                   </tgroup>
                </table>
             </body>
-            <!-- topic/topic  not supplied within  topic/topic -->
+            
          </topic>
       </topic>
    </topic>

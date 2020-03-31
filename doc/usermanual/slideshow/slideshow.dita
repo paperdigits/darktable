@@ -4,40 +4,36 @@
 <dita>
    <topic xml:lang="en-us" id="slideshow_chapter">
       <title>Slideshow</title>
-      <!-- topic/titlealts  not supplied within  topic/topic -->
-      <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-         <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata -->
+      
+      <prolog>
+         <metadata>
             <keywords>
                <keyword>slideshow</keyword>
                <keyword>view</keyword>
+               <indexterm>slideshow view</indexterm>
             </keywords>
-            <!-- topic/prodinfo  not supplied within  topic/metadata -->
-            <!-- topic/othermeta  not supplied within  topic/metadata -->
+            
+            
          </metadata>
-         <!-- topic/resourceid  not supplied within  topic/prolog -->
+         
       </prolog>
       <body>
          <p>
     The slideshow view starts a slideshow of your current collection.
   </p>
-         <p>
-            <fig><!--info not processed within  topic/fig -->The slideshow view<image href="images/slideshow_view.png" placement="break"/>
-            </fig>
-         </p>
+         <fig id="fig_w3k_zvb_flb">
+            <title>The slideshow view</title>
+            <image href="../images/slideshow_view.png" placement="break" id="image_x3k_zvb_flb"/>
+         </fig>
       </body>
       <topic xml:lang="en-us" id="slideshow_overview">
          <title>Overview</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
-         </prolog>
          <body>
             <p>
       Entering the slideshow view starts a slideshow of the images of the current collection
       with filtering rules and sort order applied. To learn more on how to define the
-      collection, the filtering and the sort order see <xref href=""/> and
-      <xref href=""/>.
+      collection, the filtering and the sort order see <xref href="collect_images"/> and
+      <xref href="filtering_and_sort_order"/>.
     </p>
             <p>
       The image display is optimized to take full advantage of your screen size. You should
@@ -46,23 +42,18 @@
       remaining panels – namely the filtering option in the top panel.
     </p>
          </body>
-         <!-- topic/topic  not supplied within  topic/topic -->
+         
       </topic>
       <topic xml:lang="en-us" id="slideshow_usage">
          <title>Usage</title>
-         <!-- topic/titlealts  not supplied within  topic/topic -->
-         <prolog><!-- topic/author  not supplied within  topic/prolog --><!-- topic/source  not supplied within  topic/prolog --><!-- topic/publisher  not supplied within  topic/prolog --><!-- topic/copyright  not supplied within  topic/prolog --><!-- topic/critdates  not supplied within  topic/prolog --><!-- topic/permissions  not supplied within  topic/prolog -->
-            <metadata><!-- topic/audience  not supplied within  topic/metadata --><!-- topic/category  not supplied within  topic/metadata --><!-- topic/prodinfo  not supplied within  topic/metadata --><!-- topic/othermeta  not supplied within  topic/metadata --></metadata>
-            <!-- topic/resourceid  not supplied within  topic/prolog -->
-         </prolog>
          <body>
             <p>
       The slideshow view is in an early stage of development with a basic set of features.
-      <table frame="none"><!-- topic/title  not supplied within  topic/table -->
+      <table frame="none">
                   <tgroup colsep="0" rowsep="0" cols="2">
                      <colspec colwidth="1*"/>
                      <colspec colwidth="3*"/>
-                     <!-- topic/thead  not supplied within  topic/tgroup -->
+                     
                      <tbody>
                         <row>
                            <entry>
@@ -124,10 +115,10 @@
       experience long delays when switching between images or if you intend to quickly advance
       in your collection consider to disable the option <q>do high quality processing for
       slideshow</q> which gives a much higher processing speed at the expense of a possible
-      slight loss in quality (see <xref href=""/>).
+      slight loss in quality (see <xref href="gui_options"/>).
     </p>
          </body>
-         <!-- topic/topic  not supplied within  topic/topic -->
+         
       </topic>
    </topic>
 </dita>
