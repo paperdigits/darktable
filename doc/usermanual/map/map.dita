@@ -163,12 +163,12 @@
 
                               <p>
               Choose your image selection rules with the
-              <xref href="">
+              <xref href="collect_images">
                                     <i>collect images</i>
                                  </xref> panel.
               Recently used collections can be chosen with their respective names in a separate
               panel. You can also get an overview of the information of the image under your
-              mouse cursor in a panel labeled <xref href=""> 
+              mouse cursor in a panel labeled <xref href="image_information"> 
                                     <i>image
               information</i>
                                  </xref>.

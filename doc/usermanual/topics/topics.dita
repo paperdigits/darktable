@@ -155,7 +155,7 @@
     </p>
                <p>
       If this is the case, take a minute to optimize the preference settings in this case. You
-      will find them under <q>core options</q> (<xref href="core_options"/>) in
+      will find them under <q>core options</q> (<xref href="../preferences/preferences.dita#core_options"/>) in
       darktable's preference dialog. You should also find these parameters as configuration
       variables in $HOME/.config/darktable/darktablerc and edit them there.
     </p>
@@ -371,7 +371,7 @@
                <p>
       Per default OpenCL support is activated in darktable if all the above steps were
       successful. If you want to de-activate it you can do so in <q>core options</q>
-      (<xref href="core_options"/>) by unchecking <q>activate opencl support</q>.
+      (<xref href="../preferences/preferences.dita#core_options"/>) by unchecking <q>activate opencl support</q>.
       This configuration parameter also tells you if OpenCL initialization failed: it is greyed
       out in that case.
     </p>
@@ -893,7 +893,7 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
       darktable can use the CPU and one or several OpenCL capable GPUs. Depending on the
       relative performance users can choose among certain scheduling profiles to optimize
       performance. This is done by the configuration parameter <q>OpenCL scheduling
-      profile</q> in the <q>core options</q> dialog (<xref href="core_options"/>)
+      profile</q> in the <q>core options</q> dialog (<xref href="../preferences/preferences.dita#core_options"/>)
       which offers the following choices:
     </p>
                <p>
@@ -945,7 +945,7 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                </p>
                <p> On first start-up or after any detected change in the GPU configuration of your
                   system darktable tries to identify the best suited profile for you. You can change
-                  it at any time in the <q>core options</q> dialog (<xref href="core_options"/>)
+                  it at any time in the <q>core options</q> dialog (<xref href="../preferences/preferences.dita#core_options"/>)
                   with immediate effect. </p>
             </body>
             

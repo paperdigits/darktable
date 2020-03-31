@@ -16,8 +16,7 @@
             <p> All changes are stored automatically when you switch images or go from one darktable
                 view to another. You can safely leave darkroom mode or quit darktable at any time
                 and come back later to continue your work. That said darktable does not need a
-                    <q>save</q> button and it does not have one. <indexterm>
-                    <primary>save button</primary>
+                    <q>save</q> button and it does not have one. <indexterm> save button
                 </indexterm>
             </p>
             <p> On the left panel in darkroom mode is the <xref href="history"><i>history
@@ -138,8 +137,8 @@
                 tint or to adjust overall color saturation. The <xref href="color_zones"><i>color
                         zones</i></xref> module offers a much finer control to adjust saturation, or
                 lightness, and even hue, in user defined zones. darktable's <xref
-                    href="tone_curve"><i>tone curve</i></xref> module&nbsp;&ndash; in addition to
-                the classical adjustment of tonal values&nbsp;&ndash; gives you fine control over
+                    href="tone_curve"><i>tone curve</i></xref> module -  in addition to
+                the classical adjustment of tonal values -  gives you fine control over
                 the colors in an image. Finally, if you intend to convert an image into black &amp;
                 white, a good starting point, with an easy to use and intuitive user interface, is
                 offered by the <xref href="monochrome"><i>monochrome</i></xref> module.

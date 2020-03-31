@@ -12,7 +12,7 @@
     <body>
         <p> This binary is a dedicated utility to create styles out of pairs of images such as
             RAW+JPEG with in-camera processing. Details about its usage can be found in <xref
-                href="darktable_chart"/>. </p>
+                href="../topics/topics.dita#darktable_chart"/>. </p>
         <p>
             <tt>darktable-chart</tt> either starts a GUI or is used as a command-line program. </p>
         <codeblock>darktable-chart
@@ -22,7 +22,7 @@
               [&lt;reference cgats/it8 or Lab pfm file&gt;]</codeblock>
         <p> All parameters are optional, however, if you want to supply the second file name you
             also need to supply the first one etc. Starting <tt>darktable-chart</tt> this way opens
-            a special GUI (details can be found in <xref href="darktable_chart"/>). <dl>
+            a special GUI (details can be found in <xref href="../topics/topics.dita#darktable_chart"/>). <dl>
                 <dlentry>
                     <dt>--help</dt>
                     <dd> Gives usage information and terminates. </dd>

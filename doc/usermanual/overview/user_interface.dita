@@ -3,7 +3,7 @@
 <topic id="user_interface">
     <title>User Interface</title>
     <body>
-        <p> This section describes the layout of the user interface. <fig><image href="images/lighttable_view.png" 
-            width="80%" align="center"/></fig> </p>
+        <p> This section describes the layout of the user interface. <fig><image href="../images/lighttable_view.png" 
+             align="center"/></fig> </p>
     </body>
 </topic>

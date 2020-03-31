@@ -256,7 +256,7 @@
         </p>
                   <p>
           To enhance performance in zoomed images loading, you can enable the disk backend for full preview cache in preferences
-          (see <xref href="core_options"/>). Keep in mind that this could take a lot of disk space...
+          (see <xref href="../preferences/preferences.dita#core_options"/>). Keep in mind that this could take a lot of disk space...
         </p>
                </body>
             </topic>
@@ -396,7 +396,7 @@
     Each image of the current collection is represented by a thumbnail in the lighttable view.
     darktable keeps a cache of the last recently used thumbnails in a file on disk and loads it
     into memory at startup. The size of this cache can be adjusted in the core preferences
-    dialog (see <xref href="core_options"/>).
+    dialog (see <xref href="../preferences/preferences.dita#core_options"/>).
   </p>
             </body>
             <topic xml:lang="en-us" id="thumbnail_creation">
@@ -413,7 +413,7 @@
       of the input image – most raw files contain these kind of thumbnails generated
       by the camera – or process the image by itself using default settings. You can
       define how darktable gets its thumbnails in the GUI preferences dialog (see
-      <xref href="gui_options"/>).
+      <xref href="../preferences/preferences.dita#gui_options"/>).
     </p>
                   <p>
       Extracting an embedded thumbnail from the input image has the advantage of being very
@@ -434,7 +434,7 @@
       As the thumbnail cache file has a pre-defined maximum size it will eventually get filled
       up. Then if new thumbnails are added, old ones need to be dropped. However, darktable will
       keep all thumbnails on disk if the corresponding disk backend option is activated in the
-      core preferences dialog (see <xref href="core_options"/>). Access to the thumbnails in
+      core preferences dialog (see <xref href="../preferences/preferences.dita#core_options"/>). Access to the thumbnails in
       this secondary cache is slower than to the ones in the primary cache, but still much
       faster than reprocessing thumbnails from scratch. The size of the secondary cache is only
       limited by disk space.
@@ -458,7 +458,7 @@
     </p>
                   <p>
       Starting with darktable 2.0 thumbnails are fully color managed if the corresponding option
-      is activated in the core preferences dialog (see <xref href="core_options"/>). Colors
+      is activated in the core preferences dialog (see <xref href="../preferences/preferences.dita#core_options"/>). Colors
       are rendered accurately on screen as long as your system is properly set up to hand over
       the right monitor profile to darktable. For more information on color management see
       <xref href="color_management"/>.
@@ -545,7 +545,7 @@
     You can give a rating from zero to five stars to an image. The quality criteria which lead
     to a rating are fully up to you. Whenever you import images, each image receives a default
     rating which you can define in <q>GUI options</q> (see
-    <xref href="gui_options"/>). You can later revise the rating at any time. You can also
+    <xref href="../preferences/preferences.dita#gui_options"/>). You can later revise the rating at any time. You can also
     mark an image as <q>rejected</q> by pressing the
     <image href="../images/lighttable_thumb_reject.png" align="center"/>
     icon or typing the <i>R</i> key. This will remove all stars. You can reverse
@@ -570,7 +570,7 @@
               stars, etc. Clicking either the <i>x</i> or the first star for a
               second time resets the image rating to unranked, or zero stars. The latter
               behavior can be changed in the <q>GUI options</q> dialog (see
-              <xref href="gui_options"/>).
+              <xref href="../preferences/preferences.dita#gui_options"/>).
             </entry>
                               <entry>
                                  <image href="concepts/images/star_rating_thumbs.png"
@@ -858,7 +858,7 @@
     XMP file. Subsequent changes to the XMP file by any other software are not visible to
     darktable – any changes get overwritten the next time darktable synchronizes the
     file. This behavior can be changed in the preferences dialog (see
-    <xref href="core_options"/>). On request darktable looks for updated XMP files at startup
+    <xref href="../preferences/preferences.dita#core_options"/>). On request darktable looks for updated XMP files at startup
     and offers a choice whether to update the database or overwrite the XMP file.
   </p>
             </body>
@@ -1922,13 +1922,13 @@
                      <p>
         Eliminate the selected images from the darktable database and remove the image files
         from their respective locations. Depending on the setting of config parameter
-        <q>send files to trash when erasing images</q> (<xref href="gui_options"/>)
+        <q>send files to trash when erasing images</q> (<xref href="../preferences/preferences.dita#gui_options"/>)
         this either irrevocably deletes the images from filesystem or puts them into your
         system's trash bin.
       </p>
                      <p>
         See also preference option <q>ask before erasing images from disk</q>
-                        (<xref href="gui_options"/>). If this configuration option is not active, darktable
+                        (<xref href="../preferences/preferences.dita#gui_options"/>). If this configuration option is not active, darktable
         will delete/trash the file(s) without further question.
       </p>
                      <p>
@@ -2270,7 +2270,7 @@
                      <p>
         By default darktable generates and updates sidecar files automatically whenever you work
         on an image and change the history stack. You can disable automatic sidecar file
-        generation in the preferences dialog (see <xref href="core_options"/>). However, this
+        generation in the preferences dialog (see <xref href="../preferences/preferences.dita#core_options"/>). However, this
         is not recommended.
       </p>
                   </body>

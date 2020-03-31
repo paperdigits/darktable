@@ -187,14 +187,13 @@
     <image href="../images/darkroom_module_expander.png" align="center"/>
     . Clicking on the name of the module expands the module's GUI with all parameters.
   </p>
-               <p>
-    In its default setting darktable will only expand one GUI at a time. If you click the
-    expander bar of another module, the previous GUI gets collapsed. If you want to see more
-    than one GUI expanded, you may expand further modules with <i>Shift+click</i>
-     – all previously expanded GUIs remain opened. The expander bar behavior on
-    <i>click</i> and <i>Shift+click</i>, respectively, is controlled
-    by a preference setting in GUI options (see <xref href="gui_options"/>).
-  </p>
+               <p> In its default setting darktable will only expand one GUI at a time. If you click
+                  the expander bar of another module, the previous GUI gets collapsed. If you want
+                  to see more than one GUI expanded, you may expand further modules with
+                     <i>Shift+click</i>  – all previously expanded GUIs remain opened. The expander
+                  bar behavior on <i>click</i> and <i>Shift+click</i>, respectively, is controlled
+                  by a preference setting in GUI options (see <xref
+                     href="../preferences/preferences.dita#gui_options"/>). </p>
                <p>
     Expanding a module does <i>not</i> activate it. You need to click the
     <image href="../images/darkroom_module_icon_enable.png" align="center"/>
@@ -1086,12 +1085,12 @@
                         <p>
         If you have a graphics tablet with pen pressure sensitivity, darktable can apply the
         recorded pen pressure to certain attributes of the brush stroke. See
-        <xref href="gui_options"/> for more details.
+        <xref href="../preferences/preferences.dita#gui_options"/> for more details.
       </p>
                         <p>
         On lifting the tablet pen or releasing the left mouse button the drawn figure is
         converted into a number of connected nodes which define the shape. A configuration
-        option (see <xref href="gui_options"/>) controls how much smoothing is applied. A
+        option (see <xref href="../preferences/preferences.dita#gui_options"/>) controls how much smoothing is applied. A
         higher level of smoothing leads to less nodes – this eases subsequent editing
         at the expense of a lower initial accuracy.
       </p>
@@ -1498,7 +1497,7 @@
         down the <i>Shift</i> key while entering the respective slider with the
         mouse cursor. The center image changes to display the selected color channel either in
         graycale values or in false colors, depending on the corresponding preference setting in
-        <q>GUI options</q> (see <xref href="gui_options"/>). You may additionally
+        <q>GUI options</q> (see <xref href="../preferences/preferences.dita#gui_options"/>). You may additionally
         hold down the <i>ctrl</i> key which lets you see the resulting mask
         overlaid to the image. When leaving the slider the image goes back to normal after a
         short delay.
@@ -2221,7 +2220,7 @@
       system. darktable queries your X display server's <i>xatom</i> as well as the
       system service <i>colord</i> (if available) for the right profile. If needed
       you can enforce a specific method in the GUI preferences dialog (see
-      <xref href="gui_options"/>).
+      <xref href="../preferences/preferences.dita#gui_options"/>).
     </p>
                   <p>
       To investigate your display profile configuration you can call the
@@ -2252,11 +2251,10 @@
                   
                </prolog>
                <body>
-                  <p>
-      A configuration parameter <q>always use LittleCMS 2 to apply output color
-      profile</q> in darktable's <i>core options</i> (see
-      <xref href="core_options"/>) defines how colors are rendered.
-    </p>
+                  <p> A configuration parameter <q>always use LittleCMS 2 to apply output color
+                        profile</q> in darktable's <i>core options</i> (see <xref
+                        href="../preferences/preferences.dita#core_options"/>) defines how colors
+                     are rendered. </p>
                   <p>
       darktable can render colors either with its internal algorithms or by using the external
       library <xref href="http://www.littlecms.com/" format="html" scope="external">
@@ -2579,12 +2577,12 @@
                   </tgroup>
                </table>
                <p>
-    The content of this line can be set in preferences (see <xref href="gui_options"/>).
+    The content of this line can be set in preferences (see <xref href="../preferences/preferences.dita#gui_options"/>).
     Available variables are the same as for the export module (see <xref href="export_selected_usage_filename"/>).
     You can also add new lines by using <codeph>$(NL)</codeph> variable.
   </p>
                <p>
-    Position of the infos line can also be set in preferences (see <xref href="gui_options"/>).
+    Position of the infos line can also be set in preferences (see <xref href="../preferences/preferences.dita#gui_options"/>).
   </p>
             </body>
             
@@ -3663,7 +3661,7 @@
                   <p> Sets the color profile for the display. The option <q>system display
                         profile</q> is the preferred setting when working with a calibrated display;
                      the profile is taken either from your system's color manager or from your X
-                     display server. In <i>GUI options</i> (see <xref href="gui_options"/>) you
+                     display server. In <i>GUI options</i> (see <xref href="../preferences/preferences.dita#gui_options"/>) you
                      can specify which method to use. For more information see <xref
                         href="#display_profile"/>. </p>
                </body>
@@ -3876,7 +3874,7 @@
       Some of the tools of this module, namely adjustment of angle and corrections of
       perspective distortion, will require the original image data to be interpolated. For best
       sharpness results set <q>lanczos3</q> as pixel interpolator in <i>core
-      options</i> (see <xref href="core_options"/>).
+      options</i> (see <xref href="../preferences/preferences.dita#core_options"/>).
     </p>
                   </body>
                   
@@ -4426,7 +4424,7 @@
       These are automatically applied to raw images according to the manufacturer ID found in
       Exif data. For several camera models darktable comes with base curves adapted for that
       specific model. A configuration option in the core preferences dialog (see
-      <xref href="core_options"/>) defines whether darktable by default should apply the
+      <xref href="../preferences/preferences.dita#core_options"/>) defines whether darktable by default should apply the
       per-camera base curve or the manufacturer one.
     </p>
                      <p>
@@ -5035,7 +5033,7 @@
                      <p>
       Demosaic is always applied when exporting images. Demosaic is done on monitor display only
       when zoom is greater than 50% or when the according preference setting <q>demosaicing
-      for zoomed out darkroom mode</q> (see <xref href="core_options"/>) is set
+      for zoomed out darkroom mode</q> (see <xref href="../preferences/preferences.dita#core_options"/>) is set
       accordingly. Else color channels are taken from neighboring pixels without an expensive
       interpolation.
     </p>
@@ -7769,14 +7767,14 @@
                            
                            <tbody>
                               <row>
-                                 <entry>
-              This module implements a generic color look up table in Lab space. The input is a
-              list of source and target points, the complete mapping will be interpolated using
-              splines. The resulting luts are editable by hand and can be created using the
-              <filepath>darktable-chart</filepath> utility to match given input (such as
-              hald-cluts and RAW/JPEG with in-camera processing pairs). See
-              <xref href="darktable_chart"/> for details.
-            </entry>
+                                 <entry> This module implements a generic color look up table in Lab
+                                    space. The input is a list of source and target points, the
+                                    complete mapping will be interpolated using splines. The
+                                    resulting luts are editable by hand and can be created using the
+                                       <filepath>darktable-chart</filepath> utility to match given
+                                    input (such as hald-cluts and RAW/JPEG with in-camera processing
+                                    pairs). See <xref href="../topics/topics.dita#darktable_chart"/><xref
+                                       href="../topics/topics.dita#darktable_chart"/> for details. </entry>
                                  <entry>
                                     <image href="modules/images/colorchecker.png"
                                            align="center"

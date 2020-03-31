@@ -79,7 +79,7 @@
                     <dt>--hq &lt;0|1|true|false&gt;</dt>
                     <dd>
                         <p> A flag that defines whether to use high quality resampling during export
-                            (see <xref href="core_options"/>). Defaults to true. </p>
+                            (see <xref href="../preferences/preferences.dita#core_options"/>). Defaults to true. </p>
                     </dd>
                 </dlentry>
                 <dlentry>

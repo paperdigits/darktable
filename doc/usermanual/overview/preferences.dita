@@ -3,7 +3,7 @@
 <topic id="preferences">
     <title>Preferences</title>
     <body>
-        <p> A button <image href="&icon_preferences;" width="2%"
+        <p> A button <image href="../images/darkroom_preferences.png"
                 align="center"/> located in the upper panel allows you to define various parameters
             which control darktable's behavior. </p>
         <p> The options are fairly self-explanatory. If you need more information, hover the mouse

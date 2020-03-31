@@ -8,8 +8,7 @@
             and bottom to the center area. The left panel typically has an informational purpose.
             The right panel offers functions to modify an image. The top and bottom panel give
             access to several settings and shortcuts. Each of the panels can be collapsed or
-            expanded by pressing a triangle like <image href="&icon_general_collapse;"
-                 width="2%"/> , located close to the panel. </p>
+            expanded by pressing a triangle like <image href="../images/general_icon_collapse.png"/> , located close to the panel. </p>
         <p> By pressing the <i>TAB</i> key all panels get collapsed, allowing the center area to
             occupy all available space. Pressing <i>TAB</i> again brings you back to the previous
             view. </p>

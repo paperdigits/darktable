@@ -18,7 +18,7 @@
             switch to another image to develop, by double clicking the thumbnail in the filmstrip.
             You can also rate the images as you do in lighttable, copy/paste history stack, etc. </p>
         <fig>
-            <image href="images/filmstrip.png" width="80%" align="center"
+            <image href="images/filmstrip.png" align="center"
             />
         </fig>
     </body>
