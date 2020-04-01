@@ -46,8 +46,9 @@
                     <dd> The name of the output file. darktable derives the export file format from
                         the file extension. You can also use all the variables available in
                         darktable's export module in the output filename (see <xref
-                            href="export_selected"/>). For obvious reasons this is mandatory if
-                        you use the program on an image folder containing multiple images. </dd>
+                            href="../lighttable/lighttable.dita#export_selected"/>). For obvious
+                        reasons this is mandatory if you use the program on an image folder
+                        containing multiple images. </dd>
                 </dlentry>
                 <dlentry>
                     <dt>--width &lt;max width&gt;</dt>
@@ -116,8 +117,7 @@
                     <dd>
                         <p> All command line parameters following <q>--core</q> are passed to the
                             darktable core and handled as standard parameters. See <xref
-                                href="darktable_commandline_parameters"/> for a detailed
-                            description. </p>
+                                href="darktable_binary.dita"/> for a detailed description. </p>
                     </dd>
                 </dlentry>
             </dl>

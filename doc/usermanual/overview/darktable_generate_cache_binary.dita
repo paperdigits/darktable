@@ -55,8 +55,7 @@
                     <dd>
                         <p> All command line parameters following <q>--core</q> are passed to the
                             darktable core and handled as standard parameters. See <xref
-                                href="darktable_commandline_parameters"/> for a detailed
-                            description. </p>
+                                href="darktable_binary.dita"/> for a detailed description. </p>
                     </dd>
                 </dlentry>
             </dl>

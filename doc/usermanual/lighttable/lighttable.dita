@@ -135,20 +135,19 @@
                   <image href="../images/lighttable_thumb_icon_altered.png" width="3mm"/> on all
                thumbnails. By default these overlays are only visible on the thumbnail under the
                mouse cursor. An overlay button is also available in the other views where it affects
-               the filmstrip accordingly (see <xref href="filmstrip_overview"/> and <xref
-                  href="darkroom_filmstrip"/>). </p>
-            <p>
-      Pressing the
-      <image href="../images/lighttable_icon_displayprofile.png" align="center"/>
-      button on the right side of the bottom panel lets you define the color profile of your
-      monitor. You can either set this to <q>system display profile</q> (default) and
-      let darktable enquire the system's display profile, or alternatively set it to one of the
-      ICC profiles located in <filepath>$DARKTABLE/share/darktable/color/out</filepath> and
-      <filepath>$HOME/.config/darktable/color/out</filepath>. <filepath>$DARKTABLE</filepath> is
-      used here to represent your chosen darktable installation directory and
-      <filepath>$HOME</filepath> your home directory. For more details on color management see
-      <xref href="color_management"/>.
-    </p>
+               the filmstrip accordingly (see <xref href="../overview/filmstrip.dita"/> and <xref
+                  href="../darkroom/darkroom.dita#darkroom_filmstrip"/>). </p>
+            <p> Pressing the <image href="../images/lighttable_icon_displayprofile.png"
+                  align="center"/> button on the right side of the bottom panel lets you define the
+               color profile of your monitor. You can either set this to <q>system display
+                  profile</q> (default) and let darktable enquire the system's display profile, or
+               alternatively set it to one of the ICC profiles located in
+                  <filepath>$DARKTABLE/share/darktable/color/out</filepath> and
+                  <filepath>$HOME/.config/darktable/color/out</filepath>.
+                  <filepath>$DARKTABLE</filepath> is used here to represent your chosen darktable
+               installation directory and <filepath>$HOME</filepath> your home directory. For more
+               details on color management see <xref
+                  href="../darkroom/darkroom.dita#color_management"/>. </p>
             <p>
       In the center of the bottom panel you have an option to choose between different layouts.
     </p>
@@ -422,14 +421,13 @@
       difference as soon as you open the image in the darkroom mode, after which darktable
       replaces the embedded thumbnail with its own one.
     </p>
-                  <p>
-      After importing a new film roll darktable generates thumbnails for new images as they are
-      needed. In the case of a larger set of new images this slows down navigation in the
-      lighttable view as with each move new thumbnails might need to be produced. Alternatively
-      you may terminate darktable and start the <filepath>darktable-generate-cache</filepath>
-      binary. This program will generate all missing thumbnails in one go. For more details see
-      <xref href="darktable_generate_cache_commandline_parameters"/>.
-    </p>
+                  <p> After importing a new film roll darktable generates thumbnails for new images
+                     as they are needed. In the case of a larger set of new images this slows down
+                     navigation in the lighttable view as with each move new thumbnails might need
+                     to be produced. Alternatively you may terminate darktable and start the
+                        <filepath>darktable-generate-cache</filepath> binary. This program will
+                     generate all missing thumbnails in one go. For more details see <xref
+                        href="../overview/darktable_generate_cache_binary.dita"/>. </p>
                   <p>
       As the thumbnail cache file has a pre-defined maximum size it will eventually get filled
       up. Then if new thumbnails are added, old ones need to be dropped. However, darktable will
@@ -447,22 +445,20 @@
       thumbnails as needed, or you generate all thumbnails in one go with
       <filepath>darktable-generate-cache</filepath>.
     </p>
-                  <p>
-      If you don't activate the disk backend and select a too small cache size you might observe
-      adverse effects. Continuous regeneration of thumbnails whenever you move in your
-      collection, flickering of thumbnail images, or even darktable becoming unresponsive are
-      typical symptoms. A good choice of the cache size is 512MB or higher. Please mind that the
-      inherent limits of <i>32-bit systems</i> will force you to go for a much
-      lower cache size (see <xref href="darktable_and_memory"/> for more details on these
-      limitations).
-    </p>
-                  <p>
-      Starting with darktable 2.0 thumbnails are fully color managed if the corresponding option
-      is activated in the core preferences dialog (see <xref href="../preferences/preferences.dita#core_options"/>). Colors
-      are rendered accurately on screen as long as your system is properly set up to hand over
-      the right monitor profile to darktable. For more information on color management see
-      <xref href="color_management"/>.
-    </p>
+                  <p> If you don't activate the disk backend and select a too small cache size you
+                     might observe adverse effects. Continuous regeneration of thumbnails whenever
+                     you move in your collection, flickering of thumbnail images, or even darktable
+                     becoming unresponsive are typical symptoms. A good choice of the cache size is
+                     512MB or higher. Please mind that the inherent limits of <i>32-bit systems</i>
+                     will force you to go for a much lower cache size (see <xref
+                        href="../topics/topics.dita#darktable_and_memory"/> for more details on
+                     these limitations). </p>
+                  <p> Starting with darktable 2.0 thumbnails are fully color managed if the
+                     corresponding option is activated in the core preferences dialog (see <xref
+                        href="../preferences/preferences.dita#core_options"/>). Colors are rendered
+                     accurately on screen as long as your system is properly set up to hand over the
+                     right monitor profile to darktable. For more information on color management
+                     see <xref href="../darkroom/darkroom.dita#color_management"/>. </p>
                </body>
             </topic>
             <topic xml:lang="en-us" id="skulls">
@@ -517,12 +513,11 @@
       extension that seems valid for darktable but which has a file format that darktable does
       not support yet. darktable tries to process the image but is not able to get the job done.
     </p>
-                  <p>
-      The third possible cause for getting skulls is memory shortage: If darktable runs out of
-      memory while generating a thumbnail, it will warn you and display a skull –
-      this can happen if darktable is run with suboptimal settings, especially on a 32-bit
-      system. Please consult <xref href="darktable_and_memory"/> for more information.
-    </p>
+                  <p> The third possible cause for getting skulls is memory shortage: If darktable
+                     runs out of memory while generating a thumbnail, it will warn you and display a
+                     skull – this can happen if darktable is run with suboptimal settings,
+                     especially on a 32-bit system. Please consult <xref
+                        href="../topics/topics.dita#darktable_and_memory"/> for more information. </p>
                </body>
             </topic>
          </topic>
@@ -1172,11 +1167,9 @@
         This will bring up an import dialog, showing the images on camera that can be selected
         for import into a film roll in darktable.
       </p>
-                     <p>
-        You define the base directory for storing imported images and the naming pattern of sub
-        directories and individual images in the preferences dialog (see
-        <xref href="session_options"/>).
-      </p>
+                     <p> You define the base directory for storing imported images and the naming
+                        pattern of sub directories and individual images in the preferences dialog
+                        (see <xref href="../preferences/preferences.dita#session_options"/>). </p>
                   </body>
                </topic>
                <topic xml:lang="en-us" id="import_from_camera_tethering">
@@ -1189,10 +1182,9 @@
         images and time between captures, along with camera settings such as exposure time,
         aperture and more.
       </p>
-                     <p>
-        If supported by your camera, tethering will take you into the capture view for tethered
-        shooting. Read more about tethering in <xref href="tethering_chapter"/>.
-      </p>
+                     <p> If supported by your camera, tethering will take you into the capture view
+                        for tethered shooting. Read more about tethering in <xref
+                           href="../tethering/tethering.dita#tethering_chapter"/>. </p>
                   </body>
                </topic>
             </topic>
@@ -1562,12 +1554,12 @@
         given value, respectively. An expression in the form <i>[from;to]</i>
         selects a range of values.
       </p>
-                     <p>
-        The box below the search rule will list all matching database entries of the query you
-        are currently working on. This list gets updated continuously as you type. You may also
-        choose sorting criteria by scrolling through the list and double-clicking (or single-click
-        if you have set the option in preferences. See <xref href="gui_options_lighttable"/>).
-      </p>
+                     <p> The box below the search rule will list all matching database entries of
+                        the query you are currently working on. This list gets updated continuously
+                        as you type. You may also choose sorting criteria by scrolling through the
+                        list and double-clicking (or single-click if you have set the option in
+                        preferences. See <xref
+                           href="../preferences/preferences.dita#gui_options_lighttable"/>). </p>
                      <p>
         If you have set single-click mode, you'll be able to select range of values with mouse.
         This only works for numerical and date-time attributes.
@@ -2031,12 +2023,11 @@
                <topic xml:lang="en-us" id="selected_images_usage_rotation">
                   <title>rotation</title>
                   <body>
-                     <p>
-        Perform a counter-clockwise or clockwise rotation on selected images. The third button
-        resets the image rotation to the value in the Exif data. This feature is directly linked
-        to the orientation module (see <xref href="orientation"/>) – adjustments
-        are converted into history stack items of that module.
-      </p>
+                     <p> Perform a counter-clockwise or clockwise rotation on selected images. The
+                        third button resets the image rotation to the value in the Exif data. This
+                        feature is directly linked to the orientation module (see <xref
+                           href="../darkroom/darkroom.dita#orientation"/>) – adjustments are
+                        converted into history stack items of that module. </p>
                   </body>
                   
                </topic>
@@ -2201,18 +2192,19 @@
         the previous history stack, whereas <q>append</q> will concatenate the two
         history stacks.
       </p>
-                     <p>
-        A copied history stack can have multiple entries of the same module either with the
-        same name (see <xref href="history"/>) or with different names (see
-        <xref href="multiple_instances"/>) and pasting behaves differently depending on the
-        mode setting. On append mode, modules from the source image will be merged into the
-        destination image in the following way: for each copied module of the source image, if
-        there is a module in the destination image with the same name it will replace it. If
-        there is not a such module, a new instance will be created. In both cases the instance
-        is placed on top of the history stack. The <q>copy all</q>/<q>paste
-        all</q> action with this mode will only copy the respective last instance of all
-        modules with the same name to the source image.
-      </p>
+                     <p> A copied history stack can have multiple entries of the same module either
+                        with the same name (see <xref href="../darkroom/darkroom.dita#history"/>) or
+                        with different names (see <xref
+                           href="../darkroom/darkroom.dita#multiple_instances"/>) and pasting
+                        behaves differently depending on the mode setting. On append mode, modules
+                        from the source image will be merged into the destination image in the
+                        following way: for each copied module of the source image, if there is a
+                        module in the destination image with the same name it will replace it. If
+                        there is not a such module, a new instance will be created. In both cases
+                        the instance is placed on top of the history stack. The <q>copy
+                           all</q>/<q>paste all</q> action with this mode will only copy the
+                        respective last instance of all modules with the same name to the source
+                        image. </p>
                      <p>
         In overwrite mode the behavior is the same except that the history of the destination
         image is deleted before the paste operation. The <q>copy all</q>/<q>paste
@@ -2300,7 +2292,7 @@
                            <entry>
             This panel provides a powerful functionality in darktable: storing a history stack
             as a style, and applying it to other images. Styles are created within this panel or
-            in the darkroom (see <xref href="history"/>). They are managed within this
+            in the darkroom (see <xref href="../darkroom/darkroom.dita#history"/>). They are managed within this
             lighttable panel, which allows you to create, apply, edit and delete styles.
           </entry>
                            <entry>
@@ -2418,11 +2410,9 @@
                      <colspec colwidth="4*"/>
                      <tbody>
                         <row>
-                           <entry>
-            Use this panel to import and apply GPX track data on a selection of images.
-            Alternatively, you can manually geotag images within the <i>Map</i>
-            view (see <xref href="map_chapter"/>).
-          </entry>
+                           <entry> Use this panel to import and apply GPX track data on a selection
+                              of images. Alternatively, you can manually geotag images within the
+                                 <i>Map</i> view (see <xref href="../map/map.dita#map_chapter"/>). </entry>
                            <entry>
                               <image href="images/panel_geotagging.png"
                                      align="center"
@@ -3774,12 +3764,10 @@
                      
                   </prolog>
                   <body>
-                     <p>
-        This defines the output color profile. Select <q>image settings</q> if you want
-        the settings in the <i>output color profile</i> (see
-        <xref href="output_color_profile"/>) module of the individual images to take
-        precedence.
-      </p>
+                     <p> This defines the output color profile. Select <q>image settings</q> if you
+                        want the settings in the <i>output color profile</i> (see <xref
+                           href="../darkroom/darkroom.dita#output_color_profile"/>) module of the
+                        individual images to take precedence. </p>
                   </body>
                   
                </topic>
@@ -3791,11 +3779,10 @@
                      
                   </prolog>
                   <body>
-                     <p>
-        This option lets you define the intent, i.e. the way darktable will deal with
-        out-of-gamut colors. See <xref href="rendering_intent"/> for a more detailed
-        description of the available options.
-      </p>
+                     <p> This option lets you define the intent, i.e. the way darktable will deal
+                        with out-of-gamut colors. See <xref
+                           href="../darkroom/darkroom.dita#rendering_intent"/> for a more detailed
+                        description of the available options. </p>
                   </body>
                   
                </topic>
@@ -3810,7 +3797,7 @@
         applied specifically to images before export, e.g. you may define a style that adds a
         stronger level of sharpening when you produce scaled-down JPEG files for the internet or
         add a certain level of exposure compensation to all of your output images. Learn more
-        about styles in <xref href="#styles"/>, and <xref href="history"/>.
+        about styles in <xref href="#styles"/>, and <xref href="../darkroom/darkroom.dita#history"/>.
       </p>
                   </body>
                   
@@ -3818,16 +3805,16 @@
                <topic xml:lang="en-us" id="export_selected_usage_mode">
                   <title>mode</title>
                   <body>
-                     <p>
-        When applying a style during export this option defines whether the history stack items
-        of that style replace the original history stack of the image or are appended to it.
-        Technically speaking, in append mode history stack items of the style will constitute
-        separate instances of the respective modules on top of any existing ones (see also
-        <xref href="multiple_instances"/>). As a consequence the original history stack will
-        fully remain in effect with the new items being applied additionally. This way you can
-        apply an overall adjustment (e.g. exposure) to a bunch of exported images while
-        respecting the settings of each individual image.
-      </p>
+                     <p> When applying a style during export this option defines whether the history
+                        stack items of that style replace the original history stack of the image or
+                        are appended to it. Technically speaking, in append mode history stack items
+                        of the style will constitute separate instances of the respective modules on
+                        top of any existing ones (see also <xref
+                           href="../darkroom/darkroom.dita#multiple_instances"/>). As a consequence
+                        the original history stack will fully remain in effect with the new items
+                        being applied additionally. This way you can apply an overall adjustment
+                        (e.g. exposure) to a bunch of exported images while respecting the settings
+                        of each individual image. </p>
                   </body>
                   
                </topic>

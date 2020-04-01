@@ -55,33 +55,33 @@
             <title>Lighttable</title>
             <p> The lighttable view is where images and film rolls are managed. It's also where you
                 rate images, add tags and colorlabels, and export images among other actions (see
-                    <xref href="lighttable_chapter"/>). </p>
+                    <xref href="../lighttable/lighttable.dita#lighttable_chapter"/>). </p>
         </section>
         <section id="overview_darkroom">
             <title>Darkroom</title>
             <p> In the darkroom view you develop a single image using the available modules (see
-                    <xref href="darkroom_chapter"/>). </p>
+                    <xref href="../darkroom/darkroom.dita#darkroom_chapter"/>). </p>
         </section>
         <section id="overview_tethering">
             <title>Tethering</title>
             <p> This view is for shooting with the camera connected to the computer and remotely
                 capturing images that will be downloaded and shown on computer screen (see <xref
-                    href="tethering_chapter"/>). </p>
+                    href="../tethering/tethering.dita#tethering_chapter"/>). </p>
         </section>
         <section id="overview_map">
             <title>Map</title>
             <p> This view shows images with geo-tag data on a map and allows manually geo-tagging
-                new images (see <xref href="map_chapter"/>). </p>
+                new images (see <xref href="../map/map.dita#map_chapter"/>). </p>
         </section>
         <section id="overview_slideshow">
             <title>Slideshow</title>
             <p> This view shows images as a slideshow, processing them on-the-fly (see <xref
-                    href="slideshow_chapter"/>). </p>
+                    href="../slideshow/slideshow.dita#slideshow_chapter"/>). </p>
         </section>
         <section id="overview_print">
             <title>Print</title>
             <p> This view allows you to send images to your printer (see <xref
-                    href="print_chapter"/>). </p>
+                    href="../print/print.dita#print_chapter"/>). </p>
         </section>
     </body>
 </topic>

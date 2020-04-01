@@ -8,8 +8,8 @@
             original image is untouched. Therefore, you need to export images to bake the processing
             options into an output file that can be distributed outside of darktable. </p>
         <p> Images are exported from the lighttable view, using the <i>export selected</i> dialog in
-            the right panel (<xref href="export_selected"/>). In general, export means: save my
-            developed raw image as a JPEG. </p>
+            the right panel (<xref href="../lighttable/lighttable.dita#export_selected"/>). In
+            general, export means: save my developed raw image as a JPEG. </p>
         <p> The export is modularized into <i>storage</i> and <i>format</i>. darktable ships with
             several storage modules such as <i>save on disk</i>, various webalbums, a LaTeX photo
             book template and more. Format modules are the actual image formats such as JPEG, PNG,

@@ -375,31 +375,18 @@
       This configuration parameter also tells you if OpenCL initialization failed: it is greyed
       out in that case.
     </p>
-               <p>
-      You can at any time switch OpenCL support off and on; this will happen immediately.
-      Depending on the type of modules you are using, you will notice the effect as a general
-      speed-up during interactive work and during export. Most modules in darktable can take
-      advantage of OpenCL but not all modules are demanding enough to make a noticeable
-      difference. In order to feel a real difference, take modules like
-      <xref href="shadows_and_hightlights">
-                     <i>shadows and highlights</i>
-                  </xref>,
-      <xref href="sharpen">
-                     <i>sharpen</i>
-                  </xref>,
-      <xref href="lowpass">
-                     <i>lowpass</i>
-                  </xref>,
-      <xref href="highpass">
-                     <i>highpass</i>
-                  </xref> or even more extreme
-      <xref href="equalizer">
-                     <i>equalizer</i>
-                  </xref> and
-      <xref href="profiled_denoise">
-                     <i>profiled denoise</i>
-                  </xref>.
-    </p>
+               <p> You can at any time switch OpenCL support off and on; this will happen
+                  immediately. Depending on the type of modules you are using, you will notice the
+                  effect as a general speed-up during interactive work and during export. Most
+                  modules in darktable can take advantage of OpenCL but not all modules are
+                  demanding enough to make a noticeable difference. In order to feel a real
+                  difference, take modules like <xref
+                     href="../darkroom/darkroom.dita#shadows_and_highlights"/>, <xref
+                     href="../darkroom/darkroom.dita#sharpen"/>, <xref
+                     href="../darkroom/darkroom.dita#lowpass"/>, <xref
+                     href="../darkroom/darkroom.dita#highpass"/> or even more extreme <xref
+                     href="../darkroom/darkroom.dita#usage.d12e7472"/> and <xref
+                     href="../darkroom/darkroom.dita#denoise_profiled"/>. </p>
                <p>
       If you are interested in profiling figures, you can start darktable with command line
       parameters <q>-d opencl -d perf</q>. After each run of the pixelpipe you will get
@@ -716,27 +703,17 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
 
                         </dt>
                         <dd>
-                           <p>
-            Atomic operations in OpenCL are a special way of data synchronization. They are only
-            used in a few kernels. Unfortunately, some (most?) AMD/ATI devices are extremely
-            slow in processing atomics. It's better to process the affected modules on CPU
-            rather than accepting an ultra-slow GPU codepath. Set this parameter to TRUE if you
-            experience slow processing of modules like
-            <xref href="shadows_and_highlights">
-                                 <i>shadows and
-            highlights</i>
-                              </xref>,
-            <xref href="monochrome">
-                                 <i>monochrome</i>
-                              </xref>,
-            <xref href="local_contrast">
-                                 <i>local contrast</i>
-                              </xref>, or
-            <xref href="global_tonemap">
-                                 <i>global tonemap</i>
-                              </xref> or if you
-            even get intermittent system freezes.
-          </p>
+                           <p> Atomic operations in OpenCL are a special way of data
+                              synchronization. They are only used in a few kernels. Unfortunately,
+                              some (most?) AMD/ATI devices are extremely slow in processing atomics.
+                              It's better to process the affected modules on CPU rather than
+                              accepting an ultra-slow GPU codepath. Set this parameter to TRUE if
+                              you experience slow processing of modules like <xref
+                                 href="../darkroom/darkroom.dita#shadows_and_highlights"/>, <xref
+                                 href="../darkroom/darkroom.dita#monochrome"/>, <xref
+                                 href="../darkroom/darkroom.dita#local_contrast"/>, or <xref
+                                 href="../darkroom/darkroom.dita#tonemapping"/> or if you even get
+                              intermittent system freezes. </p>
                         </dd>
                      </dlentry>
                   </dl>
@@ -909,12 +886,12 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
               </entry>
                               <entry> If an OpenCL capable GPU is found darktable uses it for
                                  processing the center image view while the preview window (see
-                                    <xref href="navigation"/>) is processed on the CPU in
-                                 parallel. This is the preferred setting for systems with a
-                                 reasonably fast CPU and a moderately fast GPU. The exact allocation
-                                 of devices to the various pixelpipe types can be finetuned with the
-                                    <q>opencl_device_priority</q> configuration parameter (see
-                                 below). </entry>
+                                    <xref href="../darkroom/darkroom.dita#navigation"/>) is
+                                 processed on the CPU in parallel. This is the preferred setting for
+                                 systems with a reasonably fast CPU and a moderately fast GPU. The
+                                 exact allocation of devices to the various pixelpipe types can be
+                                 finetuned with the <q>opencl_device_priority</q> configuration
+                                 parameter (see below). </entry>
                            </row>
                            <row>
                               <entry>
@@ -1126,9 +1103,10 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                   in-camera) and produce a darktable style that is able to convert luminance and
                   color values of the source image to produce the target image. This style employs
                   the <i>tone curve</i> module, the <i>input color profile</i>, and the <i>color
-                     look up table</i> module for that purpose (see <xref href="tone_curve"/>,
-                     <xref href="input_color_profile"/>, and <xref href="color_look_up_table"
-                  />). </p>
+                     look up table</i> module for that purpose (see <xref
+                     href="../darkroom/darkroom.dita#tone_curve"/>, <xref
+                     href="../darkroom/darkroom.dita#input_color_profile"/>, and <xref
+                     href="../darkroom/darkroom.dita#color_look_up_table"/>). </p>
                <p>
       Some cameras are particularly advanced in offering various film simulation modes of your
       choice. With the help of <filepath>darktable-chart</filepath> and the underlying modules
@@ -1287,7 +1265,7 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
     </p>
                <p> The input <q>number of final patches</q> defines how many editable color patches
                   the resulting style will use within the <i>color look up table</i> module (for
-                  more details see <xref href="color_look_up_table"/>). </p>
+                  more details see <xref href="../darkroom/darkroom.dita#color_look_up_table"/>). </p>
                <p>
       By clicking the <q>process</q> button you start the calculation.
     </p>
@@ -1321,12 +1299,13 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                <p> You supply a style name and a style description under which the style will later
                   appear in darktable. <filepath>darktable-chart</filepath> saves the style as a
                      <i>.dtstyle</i> file which can be imported into darktable (see <xref
-                     href="styles"/>) and shared with others. </p>
+                     href="../darkroom/darkroom.dita#darkroom_bottom_panel_styles"/>) and shared
+                  with others. </p>
                <p> The <q>export raw data as csv</q> button allows you to save the extracted raw
                   data as a CSV file for debugging purposes or later usage.
                      <filepath>darktable-chart</filepath> offers a command line option to produce a
                   style with the desired number of final patches from a supplied CSV file (see <xref
-                     href="darktable_chart_commandline_parameters"/>). </p>
+                     href="../overview/darktable_chart_binary.dita"/>). </p>
             </body>
             
          </topic>
@@ -1350,17 +1329,19 @@ crw-rw-rw- 1 root root 250,   0 Jul 28 21:13 /dev/nvidia-uvm
                <p> You then open the raw file in darktable and disable most modules, especially
                      <i>base curve</i>. Select the standard input matrix in the <i>input color
                      profile</i> module and disable gamut clipping. Select <q>camera white
-                     balance</q> in the <i>white balance</i> module (see <xref href="base_curve"
-                  />, <xref href="input_color_profile"/>, and <xref href="whitebalance"/>). </p>
+                     balance</q> in the <i>white balance</i> module (see <xref
+                     href="../darkroom/darkroom.dita#base_curve"/>, <xref
+                     href="../darkroom/darkroom.dita#input_color_profile"/>, and <xref
+                     href="../darkroom/darkroom.dita#whitebalance"/>). </p>
                <p> There is a special situation if your camera automatically applies some lens
                   corrections, namely vignetting correction, to the resulting JPEG file. In this
                   case you need to activate the <i>lens correction</i> module in darktable so that
                   raw processing matches the JPEG in this respect (see <xref
-                     href="lens_correction"/>). However, since darktable's vignetting correction
-                  may not exactly match the in-camera correction, it's better to disable this
-                  correction in the camera if possible. </p>
+                     href="../darkroom/darkroom.dita#lens_correction"/>). However, since darktable's
+                  vignetting correction may not exactly match the in-camera correction, it's better
+                  to disable this correction in the camera if possible. </p>
                <p> To output your image you go to the <q>export</q> module in darktable (see <xref
-                     href="export_selected"/>). </p>
+                     href="../lighttable/lighttable.dita#export_selected"/>). </p>
                <p>
       You need to select <q>Lab</q> as output color profile. This color space is not
       visible in the combobox by default. You first need to enable it by setting

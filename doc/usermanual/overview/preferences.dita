@@ -8,6 +8,7 @@
             which control darktable's behavior. </p>
         <p> The options are fairly self-explanatory. If you need more information, hover the mouse
             cursor over the text label or entry box, to display a popup tool-tip. All configuration
-            parameters are explained in <xref href="preferences_chapter"/>. </p>
+            parameters are explained in <xref
+                href="../preferences/preferences.dita#preferences_chapter"/>. </p>
     </body>
 </topic>
