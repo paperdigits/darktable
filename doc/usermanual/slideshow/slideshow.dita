@@ -29,12 +29,11 @@
       <topic xml:lang="en-us" id="slideshow_overview">
          <title>Overview</title>
          <body>
-            <p>
-      Entering the slideshow view starts a slideshow of the images of the current collection
-      with filtering rules and sort order applied. To learn more on how to define the
-      collection, the filtering and the sort order see <xref href="collect_images"/> and
-      <xref href="filtering_and_sort_order"/>.
-    </p>
+            <p> Entering the slideshow view starts a slideshow of the images of the current
+               collection with filtering rules and sort order applied. To learn more on how to
+               define the collection, the filtering and the sort order see <xref
+                  href="../lighttable/lighttable.dita#collect_images"/> and <xref
+                  href="../lighttable/lighttable.dita#filtering_and_sort_order"/>. </p>
             <p>
       The image display is optimized to take full advantage of your screen size. You should
       therefore put darktable into fullscreen mode which is toggled by pressing

@@ -36,13 +36,11 @@
       camera. If that happens automatically, you will need to <q>unmount/eject</q> the
       camera. This is required to unlock the camera so darktable can lock it for usage.
     </p>
-            <p>
-      After the USB cable is connected, look at the import panel in lighttable mode (see
-      <xref href="import"/>). If your camera is not visible in this panel, click the
-      <q>scan devices</q> button and it will appear with two functions: <q>import
-      from camera</q> and <q>tethered shoot</q>. Click <q>tethered shoot</q>
-      to enter the tethering mode.
-    </p>
+            <p> After the USB cable is connected, look at the import panel in lighttable mode (see
+                  <xref href="../lighttable/lighttable.dita#import"/>). If your camera is not
+               visible in this panel, click the <q>scan devices</q> button and it will appear with
+               two functions: <q>import from camera</q> and <q>tethered shoot</q>. Click <q>tethered
+                  shoot</q> to enter the tethering mode. </p>
             <p>
       darktable uses gphoto2 to interface with your camera. If you have problems finding the
       connected camera as described above, check the troubleshoot section in this chapter in

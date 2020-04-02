@@ -177,14 +177,12 @@
                <p>
                   <b>pen pressure control for brush masks</b>
                </p>
-               <p>
-      Controls how the pressure reading of a graphics tablet impacts newly generated brush strokes
-      (see <xref href="drawn_mask"/>). You can control the brush width, its hardness and its
-      opacity. <q>Absolute</q> control means that the pressure reading directly defines
-      the attribute with a value between 0% and 100%. <q>Relative</q> means that the
-      pressure reading adjusts the attribute between zero and the pre-defined default value
-      (default off).
-    </p>
+               <p> Controls how the pressure reading of a graphics tablet impacts newly generated
+            brush strokes (see <xref href="../darkroom/darkroom.dita#drawn_mask"/>). You can control
+            the brush width, its hardness and its opacity. <q>Absolute</q> control means that the
+            pressure reading directly defines the attribute with a value between 0% and 100%.
+              <q>Relative</q> means that the pressure reading adjusts the attribute between zero and
+            the pre-defined default value (default off). </p>
                <p>
                   <b>smoothing of brush strokes</b>
                </p>
@@ -417,14 +415,11 @@
                <p>
                   <b>method to use for getting the display profile</b>
                </p>
-               <p>
-      This option allows to force a specific way of getting the current display profile for color
-      management (see <xref href="rendering_method"/>). In the default setting
-      <q>all</q> darktable will either query the X display server's xatom or the
-      <i>colord</i> system service. You can set this option to <q>xatom</q>
-      or <q>colord</q> to enforce a specific method if the alternative gives wrong
-      results.
-    </p>
+               <p> This option allows to force a specific way of getting the current display profile
+            for color management (see <xref href="../darkroom/darkroom.dita#rendering_method"/>). In
+            the default setting <q>all</q> darktable will either query the X display server's xatom
+            or the <i>colord</i> system service. You can set this option to <q>xatom</q> or
+              <q>colord</q> to enforce a specific method if the alternative gives wrong results. </p>
             </body>
             
          </topic>
@@ -497,14 +492,14 @@
                <p>
                   <b>auto-apply basecurve</b>
                </p>
-               <p>
-      Use a basecurve by default. For more details see <xref href="base_curve"/> (default on). (need a restart)
-    </p>
+               <p> Use a basecurve by default. For more details see <xref
+              href="../darkroom/darkroom.dita#base_curve"/> (default on). (need a restart) </p>
                <p>
                   <b>auto-apply per camera basecurve presets</b>
                </p>
                <p> Use the per-camera basecurve by default instead of the generic manufacturer one
-            if there is one available. For more details see <xref href="base_curve"/> (default off). </p>
+            if there is one available. For more details see <xref
+              href="../darkroom/darkroom.dita#base_curve"/> (default off). </p>
                <p>
                   <b>auto-apply sharpen</b>
                </p>
@@ -697,11 +692,10 @@
             
          </prolog>
          <body>
-            <p>
-    These options define a naming pattern to organize images on disk when importing from a
-    connected camera (see <xref href="import"/>) and when taking photos in the tethering view
-    (see <xref href="tethering_chapter"/>).
-  </p>
+            <p> These options define a naming pattern to organize images on disk when importing from
+          a connected camera (see <xref href="../lighttable/lighttable.dita#import"/>) and when
+          taking photos in the tethering view (see <xref
+            href="../tethering/tethering.dita#tethering_chapter"/>). </p>
             <p>
     The naming pattern consists of three parts: a base part defining the parent folder, a
     session part defining a sub directory which is specific to the individual import session,
@@ -1899,11 +1893,9 @@
     matching images. By pressing the <q>import</q> button at the bottom of the window
     you can import a saved preset.
   </p>
-            <p>
-    darktable already comes with a set of pre-defined presets for several modules. In addition
-    you can define your own presets from within each module in darkroom mode (see
-    <xref href="module_presets"/>).
-  </p>
+            <p> darktable already comes with a set of pre-defined presets for several modules. In
+          addition you can define your own presets from within each module in darkroom mode (see
+            <xref href="../darkroom/darkroom.dita#module_presets"/>). </p>
             <p>
     Pre-defined presets are shown with a lock symbol. Their auto-apply properties can not be
     changed.

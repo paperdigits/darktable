@@ -439,22 +439,19 @@
       applied to all images from a specific camera leave all fields at default values except for
       the model field.
     </p>
-                  <p>
-      Tip: The <i>image information</i> panel for your image displays your model
-      name, use this to ensure you have the correct spelling (see
-      <xref href="image_information"/>).
-    </p>
+                  <p> Tip: The <i>image information</i> panel for your image displays your model
+                     name, use this to ensure you have the correct spelling (see <xref
+                        href="../lighttable/lighttable.dita#image_information"/>). </p>
                </body>
                
             </topic>
             <topic xml:lang="en-us" id="module_presets_managing">
                <title>Managing Presets</title>
                <body>
-                  <p>
-      Both user created and pre-defined presets can be viewed and managed from within the
-      presets menu (<xref href="presets"/>) in the preferences dialog (see
-      <xref href="preferences_chapter"/>).
-    </p>
+                  <p> Both user created and pre-defined presets can be viewed and managed from
+                     within the presets menu (<xref href="../preferences/preferences.dita#presets"
+                     />) in the preferences dialog (see <xref
+                        href="../preferences/preferences.dita#preferences_chapter"/>). </p>
                </body>
                
             </topic>
@@ -567,11 +564,10 @@
                   <p>
       To delete an instance just press <q>delete</q> from the drop-down menu.
     </p>
-                  <p>
-      An instance can have any name without influencing the edits. To change the name use the
-      <q>rename</q> option. See <xref href="history_stack"/> for more details on how
-      the instance name impacts copying and pasting history stacks.
-    </p>
+                  <p> An instance can have any name without influencing the edits. To change the
+                     name use the <q>rename</q> option. See <xref href="#history" format="dita"/>
+                     for more details on how the instance name impacts copying and pasting history
+                     stacks. </p>
                </body>
                
             </topic>
@@ -2222,18 +2218,16 @@
       you can enforce a specific method in the GUI preferences dialog (see
       <xref href="../preferences/preferences.dita#gui_options"/>).
     </p>
-                  <p>
-      To investigate your display profile configuration you can call the
-      <filepath>darktable-cmstest</filepath> binary (Linux only) which prints out useful information like
-      profile name per monitor and tells you if the system is correctly configured (see
-      <xref href="darktable_cmstest_commandline_parameters"/>).
-    </p>
-                  <p>
-      In rare cases you may need to manually select the display profile. This is possible from
-      the softproof and gamut check option dialogs in the darkroom view (see
-      <xref href="#softproof"/> and <xref href="#gamutcheck"/>), and the display profile
-      dialog in the lighttable view (see <xref href="lighttable_overview"/>).
-    </p>
+                  <p> To investigate your display profile configuration you can call the
+                        <filepath>darktable-cmstest</filepath> binary (Linux only) which prints out
+                     useful information like profile name per monitor and tells you if the system is
+                     correctly configured (see <xref
+                        href="../overview/darktable_cmstest_binary.dita"/>). </p>
+                  <p> In rare cases you may need to manually select the display profile. This is
+                     possible from the softproof and gamut check option dialogs in the darkroom view
+                     (see <xref href="#softproof"/> and <xref href="#gamutcheck"/>), and the display
+                     profile dialog in the lighttable view (see <xref
+                        href="../lighttable/lighttable.dita#lighttable_overview"/>). </p>
                </body>
                
             </topic>
@@ -2286,52 +2280,44 @@
                   
                </prolog>
                <body>
-                  <p>
-      If rendering with LittleCMS2 is activated (see <xref href="#rendering_method"/>) you can
-      define how out-of-gamut colors are handled when converting between color spaces. A
-      selection box in the export panel (see <xref href="export_selected"/>), the output
-      color profile module (see <xref href="#output_color_profile"/>), and the soft proof
-      option (see <xref href="#softproof"/>) gives you a choice of the following rendering
-      intents:
-      <table frame="none">
+                  <p> If rendering with LittleCMS2 is activated (see <xref href="#rendering_method"
+                     />) you can define how out-of-gamut colors are handled when converting between
+                     color spaces. A selection box in the export panel (see <xref
+                        href="../lighttable/lighttable.dita#export_selected"/>), the output color
+                     profile module (see <xref href="#output_color_profile"/>), and the soft proof
+                     option (see <xref href="#softproof"/>) gives you a choice of the following
+                     rendering intents: <table frame="none">
                         <tgroup colsep="0" rowsep="0" cols="2">
                            <colspec colwidth="4*"/>
                            <colspec colwidth="6*"/>
-                           
                            <tbody>
                               <row>
                                  <entry>
                                     <i>perceptual</i>
                                  </entry>
-                                 <entry>
-                Suited to pictures as it maintains the relative position of colors. This is
-                usually the best choice.
-              </entry>
+                                 <entry> Suited to pictures as it maintains the relative position of
+                                    colors. This is usually the best choice. </entry>
                               </row>
                               <row>
                                  <entry>
                                     <i>relative colorimetric</i>
                                  </entry>
-                                 <entry>
-                Out-of-gamut colors are converted to colors having the same lightness, but
-                different saturation. Other colors remain unmodified.
-              </entry>
+                                 <entry> Out-of-gamut colors are converted to colors having the same
+                                    lightness, but different saturation. Other colors remain
+                                    unmodified. </entry>
                               </row>
                               <row>
                                  <entry>
                                     <i>saturation</i>
                                  </entry>
-                                 <entry>
-                Saturation is kept but lightness is slightly changed.
-              </entry>
+                                 <entry> Saturation is kept but lightness is slightly changed.
+                                 </entry>
                               </row>
                               <row>
                                  <entry>
                                     <i>absolute colorimetric</i>
                                  </entry>
-                                 <entry>
-                Keep the white point.
-              </entry>
+                                 <entry> Keep the white point. </entry>
                               </row>
                            </tbody>
                         </tgroup>
@@ -2576,11 +2562,11 @@
                      </tbody>
                   </tgroup>
                </table>
-               <p>
-    The content of this line can be set in preferences (see <xref href="../preferences/preferences.dita#gui_options"/>).
-    Available variables are the same as for the export module (see <xref href="export_selected_usage_filename"/>).
-    You can also add new lines by using <codeph>$(NL)</codeph> variable.
-  </p>
+               <p> The content of this line can be set in preferences (see <xref
+                     href="../preferences/preferences.dita#gui_options"/>). Available variables are
+                  the same as for the export module (see <xref
+                     href="../lighttable/lighttable.dita#export_selected_usage_filename"/>). You can
+                  also add new lines by using <codeph>$(NL)</codeph> variable. </p>
                <p>
     Position of the infos line can also be set in preferences (see <xref href="../preferences/preferences.dita#gui_options"/>).
   </p>
@@ -2734,10 +2720,9 @@
     description. You are prompted for which of the current history stack modules to include in
     the style.
   </p>
-               <p>
-    Once created styles are then managed and applied to other images through lighttable's
-    <i>styles</i> panel (see <xref href="stules"/>).
-  </p>
+               <p> Once created styles are then managed and applied to other images through
+                  lighttable's <i>styles</i> panel (see <xref
+                     href="../lighttable/lighttable.dita#styles"/>). </p>
             </body>
             
          </topic>
@@ -2759,15 +2744,14 @@
                      
                      <tbody>
                         <row>
-                           <entry>
-            The duplicate manager lists all versions (see duplicate <xref href="selected_images"/>)
-            of your image with their preview thumbnails.
-            Single click on a thumbnail to temporarily show the related version inside the center view.
-            Double click to completely switch to this version.
-            Top-right buttons let you create new duplicates. Either a 'virgin' version, or an
-            exact duplicate of the current image.
-            For your convenience, you can also set a name to each versions.
-          </entry>
+                           <entry> The duplicate manager lists all versions (see duplicate <xref
+                                 href="../lighttable/lighttable.dita#selected_images"/>) of your
+                              image with their preview thumbnails. Single click on a thumbnail to
+                              temporarily show the related version inside the center view. Double
+                              click to completely switch to this version. Top-right buttons let you
+                              create new duplicates. Either a 'virgin' version, or an exact
+                              duplicate of the current image. For your convenience, you can also set
+                              a name to each versions. </entry>
                            <entry>
                               <image href="images/panel_duplicate.png"
                                      align="center"
@@ -2953,16 +2937,15 @@
       Right-clicking on a shape name gives you a drop-down menu with the options to remove the
       current shape or to remove all shapes currently not in use.
     </p>
-                  <p>
-      All shapes ever defined for the current image are kept in the list unless you remove them
-      explicitly. If you have worked a lot with shapes on one image, this list can get quite
-      long. All settings – with all defined shapes – are part of the XMP
-      tags of an image and are included in exported files. If the list of shapes is very long
-      the needed space to store all shapes might exceed the given limits of certain file
-      formats, like JPEG. In that case storing the XMP tags might fail during export. This is
-      normally not a problem – however, you can no longer rely on the exported file
-      to contain your full history stack (see <xref href="export_selected"/>).
-    </p>
+                  <p> All shapes ever defined for the current image are kept in the list unless you
+                     remove them explicitly. If you have worked a lot with shapes on one image, this
+                     list can get quite long. All settings – with all defined shapes – are part of
+                     the XMP tags of an image and are included in exported files. If the list of
+                     shapes is very long the needed space to store all shapes might exceed the given
+                     limits of certain file formats, like JPEG. In that case storing the XMP tags
+                     might fail during export. This is normally not a problem – however, you can no
+                     longer rely on the exported file to contain your full history stack (see <xref
+                        href="../lighttable/lighttable.dita#export_selected"/>). </p>
                </body>
                
             </topic>
@@ -6294,13 +6277,12 @@
                            
                            <tbody>
                               <row>
-                                 <entry>
-              This module compresses the tonal range of HDR images, so they fit into the limits
-              of a normal, low dynamic range image, using Durand's 2002 algorithm. darktable can
-              import HDR images if they come in OpenEXR, RGBE or PFM format or as a DNG
-              generated by darktable's HDR creation mechanism (see
-              <xref href="selected_images"/>).
-            </entry>
+                                 <entry> This module compresses the tonal range of HDR images, so
+                                    they fit into the limits of a normal, low dynamic range image,
+                                    using Durand's 2002 algorithm. darktable can import HDR images
+                                    if they come in OpenEXR, RGBE or PFM format or as a DNG
+                                    generated by darktable's HDR creation mechanism (see <xref
+                                       href="../lighttable/lighttable.dita#selected_images"/>). </entry>
                                  <entry>
                                     <image href="modules/images/tonemapping.png"
                                            align="center"
@@ -8429,10 +8411,9 @@
                <topic xml:lang="en-us" id="usage.d12e10061">
                   <title>Usage</title>
                   <body>
-                     <p>
-      You can define the output color profile in two different places, either in this module, or
-      in the export panel in lighttable mode (see <xref href="export_selected"/>).
-    </p>
+                     <p> You can define the output color profile in two different places, either in
+                        this module, or in the export panel in lighttable mode (see <xref
+                           href="../lighttable/lighttable.dita#export_selected"/>). </p>
                   </body>
                   <topic xml:lang="en-us" id="outputIntent.d12e10071">
                      <title>output intent</title>
@@ -8444,7 +8425,7 @@
                         <p> Only rendering with LittleCMS2 gives you a choice of rendering intent.
                            The option is hidden, if darktable's internal rendering routines are
                            used. Rendering with LittleCMS2 is activated in the preferences dialog
-                           (see <xref href="rendering_intent"/>). </p>
+                           (see <xref href="#rendering_intent" format="dita"/>). </p>
                      </body>
                      
                   </topic>
@@ -8984,16 +8965,16 @@
       brightness for the three color channels. Our set of profiles covers well above 200 popular
       camera models from all major manufacturers.
     </p>
-                     <p>
-      darktable stores noise profiles in an external json file. This file can be found in
-      <filepath>$DARKTABLE/share/darktable/noiseprofile.json</filepath> where
-      <filepath>$DARKTABLE</filepath> represents the darktable installation directory. The json
-      format is quite straightforward and explained in depth in
-      <xref href="http://json.org/" format="html" scope="external">json.org</xref>. You can replace the default noise profiles
-      by your own ones and specify that file on the command line when starting darktable. For
-      more details see <xref href="darktable_commandline_parameters"/>. If you generate your
-      own noise profiles don't forget to share your results with the darktable team!
-    </p>
+                     <p> darktable stores noise profiles in an external json file. This file can be
+                        found in <filepath>$DARKTABLE/share/darktable/noiseprofile.json</filepath>
+                        where <filepath>$DARKTABLE</filepath> represents the darktable installation
+                        directory. The json format is quite straightforward and explained in depth
+                        in <xref href="http://json.org/" format="html" scope="external"
+                           >json.org</xref>. You can replace the default noise profiles by your own
+                        ones and specify that file on the command line when starting darktable. For
+                        more details see <xref href="../overview/darktable_cli_binary.dita"/>. If
+                        you generate your own noise profiles don't forget to share your results with
+                        the darktable team! </p>
                      <p>
       /!\ WARNING /!\
       The darkroom zoomed out preview is not completely accurate. Always check your result at 100% zoom level!

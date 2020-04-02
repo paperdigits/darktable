@@ -34,26 +34,23 @@
       can be put on the wall. Because printing is not easy, there are many technical aspects to
       be taken into account.
     </p>
-            <p>
-      After selecting an image in the lighttable view (see
-      <xref href="lighttable_overview"/>) one can enter the print module where there are
-      several options for the print layout and for selecting which printer to use.
-    </p>
+            <p> After selecting an image in the lighttable view (see <xref
+                  href="../lighttable/lighttable.dita#lighttable_overview"/>) one can enter the
+               print module where there are several options for the print layout and for selecting
+               which printer to use. </p>
             <p>
       The central area displays the image layout on the paper (the white area). Some gray
       borders may be displayed around the image to represent the printable area (the page minus
       the borders) not filled by the image.
     </p>
-            <p>
-      On the left side you find the <i>collect images</i> panel which is described
-      in more detail in <xref href="collect_images"/>. This panel lets you define which
-      images are present in the filmstrip. Visibility of the filmstrip – located in
-      the bottom panel – is toggled by pressing <i>Ctrl+F</i> (see
-      <xref href="filmstrip_overview"/>). On the left side you also have an <i>image
-      information</i> panel which displays useful Exif data of the image in the center
-      area, or the filmstrip image under the pointer, respectively (see
-      <xref href="image_information"/>).
-    </p>
+            <p> On the left side you find the <i>collect images</i> panel which is described in more
+               detail in <xref href="../lighttable/lighttable.dita#collect_images"/>. This panel
+               lets you define which images are present in the filmstrip. Visibility of the
+               filmstrip – located in the bottom panel – is toggled by pressing <i>Ctrl+F</i> (see
+                  <xref href="../darkroom/darkroom.dita#darkroom_filmstrip"/>). On the left side you
+               also have an <i>image information</i> panel which displays useful Exif data of the
+               image in the center area, or the filmstrip image under the pointer, respectively (see
+                  <xref href="../lighttable/lighttable.dita#image_information"/>). </p>
             <p>
       On the right panel the print settings module has many options to layout the image on the
       page, select the paper, options for exporting, etc. This module is described in depth in
@@ -123,11 +120,9 @@
                <p>
                   <b>intent</b>
                </p>
-               <p>
-        The print rendering intent (<q>perceptual</q>, <q>relative
-        colorimetric</q>, <q>saturation</q> or <q>absolute
-        colorimetric</q>). See <xref href="rendering_intent"/> for more information.
-      </p>
+               <p> The print rendering intent (<q>perceptual</q>, <q>relative colorimetric</q>,
+                     <q>saturation</q> or <q>absolute colorimetric</q>). See <xref
+                     href="../darkroom/darkroom.dita#rendering_intent"/> for more information. </p>
                <p>
                   <b>black point compensation</b>
                </p>
@@ -207,23 +202,21 @@
                <p>
                   <b>intent</b>
                </p>
-               <p>
-        This option sets the rendering intent to use when exporting the image. For more
-        information see <xref href="rendering_intent"/>.
-      </p>
+               <p> This option sets the rendering intent to use when exporting the image. For more
+                  information see <xref href="../darkroom/darkroom.dita#rendering_intent"/>. </p>
                <p>
                   <b>style</b>
                </p>
-               <p>
-        Defines a style to apply when exporting the image and defaults to <q>none</q>.
-        See the <i>export</i> panel (<xref href="export_selected"/>) for a more
-        detailed discussion of applying a style during export.
-      </p>
+               <p> Defines a style to apply when exporting the image and defaults to <q>none</q>.
+                  See the <i>export</i> panel (<xref
+                     href="../lighttable/lighttable.dita#export_selected"/>) for a more detailed
+                  discussion of applying a style during export. </p>
                <p>
                   <b>mode</b>
                </p>
                <p> This selects whether the style is appended to the existing history stack or
-                  replacing it completely. See <xref href="export_selected"/> for more details. </p>
+                  replacing it completely. See <xref
+                     href="../lighttable/lighttable.dita#export_selected"/> for more details. </p>
             </body>
             
          </topic>

@@ -36,13 +36,11 @@
       with that feature. Some newer cameras, including smartphones, are already equipped with
       GPS receivers. Other cameras may need additional GPS hardware to do this.
     </p>
-            <p>
-      Even if your camera doesn't support this feature, there is an alternative method.
-      darktable can match the Exif time and date data in your image(s) to a separate GPX data
-      tracking file created by a GPS tracker recording your movements. These can be handheld
-      devices or a GPS tracker app on your smartphone. This is all done in the lighttable view
-      (see <xref href="geotagging"/>).
-    </p>
+            <p> Even if your camera doesn't support this feature, there is an alternative method.
+               darktable can match the Exif time and date data in your image(s) to a separate GPX
+               data tracking file created by a GPS tracker recording your movements. These can be
+               handheld devices or a GPS tracker app on your smartphone. This is all done in the
+               lighttable view (see <xref href="../lighttable/lighttable.dita#geotagging"/>). </p>
          </body>
          <topic xml:lang="en-us" id="map_center_map_view">
             <title>Center map view</title>
@@ -156,23 +154,16 @@
                      <tbody>
                         <row>
                            <entry>
-                              <p>
-              The panels on the left side we already know from lighttable mode
-              (<xref href="lighttable_panels"/>).
-            </p>
+                              <p> The panels on the left side we already know from lighttable mode
+                                    (<xref href="../lighttable/lighttable.dita#lighttable_panels"
+                                 />). </p>
 
-                              <p>
-              Choose your image selection rules with the
-              <xref href="collect_images">
-                                    <i>collect images</i>
-                                 </xref> panel.
-              Recently used collections can be chosen with their respective names in a separate
-              panel. You can also get an overview of the information of the image under your
-              mouse cursor in a panel labeled <xref href="image_information"> 
-                                    <i>image
-              information</i>
-                                 </xref>.
-            </p>
+                              <p> Choose your image selection rules with the <xref
+                                    href="../lighttable/lighttable.dita#collect_images"/> panel.
+                                 Recently used collections can be chosen with their respective names
+                                 in a separate panel. You can also get an overview of the
+                                 information of the image under your mouse cursor in a panel labeled
+                                    <xref href="../lighttable/lighttable.dita#image_information"/>. </p>
                            </entry>
                            <entry>
                               <image href="images/left_panels.png" align="center" placement="break"/>
@@ -275,13 +266,13 @@
                      <tbody>
                         <row>
                            <entry>
-                              <p>
-              The <i>tagging</i> panel allows you to attach or detach different
-              tags to an image as well as creating or deleting a tag. It is divided into two
-              parts. The upper part contains tags that are currently attached to the image. The
-              lower part contains all available tags. You must select or mouse over an image for
-              the data to be displayed. See <xref href="tagging"/> for more details.
-            </p>
+                              <p> The <i>tagging</i> panel allows you to attach or detach different
+                                 tags to an image as well as creating or deleting a tag. It is
+                                 divided into two parts. The upper part contains tags that are
+                                 currently attached to the image. The lower part contains all
+                                 available tags. You must select or mouse over an image for the data
+                                 to be displayed. See <xref
+                                    href="../lighttable/lighttable.dita#tagging"/> for more details. </p>
                            </entry>
                            <entry>
                               <image href="images/tagging.png" align="center" placement="break"/>
